@@ -1,0 +1,74 @@
+@charset "UTF-8";
+#ffw-main-wrapper .ffw-main-wrapper-shortcode {
+  width: 90%;
+}
+#ffw-main-wrapper .ffw-accordion {
+  position: relative;
+  padding: 20px;
+  margin: 0;
+  background-color: #f9f9fA;
+}
+#ffw-main-wrapper .ffw-accordion .ffw-accordion-item {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: auto;
+  background-color: #FFF;
+  margin: 0 auto 15px auto;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#ffw-main-wrapper .ffw-accordion .ffw-accordion-item .ffw-button {
+  font-weight: 700;
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  margin: 0;
+  font-size: 15px;
+  letter-spacing: 0.01em;
+  cursor: pointer;
+  justify-content: space-between;
+  align-items: center;
+  background: transparent;
+  color: #000;
+  outline: none;
+}
+#ffw-main-wrapper .ffw-accordion .ffw-accordion-item .ffw-button:hover, #ffw-main-wrapper .ffw-accordion .ffw-accordion-item .ffw-button:focus {
+  text-decoration: none;
+}
+#ffw-main-wrapper .ffw-accordion .ffw-accordion-item .ffw-button.ffw-active .ffw-classic-icon:after {
+  transform: translate(0, -50%) rotate(45deg);
+}
+#ffw-main-wrapper .ffw-accordion .ffw-accordion-item .ffw-classic-icon:after {
+  content: "×";
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translate(0, -50%);
+  color: #fcc110;
+  transition: all 0.3s ease-in-out;
+  font-size: 18px;
+}
+#ffw-main-wrapper .ffw-accordion .ffw-accordion-item .ffw-classic-answer {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0 20px;
+  cursor: pointer;
+  font-size: 20px;
+}
+#ffw-main-wrapper .ffw-accordion .ffw-accordion-item .ffw-classic-answer p {
+  position: relative;
+  display: block;
+  font-weight: 300;
+  padding: 10px 0 0 0;
+  cursor: pointer;
+  line-height: 150%;
+  margin: 0 0 15px 0;
+  font-size: 18px;
+}

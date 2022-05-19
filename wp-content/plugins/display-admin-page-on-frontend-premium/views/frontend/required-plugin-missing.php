@@ -1,0 +1,3 @@
+
+<p><b><?php _e('Note from WP Frontend Admin.', VG_Admin_To_Frontend::$textname); ?></b></p>
+<p><?php printf(__('This page requires the plugin: %s , you need to activate that plugin to view this page.<br>You are viewing this message because you are a super admin. Site owners will not see this page in the menu and they will be redirected to the dashboard homepage if they view a page when the required plugin is deactivated.<br>If you think this message is wrong, you can deactivate this option in our global settings page > access restrictions > Hide pages when a required plugin is deactivated?', VG_Admin_To_Frontend::$textname), $plugin_name); ?></p>

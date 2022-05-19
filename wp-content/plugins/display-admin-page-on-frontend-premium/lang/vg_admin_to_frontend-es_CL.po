@@ -1,0 +1,1665 @@
+# Copyright (C) 2020 WP Frontend Admin
+# This file is distributed under the same license as the WP Frontend Admin plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Frontend Admin 1.9.1.8\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wp-frontend-"
+"admin\n"
+"POT-Creation-Date: 2021-04-09T07:31:51+00:00\n"
+"PO-Revision-Date: 2021-05-26 22:49-0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es_CL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.3\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. Plugin Name of the plugin
+#. Author of the plugin
+msgid "WP Frontend Admin"
+msgstr "WP Frontend Admin"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid ""
+"https://wpfrontendadmin.com/?utm_source=wp-admin&utm_medium=plugins-list"
+msgstr ""
+
+#. Description of the plugin
+msgid "Display wp-admin pages on the frontend using a shortcode."
+msgstr "Muestra páginas de wp-admin en el frontend usando un código corto."
+
+#: inc/change-texts.php:193 inc/change-texts.php:198
+msgid "Global replacements"
+msgstr "Reemplazos globales"
+
+#: inc/change-texts.php:199
+msgid ""
+"You can use this to replace texts globally, URLs, logo images (URLs), or "
+"remove html elements. You can use regex, just make sure the search string "
+"starts and ends with /"
+msgstr ""
+"Puedes usar esto para reemplazar textos globalmente, URLs, imágenes de logos "
+"(URLs), o eliminar elementos html. Puedes usar regex, sólo asegúrate de que "
+"la cadena de búsqueda comienza y termina con /"
+
+#: inc/change-texts.php:200
+msgid "Replace this"
+msgstr "Reemplazar esto"
+
+#: inc/change-texts.php:201
+msgid "with this"
+msgstr "con esto"
+
+#: inc/change-texts.php:311
+msgid "Edit texts"
+msgstr "Editar textos"
+
+#: inc/change-texts.php:312
+msgid "Stop editing texts"
+msgstr "Edición terminada"
+
+#: inc/change-texts.php:313
+msgid "Revert changes"
+msgstr "Revertir cambios"
+
+#: inc/clean-admin-theme/index.php:43
+msgid "Clean Admin Look : Primary color for admin content"
+msgstr "Aspecto Limpio Admin: Color primario del contenido admin"
+
+#: inc/clean-admin-theme/index.php:44
+msgid ""
+"Select a color and we will change the design of the admin content to look "
+"much better and elegant. Leave it empty and the admin content will use the "
+"standard look. If you are using a plugin that loos bad when this option is "
+"activated, contact us and we will fix it."
+msgstr ""
+"Selecciona un color y cambiaremos el diseño del contenido admin para que se "
+"vea mucho mejor y elegante. Déjalo vacío y el contenido admin usará la "
+"apariencia standard. Si estás usando un plugin que se ve mal con esta opción "
+"activada, contáctanos y lo solucionaremos."
+
+#: inc/compatibility/advanced/dokan.php:22
+msgid ""
+"NOTE. WP Frontend Admin unchecked this option automatically because users "
+"need access to wp-admin. You can restrict the access using the WP Frontend "
+"Admin settings page"
+msgstr ""
+"NOTA. WP Frontend Admin desmarcó esta opción automáticamente porque los "
+"usuarios necesitan acceder a wp-admin. Puedes restringir el acceso usando la "
+"página de opciones de WP Frontend Admin"
+
+#: inc/compatibility/advanced/gravity-forms.php:25 index.php:215
+msgid "Go back"
+msgstr "Atrás"
+
+#: inc/compatibility/advanced/learndash.php:75
+msgid "LearnDash: Allow group leaders to manage group members only?"
+msgstr ""
+"LearnDash: Permitir que los líderes de grupo administren miembros del grupo "
+"solamente?"
+
+#: inc/compatibility/advanced/learndash.php:76
+msgid ""
+"Enable this option if you want to make sure users who are leaders of any "
+"group, can view and edit only users who are members of those groups."
+msgstr ""
+"Habilita esta opción si quieres asegurarte de que los usuarios que son "
+"líderes de grupo, pueden ver y editar usuarios que son miembros de sus "
+"grupos únicamente."
+
+#: inc/compatibility/advanced/wpultimo.php:235
+msgid ""
+"You need to disable the \"Single Sign On\" in WP Ultimo settings because it "
+"is not compatible with our global dashboards feature. The single sign on is "
+"not necessary. <a href=\"%s\" target=\"_blank\" class=\"button\">Fix it</a>"
+msgstr ""
+"Necesita desactivar el \"Inicio de Sesión Único\" en la configuración de WP "
+"Ultimo porque no es compatible con nuestra función de tableros globales. El "
+"inicio de sesión único no es necesario. <a href=\"%s\" target=\"_blank\" "
+"class=\"button\">Arreglarlo</a>"
+
+#: inc/compatibility/advanced/wpultimo.php:260
+msgid "WP Ultimo: Remove disallowed pages from menus?"
+msgstr "WP Ultimo: ¿Quitar páginas restringidas de los menús?"
+
+#: inc/compatibility/advanced/wpultimo.php:261
+msgid ""
+"By default, we show all the dashboard pages in the menu and the disallowed "
+"pages show a message when they are opened, saying they are not allowed or "
+"will redirect to a custom URL defined in the setting \"Wrong permissions url"
+"\" (above). You can enable this option to automatically remove the pages "
+"from the menu when they are not allowed for the current plan."
+msgstr ""
+"Por defecto, mostramos todas las páginas del dashboard en el menú y las "
+"páginas no permitidas muestran un mensaje cuando se abren, diciendo que no "
+"están permitidas o redirigirán a una URL personalizada definida en el ajuste "
+"\"Url de Permisos Incorrectos\" (arriba). Puedes activar esta opción para "
+"eliminar automáticamente las páginas del menú cuando no estén permitidas "
+"para el plan actual."
+
+#: inc/compatibility/advanced/wpultimo.php:351
+msgid ""
+"Note from WP Frontend Admin: The Account page is created by WP Ultimo only "
+"for sites with a WP Ultimo plan and you have zero sites with a WP Ultimo "
+"plan. Please <a href=\"%s\" target=\"_blank\">create one site</a> and "
+"associated it with a WP Ultimo plan and you will be able to preview the "
+"account page in the frontend here."
+msgstr ""
+"Nota de WP Frontend Admin: La página de la cuenta es creada por WP Ultimo "
+"sólo para los sitios con un plan de WP Ultimo y no tienes sitios con un plan "
+"de WP Ultimo. Por favor, <a href=\"%s\" target=\"_blank\">crea un sitio</a> "
+"y asócialo con un plan de WP Ultimo y podrás ver la página de la cuenta en "
+"el frontend aquí."
+
+#: inc/compatibility/advanced/wpultimo.php:392
+msgid "This page is available for these WP Ultimo plans"
+msgstr "Planes de WP Ultimo requeridos"
+
+#: inc/compatibility/advanced/wpultimo.php:392
+msgid ""
+"If you select a specific plan, we will show the content of this page only "
+"for users with the selected plan and users of other plans will be see an "
+"error message or redirect to your plans/upgrade page defined in the WP "
+"Frontend Admin settings page. Leave this field empty to display this page "
+"for all the plans"
+msgstr ""
+"Si seleccionas un plan específico, mostraremos el contenido de esta página "
+"solo a los usuarios con el plan seleccionado y los usuarios de otros planes "
+"verán un mensaje de error o serán redirigidos a tu página de planes/"
+"actualización definida en los ajustes de WP Frontend Admin. Deja el campo "
+"vacío para mostrar la página a todos los planes"
+
+#: inc/global-page.php:47
+msgid "Apply changes to all the subsites?"
+msgstr "¿Aplicar cambios a todos los subsitios?"
+
+#: inc/global-page.php:47
+msgid ""
+"If you select this option, we will find all the pages with same slug in all "
+"the subsites of the multisite network and synchronize all the page "
+"information (except the featured image)"
+msgstr ""
+"Si seleccionas esta opción, encontraremos todas las páginas con el mismo "
+"slug y todos los subsitios de la red multisitios y sincronizaremos toda la "
+"información de la página (excepto la imagen destacada)"
+
+#: inc/global-page.php:165
+msgid "Global Page"
+msgstr "Página global"
+
+#: inc/options-page.php:29 views/frontend/quick-settings.php:9
+msgid "Settings"
+msgstr "Ajustes"
+
+#: inc/options-page.php:53
+msgid ""
+"You are using https for wp-admin and http for the public website. Both need "
+"to use the same protocol (https) for security reasons. Please change the "
+"public URL to use https. <a href=\"%s\" target=\"_blank\" class=\"button"
+"\">Fix it</a>"
+msgstr ""
+"Estás usando https para wp-admin y http para el sitio público. Ambos "
+"necesitan usar el mismo protocolo (https) por razones de seguridad. Por "
+"favor, cambia la URL pública para que use https. <a href=\"%s\" target="
+"\"_blank\" class=\"button\">Soluciónalo</a>"
+
+#: inc/options-page.php:56
+msgid ""
+"You need to enable pretty permalinks for our plugin to work. <a href=\"%s\" "
+"target=\"_blank\" class=\"button\">Fix it</a>"
+msgstr ""
+"Debes habilitar los enlaces permanentes para que el plugin funcione. <a href="
+"\"%s\" target=\"_blank\" class=\"button\">Abrir la página de opciones</a>"
+
+#: inc/options-page.php:59
+msgid ""
+"You are using the Standard plan of WP Frontend Admin on a multisite network. "
+"We recommend that you upgrade to the Platform plan to enjoy all our "
+"multisite features, including global dashboard, beautiful dashboard "
+"templates, courses, and more. <a href=\"%s\" target=\"_blank\" class=\"button"
+"\">Fix it</a>"
+msgstr ""
+"Tú estás usando el plan Estándar de WP Frontend Admin en una red "
+"multisitios. Te recomendamos pasarte al plan Plataforma para disfrutar "
+"nuestras funciones especiales para plataformas multisitios, incluyendo un "
+"panel global para todos los subsitios, plantillas con hermosos diseños para "
+"tu panel frontal, cursos, y más. <a href=\"%s\" target=\"_blank\" class="
+"\"button\">Solucionarlo</a>"
+
+#: inc/options-page.php:71
+msgid "Potential issues"
+msgstr "Problemas potenciales"
+
+#: inc/options-page.php:72
+msgid ""
+"We detected the following items that you can resolve. These will fix the "
+"most common errors when using our plugin. If you dont know how to resolve "
+"them, <a href=\"https://wpfrontendadmin.com/contact/\" target=\"_blank\">you "
+"can contact us</a> and we will do it for you for free."
+msgstr ""
+"Detectamos los siguientes problemas que puedes resolver. Resolverán los "
+"errores más comunes cuando usas nuestro plugin. Si no sabes cómo "
+"resolverlos, <a href=\"https://wpfrontendadmin.com/es/contact/\" target="
+"\"_blank\">puedes contactarnos</a> y lo haremos gratuitamente."
+
+#: inc/options-page.php:80
+msgid "No issues detected"
+msgstr "No se detectaron problemas"
+
+#: inc/options-page.php:85
+msgid "Data useful for support"
+msgstr "Datos útiles para soporte"
+
+#: inc/options-page.php:87
+msgid "Pages containing our shortcode"
+msgstr "Páginas que contienen nuestro código corto"
+
+#: inc/options-page.php:99
+msgid "Text changes made on individual pages"
+msgstr "Cambios de texto a páginas individuales"
+
+#: inc/options-page.php:137
+msgid "Troubleshooting"
+msgstr "Solución de Problemas"
+
+#: inc/options-page.php:179
+msgid "Previews:"
+msgstr "Previsualizaciones:"
+
+#: inc/options-page.php:355 inc/options-page.php:364
+msgid "Enable global settings on Multisite?"
+msgstr "¿Habilitar las opciones globales en Multisite?"
+
+#: inc/options-page.php:356
+msgid ""
+"WP Multisite Detected. Now you manage the settings in the network panel and "
+"they apply to the entire network. Deactivate this option if you want to "
+"manage settings on each site."
+msgstr ""
+"WP Multisite Detectado. Activa esta opción y las opciones se manejarán en el "
+"panel de la red. Desactiva esta opción para controlar las opciones en los "
+"sitios individuales."
+
+#: inc/options-page.php:365
+msgid ""
+"WP Multisite Detected. Activate this option to manage the settings in the "
+"network panel and the settings will apply to the entire network of sites. "
+"Keep this option deactivated to use different settings on individual sites."
+msgstr ""
+"WP Multisite Detectado. Activa esta opción y las opciones se manejarán en el "
+"panel de la red. Desactiva esta opción para controlar las opciones en los "
+"sitios individuales."
+
+#: inc/options-page.php:372
+msgid ""
+"WP Multisite Detected. You can manage the settings globally and apply them "
+"to all the sites. <a href=\"%s\">Enable global mode on the main site</a>."
+msgstr ""
+"WP Multisite Detectado. Puedes administrar las opciones globalmente en la "
+"red de sitios, puedes habilitar la opción en el sitio principal. Ve a las <a "
+"href=\"%s\">settings on the main site</a>."
+
+#: inc/options-page.php:380
+msgid ""
+"WP Multisite Detected. <a href=\"%s\" target=\"_blank\">Upgrade to our "
+"Platform plan</a> to use our special features for multisite platforms, "
+"including one dashboard for your entire network, beautiful dashboard "
+"templates, and more."
+msgstr ""
+"WP Multisitio detectado. <a href=\"%s\" target=\"_blank\">Compra un plan "
+"superior</a> para usar nuestras características especiales para redes "
+"multisitio, inclyendo un dashboard para toda la red, plantillas hermosas y "
+"más."
+
+#: inc/options-page.php:388
+msgid "Add \"Edit\" link after post content"
+msgstr "Añadir el enlace \"Editar\" después del contenido del post"
+
+#: inc/options-page.php:389
+msgid ""
+"Enable this option if you want to allow your frontend users to edit posts "
+"and link to the frontend page when viewing a post. Super admins will see a "
+"link to the wp-admin dashboard."
+msgstr ""
+"Habilita esta opción si quieres permitir a tus usuarios del frontend editar "
+"los posts y enlazar con la página del frontend al ver un post. Los super "
+"administradores verán un enlace al panel de control de wp-admin."
+
+#: inc/options-page.php:395
+msgid "Disable the quick settings?"
+msgstr "¿Deshabilitar las opciones rápidas?"
+
+#: inc/options-page.php:396
+msgid ""
+"Enable this option if you do not want to use the quick settings bar on the "
+"frontend, you can edit everything on the normal page editor."
+msgstr ""
+"Habilita esta opción si no quieres usar la barra de configuración rápida en "
+"el frontend, puedes editar todo en el editor de página normal."
+
+#: inc/options-page.php:402
+msgid "Disable the wp-admin notices when viewing on the frontend?"
+msgstr "¿Deshabilitar las notificaciones de wp-admin al ver en el frontend?"
+
+#: inc/options-page.php:403
+msgid ""
+"Enable this option if you want to remove all the plugin notifications, "
+"update notifications, and annoying notifications on the frontend pages. Keep "
+"in mind that useful notifications will be removed as well"
+msgstr ""
+"Habilita esta opción si quieres eliminar todas las notificaciones de los "
+"plugins, las notificaciones de actualización y las notificaciones molestas "
+"de las páginas de inicio. Ten presente que también se eliminarán las "
+"notificaciones útiles"
+
+#: inc/options-page.php:409
+msgid "Redirect users to this page after publishing a post"
+msgstr "Redirigir a los usuarios a esta página después de publicar un post"
+
+#: inc/options-page.php:410 inc/options-page.php:421
+msgid "This applies to all the post types that are using the Classic Editor"
+msgstr ""
+"Esto se aplica a todos los tipos de entradas que usan el Editor Clásico"
+
+#: inc/options-page.php:413 inc/options-page.php:424
+msgid "Redirect to the list of posts"
+msgstr "Redirigir a la lista de entradas"
+
+#: inc/options-page.php:414 inc/options-page.php:425
+msgid "Redirect to create new post"
+msgstr "Redirigir para crear una entrada nueva"
+
+#: inc/options-page.php:420
+msgid ""
+"Redirect users to this page after creating a post with pending review status?"
+msgstr ""
+"Redirigir a los usuarios a esta página después de crear un post con estado "
+"pendiente de revisión?"
+
+#: inc/options-page.php:431
+msgid "Disable the message indicating why a page didnt load?"
+msgstr "¿Deshabilitar el mensaje que indica por qué no se cargó una página?"
+
+#: inc/options-page.php:432
+msgid ""
+"We show a message saying: \"You need higher permissions\" so administrators "
+"can see why a page doesnt load on the frontend."
+msgstr ""
+"Mostramos un mensaje que dice: \"Necesitas mayores permisos\" para que los "
+"administradores puedan ver por qué una página no se carga en el frontend."
+
+#: inc/options-page.php:442
+msgid "Auto select this user role when we are creating users in the frontend"
+msgstr ""
+"Auto seleccionar este role de usuario cuando estamos creando usuarios en el "
+"frontend"
+
+#: inc/options-page.php:447
+msgid "Hide pages containing our shortcode?"
+msgstr "¿Ocultar las páginas que contienen nuestro código corto?"
+
+#: inc/options-page.php:448
+msgid ""
+"If you create a dashboard for your users and you want them to edit pages, "
+"you can hide our dashboard pages to prevent them from editing the \"system "
+"pages\". If you activate this option, only the user who created the pages "
+"will be able to see them in the list and edit them."
+msgstr ""
+"Si creas un tablero para tus usuarios y quieres que editen las páginas, "
+"puedes ocultar las páginas del tablero para evitar que editen las \"páginas "
+"del sistema\". Si activas esta opción, sólo el usuario que creó las páginas "
+"podrá verlas en la lista y editarlas."
+
+#: inc/options-page.php:452
+msgid "Regular WordPress editor"
+msgstr "Editor normal de WordPress"
+
+#: inc/options-page.php:459
+msgid "Default post/page editor"
+msgstr "Editor predeterminado para posts y páginas"
+
+#: inc/options-page.php:460
+msgid ""
+"When the users click on the edit link of any post or open the posts list, "
+"the edit link will open the selected editor directly. This applies to all "
+"the user roles except the site admin (super admin if multisite network)."
+msgstr ""
+"Cuando los usuarios hacen clic en el enlace de edición de cualquier entrada "
+"o abren la lista de entradas, el enlace de edición abrirá el editor "
+"seleccionado directamente. Esto se aplica a todos los roles de usuario "
+"excepto al administrador del sitio (super admin si es una red de sitios "
+"múltiples)."
+
+#: inc/options-page.php:466
+msgid ""
+"Restrict post types to only display/edit posts created by the current user"
+msgstr ""
+"Restringir tipos de post para solamente mostrar/editar post creados por el "
+"usuario actual"
+
+#: inc/options-page.php:467
+msgid ""
+"Enter the list of post types that should list and allow to edit posts "
+"created by the current user only. Enter post type keys separated by commas"
+msgstr ""
+"Ingresa la lista de tipos de post que deberían listarse y permitir editar "
+"los posts creados por el usuario actual solamente. Ingresa las claves de "
+"tipo de post separadas por comas"
+
+#: inc/options-page.php:475
+msgid ""
+"WordPress Multisite: Use this site as the frontend dashboard for the entire "
+"network"
+msgstr ""
+"WordPress Multisite: Usa este sitio como el panel frontal para la red entera"
+
+#: inc/options-page.php:476
+msgid ""
+"This is useful because you can create the frontend dashboard in this site "
+"once and all the users will manage their sites using this frontend "
+"dashboard. They will log in on this site and see the content from their own "
+"sites. I.e. All the users will use the same page dashboard.mysite.com/posts/ "
+"to manage the posts, but they will see the posts from their own subsites."
+msgstr ""
+"Esto es útil porque puedes crear tu dashboard frontal una vez y todos los "
+"usuarios de la red multisitios manejarán sus sitios en este mismo dashboard. "
+"Ellos iniciarán sesión en este sitio y verán el contenido de los sitios de "
+"ellos. Por ejemplo, todos los usuarios usarán el tablero dashboard.mysite."
+"com/posts/ para administrar los posts, pero verán los posts desde sus "
+"subsitios."
+
+#: inc/options-page.php:485
+msgid "General"
+msgstr "General"
+
+#: inc/options-page.php:489
+msgid "Access restrictions"
+msgstr "Restricciones de acceso"
+
+#: inc/options-page.php:494
+msgid "Enable the wp-admin access restrictions?"
+msgstr "¿Habilitar las restricciones de acceso de wp-admin?"
+
+#: inc/options-page.php:495
+msgid ""
+"Enable this option if you want to make sure users can view specific admin "
+"pages in the frontend and restrict other admin pages."
+msgstr ""
+"Habilita esta opción si quieres asegurarte de que los usuarios puedan ver "
+"páginas de administración específicas en el frontend y restringir otras "
+"páginas de administración."
+
+#: inc/options-page.php:501
+msgid "Access restriction: What wp-admin pages can be viewed on the frontend?"
+msgstr ""
+"Restricción de acceso: ¿Qué páginas de wp-admin se pueden ver en el frontend?"
+
+#: inc/options-page.php:502
+msgid ""
+"Enter a list of admin URLs that can be displayed in the frontend, one URL "
+"per line. All URLs not found in this list will be redirected to the "
+"homepage. We automatically add to this list the pages that you display on "
+"the frontend. Note, You still need to be careful with the user roles. The "
+"normal users should not be adminsitrators and they should not have advanced "
+"permissions like edit_users, activate_plugins, or manage_options "
+"capabilities. <a href=\"%s\">Allow pages that contain our shortcode "
+"currently</a> - - - <a href=\"%s\" target=\"_blank\">You can use these "
+"dynamic tags in the URLs</a>."
+msgstr ""
+"Ingresa una lista de URLs de administración que pueden ser mostradas en el "
+"frontend, una URL por línea. Todas las URLs que no se encuentren en esta "
+"lista serán redirigidas a la página principal. Automáticamente añadimos a "
+"esta lista las páginas que se muestran en el frontend. Nota, todavía debes "
+"tener cuidado con los roles de usuario. Los usuarios normales no deben ser "
+"administradores y no deben tener permisos avanzados como activar_plugins o "
+"manage_options. <a href=\"%s\">Permitir páginas que contengan nuestro código "
+"corto actualmente</a> - - - <a href=\"%s\" target=\"_blank\">Puedes ingresar "
+"estas etiquetas dinámicas</a>."
+
+#: inc/options-page.php:508
+msgid "Access restriction: Who can access the wp-admin dashboard?"
+msgstr ""
+"Restricción de acceso: ¿Quién puede acceder a todas las páginas de wp-admin?"
+
+#: inc/options-page.php:509
+msgid ""
+"You can select the user capability who can access the wp-admin dashboard and "
+"bypass all the access restrictions. For example, \"manage_options\" means "
+"users who can manage site options can access all the admin pages. You can "
+"deactivate the restrictions by clearing this option."
+msgstr ""
+"Puedes seleccionar el permiso o capability del usuario que puede ver todas "
+"las URLs pasando por alto las restricciones de acceso. Por ejemplo, "
+"\"manage_options\" significa que los usuarios que pueden administrar las "
+"opciones del sitio pueden acceder a todas las páginas de administración "
+"ignorando la lista de URLs permitidas de la opción anterior. Puedes "
+"desactivar las restricciones desactivando esta opción."
+
+#: inc/options-page.php:518
+msgid "Access restriction: Frontend dashboard URL"
+msgstr "Restricción de acceso: URL del tablero frontend"
+
+#: inc/options-page.php:519
+msgid ""
+"Enter the URL of your frontend dashboard, this should be the start page of "
+"the dashboard. When users access a wp-admin page directly, we will "
+"automatically redirect to the equivalent frontend page (i.e. wp-admin > "
+"pages is redirected to the \"pages\" in the frontend, only if you created "
+"the frontend page previously), if the frontend page doesn't exist we "
+"redirect to this URL as the \"default page\". Leave empty to redirect to the "
+"homepage"
+msgstr ""
+"Ingresa la URL inicial de tu dashboard frontal, esta debe ser la página "
+"principal de tu dashboard. Cuando los usuarios acceden directamente a la "
+"página de wp-admin, redireccionaremos automáticamente a la página frontend "
+"equivalente (i.e. wp-admin > paginas se redirecciona a \"paginas\" en el "
+"frontend, solamente si creaste la página frontend previamente), si la página "
+"frontend no existe, redirigimos a estas URLs como la \"página predeterminada"
+"\". Déjalo vacío para redirigir a la página de inicio"
+
+#: inc/options-page.php:525
+msgid "Message to display when a page did not load for a technical error"
+msgstr "Mensaje para mostrar cuando una página no cargó por un error técnico"
+
+#: inc/options-page.php:526
+msgid ""
+"This will be displayed to frontend users when the admin content does not "
+"load in more than 40 seconds and we do not know the specific reason why. By "
+"default, we show a message for the super admin asking them to contact our "
+"support channel to resolve the error while they are building the website."
+msgstr ""
+"Esto se mostrará a usuarios en el frontend cuando la página no cargó por más "
+"de 40 segundos y no sabemos la razón específica. Por defecto, mostramos un "
+"mensaje para el super admin pidiendo que contacten a nuestro soporte técnico "
+"para resolverlo mientras crean el sitio web."
+
+#: inc/options-page.php:536
+msgid "Wrong Permissions Page URL (optional)"
+msgstr "URL de la Página de Permisos Equivocados (opcional)"
+
+#: inc/options-page.php:537
+msgid ""
+"By default, when someone opens an admin page in the frontend with the wrong "
+"user role, we show a message saying that they are not allowed to access that "
+"page. You can enter a URL of your pricing page or upgrade page and we will "
+"redirect users to that page when they try to do something not allowed by "
+"their role (membership plan)."
+msgstr ""
+"Por defecto, cuando alguien abre una página de administración en el frontend "
+"con el rol de usuario equivocado, mostramos un mensaje diciendo que no se le "
+"permite acceder a esa página. Puedes introducir una URL de tu página de "
+"planes o una página de actualización y redirigiremos a los usuarios a esa "
+"página cuando intenten hacer algo que no esté permitido por su rol (plan de "
+"membresía)."
+
+#: inc/options-page.php:542
+msgid "Wrong Permissions Message (optional)"
+msgstr "Mensaje de Permisos Equivocados (opcional)"
+
+#: inc/options-page.php:543
+msgid ""
+"By default, when someone opens an admin page in the frontend with the wrong "
+"user role, we show a message saying that they are not allowed to access that "
+"page. You can change the message here."
+msgstr ""
+"Por defecto, cuando alguien abre una página de administración en el frontend "
+"con el rol de usuario equivocado, mostramos un mensaje diciendo que no se le "
+"permite acceder a esa página. Puedes cambiar el mensaje aquí."
+
+#: inc/options-page.php:548
+msgid "These user roles will use the frontend dashboard"
+msgstr "Estos roles de usuarios deben usar el dashboard frontal"
+
+#: inc/options-page.php:549
+msgid ""
+"We will redirect those users to the frontend dashboard anytime they log in "
+"or try to access the wp-admin dashboard."
+msgstr ""
+"Redirigiremos esos usuarios al tablero frontend en cualquier momento que "
+"inicien sesión o intenten ingresar al tablero de wp-admin."
+
+#: inc/options-page.php:555
+msgid "Users with role %s can see users with these roles (optional)"
+msgstr "Usuarios con rol %s pueden ver usuarios con estos roles (opcional)"
+
+#: inc/options-page.php:556
+msgid ""
+"By default, any user with permissions to view the users table can see all "
+"the users. Enter the list of user role keys separated by commas to only show "
+"those roles for users with this role."
+msgstr ""
+"Por defecto, cualquier usuario con permisos para ver la tabla de usuarios "
+"pueden ver todos los usuarios. Ingresa una lista de claves de roles "
+"separadas por coma para mostrar solo esos roles."
+
+#: inc/options-page.php:561
+msgid "Appearance"
+msgstr "Apariencia"
+
+#: inc/options-page.php:567
+msgid "Admin CSS"
+msgstr "Admin CSS"
+
+#: inc/options-page.php:568
+msgid ""
+"This css will be used to customize the admin page when it´s displayed on the "
+"frontend. For example, you can hide admin elements or tweak design. You dont "
+"need to add style tags, just add the plain css."
+msgstr ""
+"Este css se usará para personalizar la página de administración cuando se "
+"muestre en el frontend. Por ejemplo, puedes ocultar elementos de "
+"administración o modificar el diseño. No necesitas agregar etiquetas de "
+"estilo, sólo agrega el css simple."
+
+#: inc/options-page.php:573
+msgid "Hide admin bar on the frontend"
+msgstr "Ocultar la barra de administración en el frontend"
+
+#: inc/options-page.php:574
+msgid ""
+"By default WordPress shows a black bar at the top of the page when a logged "
+"in user views a frontend page. The bar lets you access the wp-admin, log "
+"out, edit the current page, etc. If you enable this option we will hide that "
+"bar and you can use the shortcode: [vg_display_logout_link] to display the "
+"logout link."
+msgstr ""
+"Por defecto, WordPress muestra una barra negra en la parte superior de la "
+"página cuando un usuario conectado ve una página de inicio. La barra te "
+"permite acceder al wp-admin, cerrar la sesión, editar la página actual, etc. "
+"Si habilitas esta opción, ocultaremos esa barra y podrás usar el código "
+"corto: [vg_display_logout_link] para mostrar el enlace de cierre de sesión."
+
+#: inc/options-page.php:583
+msgid "Loading animation style"
+msgstr "Estilo de animación de carga"
+
+#: inc/options-page.php:605
+msgid "Loading animation color"
+msgstr "Color de animación de carga"
+
+#: inc/options-page.php:607
+msgid ""
+"If your page background is dark, the animation should use a light color. If "
+"your background is white, the animation can be any dark color (dark blue, "
+"dark green, etc.)"
+msgstr ""
+"Si el fondo de tu página es oscuro, la animación debería usar un color "
+"claro. Si el fondo es blanco, la animación puede ser cualquier color oscuro "
+"(azul oscuro, verde oscuro, etc.)"
+
+#: inc/options-page.php:613
+msgid "Admin JS"
+msgstr "Admin JS"
+
+#: inc/options-page.php:614
+msgid ""
+"This JS will be used to customize the admin page when it´s displayed on the "
+"frontend. For example, you can move elements and do advanced customizations. "
+"You dont need to add script tags, just add the plain js."
+msgstr ""
+"Este JS se usará para personalizar la página de administración cuando se "
+"muestre en el frontend. Por ejemplo, puedes mover elementos y hacer "
+"personalizaciones avanzadas. No necesitas añadir etiquetas de script, sólo "
+"añade las js simples."
+
+#: inc/options-page.php:621
+msgid "Show in the top right corner"
+msgstr "Mostrar en la parte superior derecha"
+
+#: inc/options-page.php:622
+msgid "Show in the top left corner"
+msgstr "Mostrar en la parte superior izquierda"
+
+#: inc/options-page.php:623
+msgid "Show in the bottom right corner"
+msgstr "Mostrar en la parte inferior derecha"
+
+#: inc/options-page.php:624
+msgid "Show in the bottom left corner"
+msgstr "Mostrar en la parte inferior izquierda"
+
+#: inc/options-page.php:626
+msgid "Show floating edit buttons in the frontend?"
+msgstr "Mostrar botón de edición flotante?"
+
+#: inc/options-page.php:627
+msgid ""
+"We will automatically show a button on the editable site pages so your site "
+"owners can open the editor quickly. For example, if you selected Elementor "
+"as the default editor in our settings page, we would open the live Elementor "
+"editor. The background color for the button will be taken from the setting "
+"\"Clean Admin Look : Primary color for admin content\"."
+msgstr ""
+"Automáticamente mostraremos un botón en las páginas para que los "
+"administradores del sitio puedan abrir el editor directamente al ver su "
+"sitio en el frontend. Por ejemplo, si has seleccionado Elementor como editor "
+"predeterminado, los usuarios podrán editar las páginas usando el editor en "
+"vivo de Elementor. El color de fondo del botón se toma del ajuste \"Color "
+"primario para el contenido administrativo\"."
+
+#: inc/options-page.php:631
+msgid "Login"
+msgstr "Inicio de Sesión"
+
+#: inc/options-page.php:637
+msgid "Login Page URL (optional)"
+msgstr "URL de la Página de Inicio de Sesión (opcional)"
+
+#: inc/options-page.php:638
+msgid ""
+"By default, when someone opens an admin page in the frontend without login, "
+"we show a login form in the same page. If you have a custom login page, you "
+"can enter the URL here and we will redirect users to your custom login page "
+"instead of showing our login form."
+msgstr ""
+"Por defecto, cuando alguien abre una página de administración en el frontend "
+"sin iniciar sesión, mostramos un formulario de inicio de sesión en la misma "
+"página. Si tienes una página de inicio de sesión personalizada, puedes "
+"ingresar la URL aquí, y redireccionaremos a los usuarios a esa página en "
+"lugar de la nuestra."
+
+#: inc/options-page.php:643
+msgid "Login message"
+msgstr "Mensaje de inicio de sesión"
+
+#: inc/options-page.php:644
+msgid "You need to login to view this page."
+msgstr "Necesitas iniciar sesión para ver esta página."
+
+#: inc/options-page.php:645
+msgid ""
+"This will be displayed when the current user is not logged in and tries to "
+"see an admin page through a shortcode on the frontend. We will display a "
+"login form after your message."
+msgstr ""
+"Esto se mostrará cuando el usuario actual no esté conectado e intente ver "
+"una página de administración a través de un atajo en el frontend. "
+"Mostraremos un formulario de inicio de sesión después de tu mensaje."
+
+#: inc/options-page.php:653
+msgid "Disable the logout redirection?"
+msgstr "¿Desactivar la redirección de cierre de sesión?"
+
+#: inc/options-page.php:654
+msgid ""
+"We automatically redirect to the login page defined in the previous option "
+"or the homepage if login page is not set."
+msgstr ""
+"Automáticamente redirigimos a la página de inicio de sesión definida en la "
+"opción previa o la página de inicio si la página de inicio de sesión no está "
+"establecida."
+
+#: inc/options-page.php:659
+msgid "Advanced: Demo user"
+msgstr "Avanzado: Usuario demo"
+
+#: inc/options-page.php:660
+msgid ""
+"If this site is only a demo site, you can enter a username and password and "
+"we will automatically login everybody using these demo credentials. Careful, "
+"you might get locked out if you enter the wrong credentials"
+msgstr ""
+"Si este sitio es un sitio demo solamente, puedes ingresar un nombre de "
+"usuario y contraseña e iniciaremos sesión automáticamente para todos usando "
+"estas credenciales. Cuidado: puedes ser bloqueado sin ingresas credenciales "
+"erróneas"
+
+#: inc/options-page.php:665
+msgid "Demo password"
+msgstr "Contraseña demo"
+
+#: inc/options-page.php:669
+msgid "Solutions to errors"
+msgstr "Solución de errores"
+
+#: inc/options-page.php:674
+msgid "Root domain of your website (optional)"
+msgstr "Dominio raíz de tu sitio web (opcional)"
+
+#: inc/options-page.php:675
+msgid ""
+"For example, enter site.com if your main site uses site.com, www.site.com, "
+"or any subdomain of site.com"
+msgstr ""
+"Por ejemplo, ingresa sitio.com si tu sitio principal usa sitio.com, www."
+"sitio.com, o cualquier subdominio de sitio.com"
+
+#: inc/options-page.php:680
+msgid "Disable the stateful navigation feature?"
+msgstr "Desactivar la navegación mejorada?"
+
+#: inc/options-page.php:681
+msgid ""
+"We add a parameter to the URL like #wpfa:xxxxx to keep track of the user "
+"navigation, and this allows us to preserve the internal navigation/current "
+"screen when you reload the page, open links in new tab and see the right "
+"screen, and apply global replacements correctly. Activate this to disable it "
+"in case you experience any issues when navigating or reloading the page, but "
+"you willl lose some benefits that our stateful navigaton provides."
+msgstr ""
+"Agregamos un parámetro a la URL como #wpfa:xxxx para registrar la navegación "
+"en el frontend, y esto nos permite preservar la pantalla actual cuando "
+"recargas la página, abres páginas en nuevas ventanas, y aplicar reemplazos "
+"globales correctamente. Activa esta opción si experimentas problemas al "
+"navegar entre páginas, pero ten en cuenta que perderás los beneficios que "
+"esto brinda."
+
+#: inc/options-page.php:687
+msgid "Disable the detection of 404 errors in the shortcode URLs?"
+msgstr "Desactivar detección de errores 404 en URL de shortcodes?"
+
+#: inc/options-page.php:688
+msgid ""
+"By default, we notify you if the URL returns a 404 error so you know the "
+"problem and you can fix it. Activate this option if you want to disable this "
+"verification if you are getting false positives."
+msgstr ""
+"Por defecto, te notificaremos si el shortcode contiene una URL que no existe "
+"para que puedas solucionarlo. Activa esta opción si quieres desactivar esta "
+"notificación porque recibes falsos positivos."
+
+#: inc/options-page.php:697
+msgid "Full screen pages"
+msgstr "Páginas de pantalla completa"
+
+#: inc/options-page.php:698
+msgid ""
+"We will display those pages as full screen, useful for form editors or page "
+"builders. For example, if the URL contains page=my-page-builder, you can "
+"enter page=my-page-builder. Enter the list of URL fragments separated by "
+"commas. We automatically show as full screen the pages: wp customizer, "
+"elementor editor, formidable forms editor, wpforms editor (keywords: "
+"action=elementor, page=formidable&fr, page=formidable-styles, page=wpforms-"
+"builder, customize.php)"
+msgstr ""
+"Mostraremos esas páginas en pantalla completa, útil para los editores de "
+"formularios o los constructores de páginas. Por ejemplo, si la URL contiene "
+"page=my-page-builder, puedes ingresar page=my-page-builder. Ingresa la lista "
+"de fragmentos de URL separados por comas. Automáticamente mostramos las URLs "
+"que contienen estas palabras clave en pantalla completa: action=elementor, "
+"page=formidable&fr, page=formidable-styles, page=wpforms-builder, customize."
+"php"
+
+#: inc/options-page.php:703
+msgid "Disable full screen for these pages"
+msgstr "Deshabilitar pantalla completa para estas páginas"
+
+#: inc/options-page.php:704
+msgid ""
+"Some pages like the gutenberg editor, elementor editor, etc. appear as full "
+"screen pages by default. Enter the wp-admin URL keywords to disable the full "
+"screen for specific pages. For example, enter post-new.php,post.php to "
+"disable the full screen for the gutenberg editor (pages /wp-admin/post-new."
+"php, /wp-admin/post.php)"
+msgstr ""
+"Algunas páginas como el editor gutenberg, el editor elementor, etc. aparecen "
+"como páginas en pantalla completa. Ingresa las palabras clave de la URL de "
+"wp-admin para desactivar la pantalla completa de páginas específicas. Por "
+"ejemplo, ingresa post-new.php para desactivar la pantalla completa de la "
+"página /wp-admin/post-new.php"
+
+#: inc/options-page.php:710
+msgid "Minimum content height"
+msgstr "Alto mínimo del contenido"
+
+#: inc/options-page.php:711
+msgid ""
+"Sometimes the admin content is very short and your page might look too "
+"small. Enter a number of pixels. I.e. 700"
+msgstr ""
+"A veces, el contenido admin es demasiado pequeño y tu página puede parecer "
+"muy pequeña. Ingresa un número de pixeles. Por ejemplo, 700"
+
+#: inc/options-page.php:716
+msgid "Which frontend URLs are allowed to load inside an iframe?"
+msgstr "¿Cuáles URLs frontend se permite cargar dentro de un iframe?"
+
+#: inc/options-page.php:717
+msgid ""
+"We redirect frontend URLs from the iframe to the main window. But sometimes "
+"translation plugins or page builders need to load previews in iframes. You "
+"can use this option to allow those plugins to load pages inside iframes. "
+"Enter the keywords from the URL separated by commas."
+msgstr ""
+"Redirigimos las URLs del frontend desde el iframe a la ventana principal. "
+"Pero a veces los plugins de traducción o los creadores de páginas necesitan "
+"cargar vistas previas en los iframes. Puedes usar esta opción para permitir "
+"que esos plugins carguen páginas dentro de los iframes. Ingresa las palabras "
+"clave de la URL separadas por comas."
+
+#: inc/options-page.php:723
+msgid "Admin Popups CSS selectors"
+msgstr "Selectores de Popups CSS de Administración"
+
+#: inc/options-page.php:724
+msgid ""
+"Sometimes popups on admin sections (from wp-admin) dont open centered or are "
+"too tall, you can add the CSS selectors here and WP Frontend Admin will try "
+"to center the popups and adjust the size automatically"
+msgstr ""
+"A veces los popups de wp-admin no se abren centrados o son demasiado altos, "
+"puedes añadir los selectores CSS aquí y el plugin intentará arreglarlo "
+"automáticamente"
+
+#: inc/options-page.php:729
+msgid "Disable the redirection of frontend pages to the main window"
+msgstr "Desactivar la redirección de páginas frontend a la ventana principal"
+
+#: inc/options-page.php:730
+msgid ""
+"Use this for debugging purposes in case of issues. If activating this fixes "
+"a problem, please contact us to fix it."
+msgstr ""
+"Usa esto para propósitos de depuración en caso de problemas. Si activar esto "
+"soluciona un problema, por favor contáctanos para solucionarlo."
+
+#: inc/plugins-manager.php:158
+msgid "Experimental: Plugins that you will not use in this admin page"
+msgstr "Experimental: Plugins que no usarás en esta página administrativas"
+
+#: inc/plugins-manager.php:158
+msgid ""
+"We will deactivate the plugins for this admin page only to improve "
+"performance, they will run in other pages as usual. This is not a security "
+"feature. This will apply to administrators too so use carefully. Never "
+"deactivate security plugins or any plugin related to user permissions"
+msgstr ""
+"Nosotros desactivaremos los plugins en esta página únicamente para mejorar "
+"la velocidad, pero sí correrán en otras páginas normalmente. Esta no es una "
+"función de seguridad. Esto aplica a administradores también así que ten "
+"cuidado. Nunca desactives plugins de seguridad o cualquier plugin "
+"relacionado a permisos de usuario"
+
+#: inc/plugins-manager.php:182
+msgid ""
+"Experimental feature: Allow to disable plugins for specific admin pages?"
+msgstr ""
+"Función experimental: Permitir desactivar plugins en páginas administrativas "
+"específicas?"
+
+#: inc/plugins-manager.php:183
+msgid ""
+"If you enable this option, we will allow you to deactivate plugins on "
+"specific frontend admin pages to make everything load faster. Note, it might "
+"cause issues if you deactivate plugins required by other plugins. Deactivate "
+"this option if it causes issues. This is NOT A SECURITY feature, this is "
+"just for performance."
+msgstr ""
+"Si tú habilitas esta opción, te permitiremos desactivar plugins en páginas "
+"frontales específicas para que todo cargue más rápido. Nota, esto puede "
+"causar problemas si desactivas plugins requeridos por otros plugins. "
+"Desactiva esta opción si experimentas problemas. Esta NO ES UNA FUNCIÓN DE "
+"SEGURIDAD, es solo para rendimiento."
+
+#: inc/shortcodes.php:98
+msgid ""
+"Note from WP Frontend Admin: The admin content will load in this place when "
+"you view the page outside the elementor editor."
+msgstr ""
+"Nota de WP Frontend Admin: El contenido admin se mostrará en su lugar cuando "
+"veas la página fuera del editor de Elementor."
+
+#: inc/shortcodes.php:161
+msgid ""
+"You don't have permission to view this page. If this is a mistake please "
+"contact the site administrator."
+msgstr ""
+"No tienes permiso para ver esta página. Si es un error contacta al "
+"administrador del sitio por favor."
+
+#: inc/shortcodes.php:342 index.php:555
+msgid "Edit"
+msgstr "Editar"
+
+#: inc/show-own-posts.php:79 inc/show-own-posts.php:85
+#: inc/show-own-posts.php:91 inc/show-own-posts.php:97
+#: inc/show-own-posts.php:103
+msgid "<a href=\"%s\""
+msgstr "<a href=\"%s\""
+
+#: inc/show-own-posts.php:122
+msgid "The users should see the posts created by them only"
+msgstr "Los usuarios deberían ver solo los posts creados por ellos"
+
+#: inc/show-own-posts.php:122
+msgid "This does not apply to administrators, please test it as a normal user."
+msgstr ""
+"Esto no aplica a los administradores, por favor pruébalo como un usuario "
+"normal."
+
+#: inc/table-columns-manager.php:93
+msgid "Disabled columns"
+msgstr "Columnas desactivadas"
+
+#: index.php:147
+msgid "Try premium plugin for FREE - 7 Days"
+msgstr "Prueba el plugin GRATIS - 7 Días"
+
+#: index.php:440
+msgid "Sorry, you are not allowed to access this page."
+msgstr "Lo sentimos, no tienes permiso para acceder a esta página."
+
+#: index.php:440
+msgid "You need a higher level of permission."
+msgstr "Necesitas mayores permisos."
+
+#: index.php:464
+msgid "Settings couldn't be saved"
+msgstr "Las opciones no se pudieron guardar"
+
+#: index.php:499
+msgid ""
+"Settings saved successfully. We will reload the page to show the new changes"
+msgstr ""
+"Las opciones se guardaron exitosamente. Recargaremos la página para mostrar "
+"los nuevos cambios"
+
+#: index.php:643
+msgid "View on the frontend"
+msgstr "Ver en el frontend"
+
+#: index.php:961
+msgid ""
+"<div><b>Give permission to other user roles</b>. You can use the <a href=\"%s"
+"\" target=\"_blank\">User Role Editor</a> plugin to assign the capability to "
+"the user role required by the page: \"%s\". Careful, assign advanced "
+"capabilities only if you trust the users.</div>"
+msgstr ""
+"<div><b>Dar permiso a otros roles de usuario</b>. Puedes usar el plugin <a "
+"href=\"%s\" target=\"_blank\">User Role Editor</a> para asignar el permiso "
+"al usuario requerido por la página: \"%s\". Cuidado, asigna permisos "
+"avanzados solo a usuarios confiables.</div>"
+
+#: views/frontend/already-logged-in-message.php:2
+#: views/frontend/broken-url.php:2 views/frontend/enable-permalinks.php:2
+#: views/frontend/new-site-page-missing.php:2
+#: views/frontend/protocol-mismatch.php:2
+msgid "Note from WP Frontend Admin."
+msgstr "Nota de WP Frontend Admin."
+
+#: views/frontend/already-logged-in-message.php:3
+msgid ""
+"The login form shortcode will not load for you because you already logged "
+"in. The login form will appear when you open this page as a guest user."
+msgstr ""
+"El formulario de inicio de sesión no cargará para ti porque ya iniciaste "
+"sesión. El formulario de inicio de sesión aparecerá aquí cuando veas esta "
+"página sin iniciar sesión."
+
+#: views/frontend/broken-url.php:3
+msgid ""
+"The shortcode has a broken URL. This URL does not exist: <a href=\"%s\" "
+"target=\"_blank\">%s</a> (click on this link to verify)."
+msgstr ""
+"El shortcode tiene una URL rota. Esta URL no existe: <a href=\"%s\" target="
+"\"_blank\">%s</a> (click aquí para verificar)."
+
+#: views/frontend/broken-url.php:4
+msgid "Please edit the shortcode and use a valid URL."
+msgstr "Por favor edita el shortcode y usa una URL válida."
+
+#: views/frontend/broken-url.php:5
+msgid ""
+"If you are sure that the shortcode is using a valid URL, you can <a href=\"%s"
+"\" target=\"_blank\">go to our settings page</a> to deactivate this warning ."
+msgstr ""
+"Si tú estás seguro que la URL es válida, tú puedes <a href=\"%s\" target="
+"\"_blank\">desactivar esta advertencia</a> en nuestros ajustes avanzados."
+
+#: views/frontend/enable-permalinks.php:3
+msgid ""
+"You need to enable pretty permalinks for our plugin to work. <a href=\"%s\" "
+"target=\"_blank\" class=\"button\">Click here to fix it</a>"
+msgstr ""
+"Necesitas habilitar los enlaces permantes para que funcione el plugin <a "
+"href=\"%s\" target=\"_blank\" class=\"button\">Abrir la página de opciones</"
+"a>"
+
+#: views/frontend/log-in-message.php:35
+msgid "Login failed. Please enter the right user and password"
+msgstr ""
+"Error en el inicio de sesión. Por favor, ingresa el usuario y contraseña "
+"correctos"
+
+#: views/frontend/new-site-page-missing.php:3
+msgid ""
+"You haven't created a frontend page for this screen. Please create a page "
+"using this shortcode: [vg_display_admin_page page_url=\"index.php?page=wu-"
+"new-site\"]"
+msgstr ""
+"Tú no has creado una página frontal para esta pantalla. Por favor crea una "
+"página usando este shortcode: [vg_display_admin_page page_url=\"index.php?"
+"page=wu-new-site\"]"
+
+#: views/frontend/page.php:228
+msgid ""
+"Tip from WP Frontend Admin: The page has taken too long to load (more than "
+"40 seconds). There is probably an error<br>You can get help in the <a href="
+"\"%s\" target=\"_blank\">live chat on our website</a> or open a support "
+"ticket via email. We will help you with the setup for free."
+msgstr ""
+"Tip de WP Frontend Admin: Esta página ha tardado más de 40 segundos en "
+"cargas. Probablemente ocurrió un error<br>Puedes obtener ayuda <a href=\"%s"
+"\" target=\"_blank\">en el chat en nuestro sitio web</a> o abrir un ticket "
+"de soporte por correo. Te ayudaremos a resolverlo."
+
+#: views/frontend/protocol-mismatch.php:3
+msgid ""
+"The shortcode is loading a URL with https, but the frontend page uses http. "
+"The browser will not accept this. Both pages must load using https or both "
+"must load using http."
+msgstr ""
+"El shortcode está cargando una URL con https, pero la página frontal usa "
+"http. El navegador no aceptará esto. Ambas páginas deben cargar usando https "
+"o ambas deben cargar con http. Por favor corrígelo."
+
+#: views/frontend/protocol-mismatch.php:4
+msgid ""
+"Please enable https for your entire website and the shortcode will work."
+msgstr ""
+"Por favor habilita https para tu sitio web entero y el shortcode funcionará."
+
+#: views/frontend/quick-settings.php:10
+msgid "Help"
+msgstr "Ayuda"
+
+#: views/frontend/quick-settings.php:11
+msgid "Troubleshoot"
+msgstr "Soluciones"
+
+#: views/frontend/quick-settings.php:14
+msgid ""
+"<ol>\r\n"
+"\t\t\t<li>Current admin page URL: %s. If this is the wrong URL, you can <a "
+"href=\"%s\" target=\"_blank\">edit the page</a> and change the URL in the "
+"shortcode </li>\r\n"
+"\t\t\t<li class=\"required-capability-target\">If you can not view the page "
+"after log in, you need to use one of these roles:</li>\r\n"
+"\t\t\t<li>You can get quick help in the <a href=\"https://wpfrontendadmin."
+"com/contact/?utm_source=wp-admin&utm_campaign=logo&utm_medium=welcome-"
+"page&utm_term=%s\" target=\"_blank\">live chat</a> on our website</li>\r\n"
+"\t\t</ol>"
+msgstr ""
+"<ol>\n"
+"\t\t\t<li>URL de la página del usuario actual: %s. Si es una página errónea, "
+"puedes <a href=\"%s\" target=\"_blank\">editar la página</a> y cambiar la "
+"URL en el código corto </li>\n"
+"\t\t\t<li class=\"required-capability-target\">Si no quieres ver la página "
+"luego de iniciar sesión, necesitas usar uno de estos roles:</li>\n"
+"\t\t\t<li>Puedes obtener ayuda instantánea en el <a href=\"https://"
+"wpfrontendadmin.com/contact/?utm_source=wp-"
+"admin&utm_campaign=logo&utm_medium=welcome-page&utm_term=%s\" target=\"_blank"
+"\">chat en vivo</a> en nuestro sitio web</li>\n"
+"\t\t</ol>"
+
+#: views/frontend/quick-settings.php:21
+msgid ""
+"The page is not published, so other users will not be able to view the page. "
+"<a href=\"%s\" target=\"_blank\">Publish the page</a>."
+msgstr ""
+"La página no está publicada, otros usuarios no podrán ver esta página. <a "
+"href=\"%s\" target=\"_blank\">Publicar página</a>."
+
+#: views/frontend/quick-settings.php:24
+msgid "Page title:"
+msgstr "Título de página:"
+
+#: views/frontend/quick-settings.php:28
+msgid "URL slug:"
+msgstr "URL slug:"
+
+#: views/frontend/quick-settings.php:35
+msgid "Page template:"
+msgstr "Plantilla:"
+
+#: views/frontend/quick-settings.php:35
+msgid "We recommend a full-width template."
+msgstr "Recomendamos ancho completo."
+
+#: views/frontend/quick-settings.php:38
+msgid "Default"
+msgstr "Por defecto"
+
+#: views/frontend/quick-settings.php:49
+msgid "Add to this menu:"
+msgstr "Añadir a menú:"
+
+#: views/frontend/quick-settings.php:53
+msgid "Create menu"
+msgstr "Crear menú"
+
+#: views/frontend/quick-settings.php:58
+msgid "- Select -"
+msgstr "---"
+
+#: views/frontend/quick-settings.php:71
+msgid "Hide element"
+msgstr "Ocultar elemento"
+
+#: views/frontend/quick-settings.php:72
+msgid "Show all"
+msgstr "Mostrar todos"
+
+#: views/frontend/quick-settings.php:79
+msgid "Hide notices added by other plugins or themes?"
+msgstr "¿Ocultar notificaciones añadidas por otros plugins o temas?"
+
+#: views/frontend/quick-settings.php:79
+msgid ""
+"For example, notices related to wp updates, messages from plugins asking for "
+"reviews, etc."
+msgstr ""
+"Por ejemplo, notificaciones relacionadas a actualizaciones de wp, mensajes "
+"de plugins pidiendo reviews, etc."
+
+#: views/frontend/quick-settings.php:86
+msgid "Saving..."
+msgstr "Guardando..."
+
+#: views/frontend/quick-settings.php:86
+msgid "Save"
+msgstr "Guardar"
+
+#: views/frontend/site-selector.php:36
+msgid "Visit"
+msgstr "Visitar"
+
+#: views/frontend/site-selector.php:39
+msgid "Active"
+msgstr "Activo"
+
+#: views/frontend/site-selector.php:41
+msgid "Dashboard"
+msgstr "Panel"
+
+#: views/frontend/wrong-permissions.php:7
+msgid ""
+"Tip from WP Frontend Admin:<br>1. This page requires a different user role. "
+"Please view this page as administrator and follow the instructions in the "
+"\"quick settings\" section to fix this. <a href=\"%s\" target=\"_blank\">See "
+"an screenshot</a>.<br>2. You can get help in the <a href=\"%s\" target="
+"\"_blank\">live chat on our website</a> or open a support ticket via email. "
+"We will help you with the setup for free."
+msgstr ""
+"Tip de WP Frontend Admin:<br>1. Esta página requiere un rol de usuario "
+"diferente. Por favor, ve esta página como un administrador y sigue las "
+"instrucciones en la sección \"opciones rápidas\" para solucionarlo. <a href="
+"\"%s\" target=\"_blank\">Mira una captura</a>.<br>2. Puedes  obtener ayuda "
+"instantánea en el <a href=\"%s\" target=\"_blank\">chat en vivo en nuestro "
+"sitio web</a> o abrir un ticket de soporte por correo. Te ayudaremos con la "
+"instalación gratis."
+
+#: views/frontend/wrong-plan.php:1
+msgid ""
+"You need the Premium version of <b>WP Frontend Admin</b> to view this admin "
+"page on the frontend."
+msgstr ""
+"Necesitas la versión Premium de <b>WP Frontend Admin</b> para ver esta "
+"página de administración en el frontend."
+
+#: views/frontend/wrong-plan.php:4
+msgid "View demo"
+msgstr "Ver demo"
+
+#: views/welcome-page-content.php:1
+msgid "Thank you for installing our plugin."
+msgstr "Gracias por instalar nuestro plugin."
+
+#: views/welcome-page-content.php:10
+msgid ""
+"IMPORTANT. You are using https for wp-admin and http for the public website. "
+"Both need to use the same protocol (https) for security reasons. Please "
+"change the public URL to use https. <a href=\"%s\" target=\"_blank\" class="
+"\"button\">Fix it</a>"
+msgstr ""
+"IMPORTANTE. Estás usando https para wp-admin y http para el sitio público. "
+"Ambos necesitan usar el mismo protocolo (https) por razones de seguridad. "
+"Por favor, cambia la URL pública para que use https. <a href=\"%s\" target="
+"\"_blank\" class=\"button\">Soluciónalo</a>"
+
+#: views/welcome-page-content.php:13
+msgid ""
+"IMPORTANT. You need to enable pretty permalinks for our plugin to work. <a "
+"href=\"%s\" target=\"_blank\" class=\"button\">Fix it</a>"
+msgstr ""
+"IMPORTANTE. Debes habilitar los enlaces permanentes para que el plugin "
+"funcione. <a href=\"%s\" target=\"_blank\" class=\"button\">Abrir la página "
+"de opciones</a>"
+
+#: views/welcome-page-content.php:16
+msgid ""
+"Check the plugin settings. <a href=\"%s\" target=\"_blank\" class=\"button"
+"\">Open settings page</a>"
+msgstr ""
+"Revisa las opciones del plugin. <a href=\"%s\" target=\"_blank\" class="
+"\"button\">Abrir la página de opciones</a>"
+
+#: views/welcome-page-content.php:19
+msgid ""
+"You can use this plugin in 2 ways:<br><b>Automatic way:</b> Go to the admin "
+"page that you want to display on the frontend, and click the \"View on the "
+"frontend\" option in the top toolbar: <img src=\"%s\"/><br><br><b>Manual way:"
+"</b> You can create a page manually and use this shortcode:"
+"<br><code>[vg_display_admin_page page_url=\"http://site.com/wp-admin/edit.php"
+"\"]</code><br>You can add the shortcode anywhere in the page or using a page "
+"builder, you can use it multiple times on the same page, and you just need "
+"to replace the page_url in the shortcode with the URL of the wp-admin page."
+msgstr ""
+"Puedes usar este plugin de dos maneras:<br><b>Automáticamente:</b> Ve a la "
+"página admin que quieres mostrar en el frontend y haz clic en \"Ver en el "
+"frontend\" en la barra superior: <img src=\"%s\"/><br><br><b>Manualmente:</"
+"b> You can create a page manually and use this shortcode:"
+"<br><code>[vg_display_admin_page page_url=\"http://sitio.com/wp-admin/edit."
+"php\"]</code><br>Puedes agregar el código a cualquier lugar en la página o "
+"usar un constructor de páginas, puedes usarlo varias veces en la misma "
+"página y solo reemplazar la URL en el ejemplo con la URL de la página que "
+"vas a mostrar en el frontend."
+
+#: views/welcome-page-content.php:22
+msgid ""
+"You can view any admin URL in the frontend. For example, the settings page, "
+"the widgets page, the WooCommerce settings page, the WooCommerce Sales Stats "
+"page, etc."
+msgstr ""
+"Puedes ver cualquier URL de administración en el frontend. Por ejemplo, la "
+"página de configuración, la página de widgets, la página de configuración de "
+"WooCommerce, la página de estadísticas de ventas de WooCommerce, etc."
+
+#: views/welcome-page-content.php:24
+msgid ""
+"You are using the Free plugin. You can view these pages in the frontend: "
+"blog posts, post editor, blog categories, and blog tags."
+msgstr ""
+"Estás usando el plugin Gratuito. Puedes ver estas páginas en el frontend: "
+"entradas del blog, editor de entradas, categorías del blog y etiquetas del "
+"blog."
+
+#: views/welcome-page-content.php:26
+msgid ""
+"<h3>Go Premium</h3><p>View ANY admin page in the frontend<br/>View settings "
+"pages from the frontend<br/>View WooCommerce settings on the frontend<br/"
+">View WooCommerce stats from the frontend<br/>Install plugins from the "
+"frontend<br/>View plugin settings from the frontend<br/>View any page from "
+"wp-admin on the frontend<br/>And more.</p><a href=\"%s\" class=\"button "
+"button-primary\">%s</a> - <a href=\"#tutorial\" class=\"button\">Watch a "
+"demo video</a> - <a href=\"%s\" class=\"button\" target=\"_blank\">Need "
+"help? Contact us</a></p><p>Try the plugin without worries.</p><p>Check this "
+"video of the premium features.</p><iframe id=\"tutorial\" width=\"560\" "
+"height=\"315\" src=\"https://www.youtube.com/embed/EG1NE3X5yNs?rel=0&amp;"
+"controls=0&amp;showinfo=0\" frameborder=\"0\" allow=\"autoplay; encrypted-"
+"media\" allowfullscreen></iframe>."
+msgstr ""
+"<h3>Hazte Premium</h3><p>Ver CUALQUIER página en el frontend<br/>Ver la "
+"página de opciones desde el frontend<br/>Ver las opciones WooCommerce en el "
+"frontend<br/>Ver las estadísticas WooCommerce desde el frontend<br/>Instalar "
+"plugins desde el frontend<br/>Ver las opciones de plugins desde el "
+"frontend<br/>Ver cualquier página de wp-admin en el frontend<br/>Y más.</"
+"p><a href=\"%s\" class=\"button button-primary\">%s</a> - <a href=\"#tutorial"
+"\" class=\"button\">Mira un video demo</a> - <a href=\"%s\" class=\"button\" "
+"target=\"_blank\">¿Necesitas ayuda? Contáctanos </a></p><p>Prueba el plugin "
+"sin problemas.</p><p>Mira este video de funciones premium.</p><iframe id="
+"\"tutorial\" width=\"560\" height=\"315\" src=\"https://www.youtube.com/"
+"embed/EG1NE3X5yNs?rel=0&amp;controls=0&amp;showinfo=0\" frameborder=\"0\" "
+"allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>."
+
+#: views/welcome-page-content.php:30
+msgid ""
+"You can read more about advanced settings and configuration in <a href=\"%s"
+"\" target=\"_blank\">our website</a>."
+msgstr ""
+"Puedes leer más acerca de las opciones avanzadas y configuración en <a href="
+"\"%s\" target=\"_blank\">nuestro sitio web</a>."
+
+#: views/welcome-page-content.php:48
+msgid "Free Course: Create a Platform like Shopify"
+msgstr "Curso Gratis: Crea una Plataforma como Shopify"
+
+#: views/welcome-page-content.php:49
+msgid ""
+"In this course, we will show you how to create a platform like Shopify from "
+"start to finish, using WordPress Multisite, WP Ultimo, WooCommerce, and WP "
+"Frontend Admin."
+msgstr ""
+"En este curso, te mostraremos cómo crear una plataforma como Shopify de "
+"principio a fin, usando WordPress multisite, WP Ultimo, WooCommerce, y WP "
+"Frontend Admin."
+
+#: views/welcome-page-content.php:50
+msgid ""
+"<b>Charge a monthly fee for each store created in your</b>&nbsp;\r\n"
+"\t\t<strong>platform</strong> and start making money."
+msgstr ""
+"<b>Cobra una tarifa mensual por cada tienda creada en tu</b>&nbsp;\r\n"
+"\t\t<strong>plataforma</strong> y empieza a ganar dinero."
+
+#: views/welcome-page-content.php:52
+msgid "Sign up for FREE"
+msgstr "Regístrate GRATIS"
+
+#: views/welcome-page-content.php:56
+msgid "<h3>Tutorials</h3> "
+msgstr "<h3>Tutoriales</h3> "
+
+#: views/welcome-page-content.php:57
+msgid ""
+"<ul role = \"menu\" class = \" dropdown-menu\">\r\n"
+"\t\t\t\t<li >Allow Post Submissions from the Frontend <a target = \"_blank\" "
+"href = \"https://wpfrontendadmin.com/allow-post-submissions-from-the-"
+"frontend/?utm_source=wp-admin&utm_campaign=tutorials-list&utm_medium=welcome-"
+"page\">View tutorial</a></li>\r\n"
+"\t\t\t\t<li >Change Permalink Settings from the Frontend in WordPress <a "
+"target = \"_blank\" href = \"https://wpfrontendadmin.com/change-permalink-"
+"settings-from-the-frontend-in-wordpress/?utm_source=wp-"
+"admin&utm_campaign=tutorials-list&utm_medium=welcome-page\">View tutorial</"
+"a></li>\r\n"
+"\t\t\t\t<li >Change Site Settings from the Frontend in WordPress <a target = "
+"\"_blank\" href = \"https://wpfrontendadmin.com/change-site-settings-from-"
+"the-frontend-in-wordpress/?utm_source=wp-admin&utm_campaign=tutorials-"
+"list&utm_medium=welcome-page\">View tutorial</a></li>\r\n"
+"\t\t\t\t<li >Create and Manage Users from the Frontend <a target = \"_blank"
+"\" href = \"https://wpfrontendadmin.com/create-and-manage-users-from-the-"
+"frontend/?utm_source=wp-admin&utm_campaign=tutorials-list&utm_medium=welcome-"
+"page\">View tutorial</a></li>\r\n"
+"\t\t\t\t<li >Create WooCommerce Coupons from the Frontend <a target = "
+"\"_blank\" href = \"https://wpfrontendadmin.com/create-woocommerce-coupons-"
+"from-the-frontend/?utm_source=wp-admin&utm_campaign=tutorials-"
+"list&utm_medium=welcome-page\">View tutorial</a></li>\r\n"
+"\t\t\t\t<li >Create WooCommerce Products from the Frontend <a target = "
+"\"_blank\" href = \"https://wpfrontendadmin.com/create-woocommerce-products-"
+"from-the-frontend/?utm_source=wp-admin&utm_campaign=tutorials-"
+"list&utm_medium=welcome-page\">View tutorial</a></li>\r\n"
+"\t\t\t\t<li >Install Themes from the Frontend in WordPress <a target = "
+"\"_blank\" href = \"https://wpfrontendadmin.com/install-themes-from-the-"
+"frontend-in-wordpress/?utm_source=wp-admin&utm_campaign=tutorials-"
+"list&utm_medium=welcome-page\">View tutorial</a></li>\r\n"
+"\t\t\t\t<li >Install Updates from the Frontend in WordPress <a target = "
+"\"_blank\" href = \"https://wpfrontendadmin.com/install-updates-from-the-"
+"frontend-in-wordpress/?utm_source=wp-admin&utm_campaign=tutorials-"
+"list&utm_medium=welcome-page\">View tutorial</a></li>\r\n"
+"\t\t\t\t<li >Install WordPress Plugins from the Frontend <a target = \"_blank"
+"\" href = \"https://wpfrontendadmin.com/install-wordpress-plugins-from-the-"
+"frontend/?utm_source=wp-admin&utm_campaign=tutorials-list&utm_medium=welcome-"
+"page\">View tutorial</a></li>\r\n"
+"\t\t\t\t<li >Manage Nav Menus from the Frontend <a target = \"_blank\" href "
+"= \"https://wpfrontendadmin.com/manage-nav-menus-from-the-frontend/?"
+"utm_source=wp-admin&utm_campaign=tutorials-list&utm_medium=welcome-page"
+"\">View tutorial</a></li>\r\n"
+"\t\t\t\t<li >Manage User Comments from the Frontend in WordPress <a target = "
+"\"_blank\" href = \"https://wpfrontendadmin.com/manage-user-comments-from-"
+"the-frontend-in-wordpress/?utm_source=wp-admin&utm_campaign=tutorials-"
+"list&utm_medium=welcome-page\">View tutorial</a></li>\r\n"
+"\t\t\t\t<li >Manage Widgets from the Frontend in WordPress <a target = "
+"\"_blank\" href = \"https://wpfrontendadmin.com/manage-widgets-from-the-"
+"frontend-in-wordpress/?utm_source=wp-admin&utm_campaign=tutorials-"
+"list&utm_medium=welcome-page\">View tutorial</a></li>\r\n"
+"\t\t\t\t<li >Manage WooCommerce Settings from the Frontend <a target = "
+"\"_blank\" href = \"https://wpfrontendadmin.com/manage-woocommerce-settings-"
+"from-the-frontend/?utm_source=wp-admin&utm_campaign=tutorials-"
+"list&utm_medium=welcome-page\">View tutorial</a></li>\r\n"
+"\t\t\t\t<li >Setup a Theme from the Frontend in WordPress <a target = "
+"\"_blank\" href = \"https://wpfrontendadmin.com/setup-a-theme-from-the-"
+"frontend-in-wordpress/?utm_source=wp-admin&utm_campaign=tutorials-"
+"list&utm_medium=welcome-page\">View tutorial</a></li>\r\n"
+"\t\t\t\t<li >View and Dispatch WooCommerce Orders from the Frontend <a "
+"target = \"_blank\" href = \"https://wpfrontendadmin.com/view-and-dispatch-"
+"woocommerce-orders-from-the-frontend/?utm_source=wp-"
+"admin&utm_campaign=tutorials-list&utm_medium=welcome-page\">View tutorial</"
+"a></li>\r\n"
+"\t\t\t\t<li >View WooCommerce Sales Reports from the Frontend <a target = "
+"\"_blank\" href = \"https://wpfrontendadmin.com/view-woocommerce-sales-"
+"reports-from-the-frontend/?utm_source=wp-admin&utm_campaign=tutorials-"
+"list&utm_medium=welcome-page\">View tutorial</a></li><li ><a target = "
+"\"_blank\" href = \"https://wpfrontendadmin.com/documentation/tutorials/"
+"\">More tutorials</a></li>\r\n"
+"\t\t\t\t</ul> "
+msgstr ""
+"<ul role=\"menu\" class=\" dropdown-menu\">\n"
+"\t<li >Permite la recepción de posts desde el frontend <a target=\"_blank\" "
+"href=\"https://wpfrontendadmin.com/allow-post-submissions-from-the-frontend/?"
+"utm_source=wp-admin&utm_campaign=tutorials-list&utm_medium=welcome-page"
+"\">Ver tutorial</a></li>\n"
+"\t<li >Cambia las opciones de Permalinks desde el frontend en WordPress <a "
+"target=\"_blank\" href=\"https://wpfrontendadmin.com/change-permalink-"
+"settings-from-the-frontend-in-wordpress/?utm_source=wp-"
+"admin&utm_campaign=tutorials-list&utm_medium=welcome-page\">Ver tutorial</"
+"a></li>\n"
+"\t<li >Cambiar las opciones del sitio desde el Frontend en WordPress <a "
+"target=\"_blank\" href=\"https://wpfrontendadmin.com/change-site-settings-"
+"from-the-frontend-in-wordpress/?utm_source=wp-admin&utm_campaign=tutorials-"
+"list&utm_medium=welcome-page\">Ver tutorial</a></li>\n"
+"\t<li >Crea y administra usuarios desde el frontend <a target=\"_blank\" "
+"href=\"https://wpfrontendadmin.com/create-and-manage-users-from-the-"
+"frontend/?utm_source=wp-admin&utm_campaign=tutorials-list&utm_medium=welcome-"
+"page\">Ver tutorial</a></li>\n"
+"\t<li >Crea cupones WooCommerce Coupons desde el Frontend <a target=\"_blank"
+"\" href=\"https://wpfrontendadmin.com/create-woocommerce-coupons-from-the-"
+"frontend/?utm_source=wp-admin&utm_campaign=tutorials-list&utm_medium=welcome-"
+"page\">Ver tutorial</a></li>\n"
+"\t<li >Crea productos WooCommerce desde el Frontend <a target=\"_blank\" "
+"href=\"https://wpfrontendadmin.com/create-woocommerce-products-from-the-"
+"frontend/?utm_source=wp-admin&utm_campaign=tutorials-list&utm_medium=welcome-"
+"page\">Ver tutorial</a></li>\n"
+"\t<li >Instala Temas desde el Frontend en WordPress <a target=\"_blank\" "
+"href=\"https://wpfrontendadmin.com/install-themes-from-the-frontend-in-"
+"wordpress/?utm_source=wp-admin&utm_campaign=tutorials-"
+"list&utm_medium=welcome-page\">Ver tutorial</a></li>\n"
+"\t<li >Instala actualizaciones desde el Frontend en WordPress <a target="
+"\"_blank\" href=\"https://wpfrontendadmin.com/install-updates-from-the-"
+"frontend-in-wordpress/?utm_source=wp-admin&utm_campaign=tutorials-"
+"list&utm_medium=welcome-page\">Ver tutorial</a></li>\n"
+"\t<li >Instala plugins de WordPress desde el Frontend <a target=\"_blank\" "
+"href=\"https://wpfrontendadmin.com/install-wordpress-plugins-from-the-"
+"frontend/?utm_source=wp-admin&utm_campaign=tutorials-list&utm_medium=welcome-"
+"page\">Ver tutorial</a></li>\n"
+"\t<li >Administra los menus de navegación desde el Frontend <a target="
+"\"_blank\" href=\"https://wpfrontendadmin.com/manage-nav-menus-from-the-"
+"frontend/?utm_source=wp-admin&utm_campaign=tutorials-list&utm_medium=welcome-"
+"page\">Ver tutorial</a></li>\n"
+"\t<li >Administra los comentarios de los usuarios desde el Frontend en "
+"WordPress <a target=\"_blank\" href=\"https://wpfrontendadmin.com/manage-"
+"user-comments-from-the-frontend-in-wordpress/?utm_source=wp-"
+"admin&utm_campaign=tutorials-list&utm_medium=welcome-page\">Ver tutorial</"
+"a></li>\n"
+"\t<li >Administra los Widgets desde el Frontend en WordPress <a target="
+"\"_blank\" href=\"https://wpfrontendadmin.com/manage-widgets-from-the-"
+"frontend-in-wordpress/?utm_source=wp-admin&utm_campaign=tutorials-"
+"list&utm_medium=welcome-page\">Ver tutorial</a></li>\n"
+"\t<li >Administra las opciones de WooCommerce desde el Frontend <a target="
+"\"_blank\" href=\"https://wpfrontendadmin.com/manage-woocommerce-settings-"
+"from-the-frontend/?utm_source=wp-admin&utm_campaign=tutorials-"
+"list&utm_medium=welcome-page\">Ver tutorial</a></li>\n"
+"\t<li >Configura un tema desde el frontend en WordPress <a target=\"_blank\" "
+"href=\"https://wpfrontendadmin.com/setup-a-theme-from-the-frontend-in-"
+"wordpress/?utm_source=wp-admin&utm_campaign=tutorials-"
+"list&utm_medium=welcome-page\">Ver tutorial</a></li>\n"
+"\t<li >Mira y despacha pedidos WooCommerce desde el Frontend <a target="
+"\"_blank\" href=\"https://wpfrontendadmin.com/view-and-dispatch-woocommerce-"
+"orders-from-the-frontend/?utm_source=wp-admin&utm_campaign=tutorials-"
+"list&utm_medium=welcome-page\">Ver tutorial</a></li>\n"
+"\t<li >Ver los reportes de venta de WooCommerce desde el Frontend <a target="
+"\"_blank\" href=\"https://wpfrontendadmin.com/view-woocommerce-sales-reports-"
+"from-the-frontend/?utm_source=wp-admin&utm_campaign=tutorials-"
+"list&utm_medium=welcome-page\">Ver tutorial</a></li>\n"
+"</ul> "
+
+#~ msgid "Global settings"
+#~ msgstr "Opciones globales"
+
+#~ msgid "I need help"
+#~ msgstr "Necesito ayuda"
+
+#~ msgid "Solution for common errors"
+#~ msgstr "Solución para errores comunes"
+
+#~ msgid "No menus found"
+#~ msgstr "No se encontraron menús"
+
+#~ msgid ""
+#~ "IMPORTANT. You are using global settings, you must change the settings in "
+#~ "the main site. Go to the <a href=\"%s\">settings on the main site</a>."
+#~ msgstr ""
+#~ "IMPORTANTE. Estás usando las opciones globales, debes cambiar las "
+#~ "opciones en el sitio principal. Ve a las <a href=\"%s\">opciones en el "
+#~ "sitio principal</a>."
+
+#~ msgid "The dashboard should be accessible for these roles"
+#~ msgstr "El tablero debería ser accesible a estos roles"
+
+#~ msgid "Demo site"
+#~ msgstr "Sitio demo"
+
+#~ msgid ""
+#~ "You can use our plugin to demo your WP plugin or theme. You can display "
+#~ "your plugin/theme pages on the frontend, and users can auto login using "
+#~ "your demo account credentials. Leave these fields empty to disable the "
+#~ "auto login feature."
+#~ msgstr ""
+#~ "Puedes usar nuestro plugin para probar tu plugin o tema de WP. Puedes "
+#~ "mostrar tus páginas de plugins/temas en el frontend, y los usuarios "
+#~ "pueden iniciar sesión automáticamente usando las credenciales de tu "
+#~ "cuenta demo. Deja estos campos vacíos para desactivar la función de "
+#~ "inicio de sesión automático."
+
+#~ msgid ""
+#~ "WP Frontend Admin: Please install the Redux Framework plugin. <a href=\"%s"
+#~ "\" target=\"_blank\" class=\"button\">Click here</a>.<br/>It´s required "
+#~ "for the settings page, you can remove redux framework after changing the "
+#~ "settings."
+#~ msgstr ""
+#~ "WP Frontend Admin: Por favor, instala el plugin Redux Framework.<a href="
+#~ "\"%s\" target=\"_blank\" class=\"button\">Clic aquí</a>.<br/> Se requiere "
+#~ "para la página de opciones, puedes remover redux framework luego de "
+#~ "cambiar las opciones."
+
+#~ msgid ""
+#~ "Note from WP Frontend Admin: You can use the page builder to create the "
+#~ "template and place our shortcode anywhere in the page.<br>But our "
+#~ "shortcode will not be rendered when you use the page builder.<br>It will "
+#~ "load in this place when you view the page in the frontend as a normal "
+#~ "user."
+#~ msgstr ""
+#~ "Nota de WP Frontend Admin: Puedes usar un constructor de páginas para "
+#~ "crear la plantilla y el poner nuestro código corto en cualquier parte de "
+#~ "la página.<br>Pero nuestro código corto no se ejecutará cuando uses el "
+#~ "constructor de páginas.<br>Se cargará en este lugar cuando veas la página "
+#~ "en el frontend como un usuario normal."
+
+#~ msgid ""
+#~ "Please install the free plugin <b>\"ReduxFramework\"</b>. It´s required "
+#~ "for the settings page. <a href=\"%s\" target=\"_blank\" class=\"button "
+#~ "install-plugin-trigger\">Click here</a>"
+#~ msgstr ""
+#~ "Por favor, instala el plugin gratuito <b>\"ReduxFramework\"</b>. Se "
+#~ "requiere para la página de opciones. <a href=\"%s\" target=\"_blank\" "
+#~ "class=\"button install-plugin-trigger\">Clic aquí</a>"
+
+#~ msgid ""
+#~ "Go to the admin page that you want to display on the frontend, and click "
+#~ "the \"View on the frontend\" option in the top toolbar: <img src=\"%s\"/>"
+#~ msgstr ""
+#~ "Ve a la página de administración que quieres mostrar en el frontend y haz "
+#~ "clic en la opción \"Ver en el frontend\" en la barra de herramientas "
+#~ "superior: <img src=\"%s\"/>"

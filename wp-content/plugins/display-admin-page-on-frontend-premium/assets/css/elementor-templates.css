@@ -1,0 +1,208 @@
+/* Elementor 3 */
+.wpfa-horizontal-menu-3 .hfe-nav-menu__layout-horizontal a.hfe-menu-item {
+	border-radius: 10px;
+	-webkit-box-shadow:  0px 1px 3px 1px #c9c9c9;
+	box-shadow: 0px 1px 3px 1px #c9c9c9;
+	position: relative;
+	height: 100px;
+	width: 150px;
+	font-size: 16px;
+	display: block;
+	padding: 70px 5px 5px !important;
+	text-align: center;
+}
+.wpfa-horizontal-menu-3 .hfe-nav-menu__layout-horizontal a.hfe-menu-item i {
+	display: block !important;
+	position: absolute;
+    left: calc(50% - 22px);
+    top: 10px;
+    margin: 0 !important;
+    padding: 0 !important;
+    font-size: 44px !important;
+}
+
+.wpfa-horizontal-menu-3 .hfe-nav-menu__layout-horizontal .hfe-nav-menu .sub-arrow {
+    position: absolute;
+    top: 40px;
+    right: 25px;
+}
+.wpfa-horizontal-menu-3 .hfe-nav-menu__layout-horizontal .hfe-nav-menu .sub-arrow i {
+    font-size: 24px !important;
+}
+
+.wpfa-horizontal-menu-3 .hfe-nav-menu__layout-horizontal .hfe-nav-menu  .sub-menu a {
+    text-align: left;
+    padding: 8px !important;
+}
+.wpfa-horizontal-menu-3 .hfe-nav-menu__layout-horizontal .hfe-nav-menu  .sub-menu i {
+    padding: 0 !important;
+    position: relative !important;
+    display: inline !important;
+}
+.wpfa-horizontal-menu-3 .hfe-nav-menu__layout-horizontal .hfe-nav-menu  .hfe-menu-toggle {
+    display: none;
+}
+.wpfa-horizontal-menu-3 .hfe-nav-menu__layout-horizontal .hfe-nav-menu .sub-menu li.menu-item:last-child {
+    overflow: visible !important;
+}
+
+/* Elementor 9*/
+.wpfa-horizontal-menu-9 .hfe-nav-menu__layout-horizontal a.hfe-menu-item {
+	position: relative;
+	height: 100px;
+	width: 150px;
+	font-size: 16px;
+	display: block;
+	padding: 70px 5px 5px !important;
+	text-align: center;
+}
+.wpfa-horizontal-menu-9 .hfe-nav-menu__layout-horizontal a.hfe-menu-item i {
+	display: block !important;
+	position: absolute;
+    left: calc(50% - 25px);
+    top: 0px;
+    margin: 0 !important;
+    padding: 0 !important;
+    font-size: 50px !important;
+}
+.wpfa-horizontal-menu-9 .hfe-nav-menu__layout-horizontal .menu-item:nth-child(1) a.hfe-menu-item i {
+	color: green;
+}
+.wpfa-horizontal-menu-9 .hfe-nav-menu__layout-horizontal .menu-item:nth-child(2) a.hfe-menu-item i {
+	color: orange;
+}
+.wpfa-horizontal-menu-9 .hfe-nav-menu__layout-horizontal .menu-item:nth-child(3) a.hfe-menu-item i {
+	color: #7d3441;
+}
+.wpfa-horizontal-menu-9 .hfe-nav-menu__layout-horizontal .menu-item:nth-child(4) a.hfe-menu-item i {
+	color: purple;
+}
+.wpfa-horizontal-menu-9 .hfe-nav-menu__layout-horizontal .menu-item:nth-child(5) a.hfe-menu-item i {
+	color: #362c89;
+}
+.wpfa-horizontal-menu-9 .hfe-nav-menu__layout-horizontal .menu-item:nth-child(6) a.hfe-menu-item i {
+	color: blue;
+}
+.wpfa-horizontal-menu-9 .hfe-nav-menu__layout-horizontal .menu-item:nth-child(7) a.hfe-menu-item i {
+	color: green;
+}
+.wpfa-horizontal-menu-9 .hfe-nav-menu__layout-horizontal .menu-item:nth-child(8) a.hfe-menu-item i {
+	color: black;
+}
+.wpfa-horizontal-menu-9 .hfe-nav-menu__layout-horizontal .menu-item:nth-child(9) a.hfe-menu-item i {
+	color: brown;
+}
+.wpfa-horizontal-menu-9 .hfe-nav-menu__layout-horizontal .menu-item:nth-child(10) a.hfe-menu-item i {
+	color: black;
+}
+.wpfa-horizontal-menu-9 .hfe-nav-menu__layout-horizontal .menu-item:nth-child(11) a.hfe-menu-item i {
+	color: orange;
+}
+.wpfa-horizontal-menu-9 .hfe-nav-menu__layout-horizontal .hfe-nav-menu .sub-arrow {
+    position: absolute;
+    top: 40px;
+    right: 25px;
+}
+.wpfa-horizontal-menu-9 .hfe-nav-menu__layout-horizontal .hfe-nav-menu .sub-arrow i {
+    font-size: 24px !important;
+}
+
+.wpfa-horizontal-menu-9 .hfe-nav-menu__layout-horizontal .hfe-nav-menu  .sub-menu a {
+    text-align: left;
+    padding: 8px !important;
+}
+.wpfa-horizontal-menu-9 .hfe-nav-menu__layout-horizontal .hfe-nav-menu  .sub-menu i {
+    padding: 0 !important;
+    position: relative !important;
+    display: inline !important;
+}
+.wpfa-horizontal-menu-9 .hfe-nav-menu__layout-horizontal .hfe-nav-menu  .sub-menu .hfe-menu-toggle {
+    display: none;
+}
+
+.wpfa-horizontal-menu-9 .hfe-nav-menu__layout-horizontal .hfe-nav-menu .sub-menu li.menu-item:last-child {
+    overflow: visible !important;
+}
+
+/*Elementor 11*/
+.wpfa-horizontal-menu-11 .hfe-nav-menu__layout-horizontal a.hfe-menu-item {
+	border-radius: 10px;
+	position: relative;
+	height: 100px;
+	width: 150px;
+	font-size: 16px;
+	display: block;
+	padding: 70px 5px 5px !important;
+	text-align: center;
+}
+.wpfa-horizontal-menu-11 .hfe-nav-menu__layout-horizontal a.hfe-menu-item i {
+	display: block !important;
+	position: absolute;
+    left: calc(50% - 22px);
+    top: 10px;
+    margin: 0 !important;
+    padding: 0 !important;
+    font-size: 44px !important;
+}
+
+.wpfa-horizontal-menu-11 .hfe-nav-menu__layout-horizontal .hfe-nav-menu .sub-arrow {
+    position: absolute;
+    top: 40px;
+    right: 25px;
+}
+.wpfa-horizontal-menu-11 .hfe-nav-menu__layout-horizontal .hfe-nav-menu .sub-arrow i {
+    font-size: 24px !important;
+}
+
+.wpfa-horizontal-menu-11 .hfe-nav-menu__layout-horizontal .hfe-nav-menu  .sub-menu a {
+    text-align: left;
+    padding: 8px !important;
+}
+.wpfa-horizontal-menu-11 .hfe-nav-menu__layout-horizontal .hfe-nav-menu  .sub-menu i {
+    padding: 0 !important;
+    position: relative !important;
+    display: inline !important;
+}
+.wpfa-horizontal-menu-11 .hfe-nav-menu__layout-horizontal .hfe-nav-menu  .hfe-menu-toggle {
+    display: none;
+}
+.wpfa-horizontal-menu-11 .hfe-nav-menu__layout-horizontal .hfe-nav-menu .sub-menu li.menu-item:last-child {
+    overflow: visible !important;
+}
+/*Elementor 8*/
+.wpfa-vertical-menu-8 .dashicons,
+.wpfa-vertical-menu-8 .dashicons-before:before {
+	font-size: 30px !important;
+}
+/* Elementor 16 */
+.wpfa-vertical-menu-16 .hfe-nav-menu__layout-vertical a.hfe-menu-item {
+	position: relative;
+	width: 100%;
+	font-size: 14px !important;
+	display: block;
+	padding: 50px 0px 5px !important;
+	text-align: center;
+	font-weight: normal !important;
+}
+.wpfa-vertical-menu-16 .hfe-nav-menu__layout-vertical a.hfe-menu-item i {
+	display: block !important;
+	position: absolute;
+	left: calc(50% - 20px);
+	top: 0;
+	margin: 0 !important;
+	padding: 10px !important;
+	width: 40px;
+	height: 40px;
+	border-radius: 10px;
+	background-color: #6169cb;
+}
+.wpfa-vertical-menu-16 {
+	min-width: 90px;
+}
+.wpfa-vertical-menu-16 .hfe-nav-menu__layout-vertical .menu-item {
+	margin-bottom: 15px !important;
+}
+.wpfa-vertical-menu-16 .elementor-widget-navigation-menu > .elementor-widget-container {
+	padding: 10px  !important;
+	min-height: calc(100vh - 60px);
+}

@@ -1,0 +1,15 @@
+/* premium css code control*/
+body{font:500 14px/22px Montserrat;}
+
+/* Primary Colors */
+.pri-color,.banner-news .banner-news-caption a.news-category:visited,a, a:visited,h5.category a,h3 a,.fa-clock-o:before,.navbar-nav .current-menu-ancestor>a,.navbar-nav > .active > a, .navbar-nav > .active > a:hover,.trip-search form .trip-duration strong:before,.trip-search form .trip-cost strong:before,.trip-search form .advanced-search-field .custom-select:before{color:#1bb0ce;}
+.trip-category .trip-category-list a.readmore{border-bottom: 3px solid #1bb0ce;}
+.testimonials .owl-item img{border:2px solid #1bb0ce;}
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus,.faq .faq-row .accordion-tabs-toggle.active,.itinerary .title,#tabs-container .tab-inner-wrapper .nav-tab-active a,.trip-content-area .widget-area .trip-price .price-holder,.activities-holder  .img-holder .btn-more,.trip_types-holder .img-holder .btn-more,.popular-news-snippet .summary .news-category,.pri-bg-color,.jetpack_subscription_widget,.widget_search,.search-submit{background-color: #1cb0ce;}
+
+/* Secondary Colors */ 
+.grid .col span.price-holder,.trip-content-area .widget-area .trip-price .price-holder form .check-availability,form#wte_enquiry_contact_form input#enquiry_submit_button,#wp-travel-engine-order-form input[type="submit"] {background: #f59410;}
+.sec-color,h2.news-heading,h4.news-title a:hover{color: #f59410;}
+.trip-content-area .widget-area .trip-price .price-holder form .check-availability:hover, .trip-content-area .widget-area .trip-price .price-holder form .check-availability:focus{background: #f59410;opacity: 0.8;}
+.trip-search form .advanced-search-field-submit input[type="submit"] {border-color: #f59410;background: #f59410;}
+/* premium css code control*/

@@ -1,0 +1,46 @@
+#ffw-main-wrapper .ffw-main-wrapper-shortcode {
+  width: 90%;
+}
+#ffw-main-wrapper .ffw-collapse:nth-child(odd) > span {
+  background: #747d8c;
+}
+#ffw-main-wrapper .ffw-collapse:nth-child(even) > span {
+  background: #a4b0be;
+}
+#ffw-main-wrapper .ffw-collapse span.ffw-button {
+  display: block;
+  font-size: 1em;
+  font-weight: 500;
+  padding: 0.9rem 1.8rem;
+  color: #fff;
+  position: relative;
+}
+#ffw-main-wrapper .ffw-collapse span.ffw-button:before {
+  content: "";
+  border-top: 7px solid #fff;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  position: absolute;
+  top: 25px;
+  right: 30px;
+}
+#ffw-main-wrapper .ffw-collapse span.ffw-button.ffw-active {
+  background: #7f54b3;
+}
+#ffw-main-wrapper .ffw-collapse:target .ffw-content {
+  max-height: 15em;
+}
+#ffw-main-wrapper .ffw-collapse:target span:before {
+  transform: rotate(-90deg);
+}
+#ffw-main-wrapper .ffw-collapse .ffw-content {
+  padding: 20px 10px;
+  overflow: hidden;
+  display: none;
+}
+#ffw-main-wrapper .ffw-collapse .ffw-content.ffw-active {
+  display: block;
+}
+#ffw-main-wrapper .ffw-collapse + span {
+  border-top: 1px solid rgba(255, 255, 255, 0.7);
+}

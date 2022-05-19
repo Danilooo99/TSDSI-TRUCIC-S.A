@@ -1,0 +1,189 @@
+# Translation of Themes - Travel and Tour in Spanish (Spain)
+# This file is distributed under the same license as the Themes - Travel and Tour package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-12-13 18:26:02+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: es\n"
+"Project-Id-Version: Themes - Travel and Tour\n"
+
+#. Theme Name of the theme
+msgid "Travel and Tour"
+msgstr "Travel and Tour"
+
+#: inc/pluggable-functions.php:160
+msgid "https://wordpress.org/"
+msgstr "https://es.wordpress.org/"
+
+#: inc/pluggable-functions.php:157
+msgid "Travel and Tour | Developed By "
+msgstr "Travel and Tour | Desarrollado por "
+
+#: inc/pluggable-functions.php:118
+msgid "Mobile"
+msgstr "Móvil"
+
+#: inc/pluggable-functions.php:115
+msgid "CLOSE"
+msgstr "CERRAR"
+
+#: inc/pluggable-functions.php:110
+msgid "MENU"
+msgstr "MENÚ"
+
+#. translators: If there are characters in your language that are not supported
+#. by Montserrat, translate this to 'off'. Do not translate into your own
+#. language.
+#: inc/pluggable-functions.php:20
+msgctxt "Lato font: on or off"
+msgid "on"
+msgstr "activado"
+
+#: functions.php:24
+msgid "Default Header Image"
+msgstr "Imagen por defecto de la cabecera"
+
+#: functions.php:88
+msgid "More Details"
+msgstr "Más detalles"
+
+#: functions.php:87
+msgid "Support ticket"
+msgstr "Tique de soporte"
+
+#: functions.php:86
+msgid "View documentation"
+msgstr "Ver la documentación"
+
+#: functions.php:85
+msgid "View demo"
+msgstr "Ver la demostración"
+
+#: functions.php:84
+msgid "Need help?"
+msgstr "¿Necesitas ayuda?"
+
+#: functions.php:71
+msgid "Information Links"
+msgstr "Enlaces de información"
+
+#: functions.php:124
+msgid "About Demo Import"
+msgstr "Acerca del importador de demostraciones"
+
+#: functions.php:85 functions.php:86 functions.php:87 functions.php:88
+msgid "here"
+msgstr "aquí"
+
+#: functions.php:134
+msgid "Rara One Click Demo Import"
+msgstr "Rara One Click Demo Import"
+
+#: functions.php:134
+msgid "Plugin required"
+msgstr "Plugin necesario"
+
+#: functions.php:105
+msgid "Demo Content Import"
+msgstr "Importar el contenido de demostración"
+
+#: inc/pluggable-functions.php:160
+msgid " Powered by %s"
+msgstr " Funciona gracias a %s"
+
+#: inc/customizer-functions.php:189
+msgid "Enable to show social links in header."
+msgstr "Actívalo para mostrar los enlaces sociales en la cabecera."
+
+#: inc/customizer-functions.php:188
+msgid "Social Links"
+msgstr "Enlaces sociales"
+
+#: inc/customizer-functions.php:100
+msgid "Add phone label in header."
+msgstr "Añade la etiqueta del teléfono en la cabecera."
+
+#: inc/customizer-functions.php:99
+msgid "Phone Label"
+msgstr "Etiqueta de teléfono"
+
+#: inc/customizer-functions.php:74
+msgid "Phone Number"
+msgstr "Número de teléfono"
+
+#: inc/customizer-functions.php:144
+msgid "Enable to show search form in header."
+msgstr "Actívalo para mostrar el formulario de búsqueda en la cabecera."
+
+#: inc/customizer-functions.php:143
+msgid "Search Form"
+msgstr "Formulario de búsqueda"
+
+#: inc/customizer-functions.php:49
+msgid "Email"
+msgstr "Correo electrónico"
+
+#. translators: If there are characters in your language that are not supported
+#. by Poppins, translate this to 'off'. Do not translate into your own
+#. language.
+#: inc/pluggable-functions.php:14
+msgctxt "Mukta font: on or off"
+msgid "on"
+msgstr "activado"
+
+#: inc/customizer-functions.php:170
+msgid "Button Url"
+msgstr "URL del botón"
+
+#: inc/customizer-functions.php:126
+msgid "Button Label"
+msgstr "Etiqueta del Botón"
+
+#: inc/customizer-functions.php:75
+msgid "Add phone number in header."
+msgstr "Añade el número de teléfono en la cabecera."
+
+#: inc/customizer-functions.php:50
+msgid "Add email in header."
+msgstr "Añade el correo electrónico en la cabecera."
+
+#: inc/customizer-functions.php:25
+msgid "Add working hour in header."
+msgstr "Añade el horario de trabajo en la cabecera."
+
+#: inc/customizer-functions.php:24
+msgid "Work Hour"
+msgstr "Horario de trabajo"
+
+#: functions.php:192 inc/customizer-functions.php:116
+msgid "Get Started"
+msgstr "Iniciar"
+
+#: functions.php:137
+msgid "Click here"
+msgstr "Clic aquí"
+
+#: functions.php:137
+msgid "Download Demo Content"
+msgstr "Descargar contenido de demo"
+
+#: functions.php:94
+msgid "About Tour Package"
+msgstr "Acerca de Tour Package"
+
+#. Author URI of the theme
+msgid "https://rarathemes.com/"
+msgstr "https://rarathemes.com/"
+
+#. Author of the theme
+#: inc/pluggable-functions.php:158
+msgid "Rara Theme"
+msgstr "Rara Theme"
+
+#. Theme URI of the theme
+msgid "https://rarathemes.com/wordpress-themes/travel-and-tour/"
+msgstr "https://rarathemes.com/wordpress-themes/travel-and-tour/"

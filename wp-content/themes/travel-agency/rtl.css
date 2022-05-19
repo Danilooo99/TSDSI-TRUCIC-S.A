@@ -1,0 +1,758 @@
+/*
+Theme Name: Travel Agency
+
+Adding support for languages written in a Right To Left (RTL) direction is easy -
+it's just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+https://codex.wordpress.org/Right-to-Left_Language_Support
+
+*/
+
+body {
+    direction: rtl;
+    unicode-bidi: embed;
+}
+
+.left {
+    float: right;
+}
+
+.right,
+.nav-holder .form-section {
+    float: left;
+}
+
+.header-t .tel-link,
+.header-t .email-link {
+    margin-right: 0;
+    margin-left: 24px;
+    display: inline-block;
+}
+
+.header-t .right span {
+    margin-left: 0;
+    margin-right: 30px;
+    display: inline-block;
+}
+
+.header-t .fa {
+    margin-right: 0;
+    margin-left: 5px;
+    display: inline-block;
+}
+
+.site-branding {
+    float: right;
+}
+
+.site-branding .custom-logo-link {
+    margin-right: 0;
+    margin-left: 9px;
+}
+
+.main-navigation ul li {
+    float: right;
+    margin-left: 0;
+    margin-right: 1px;
+}
+
+.main-navigation ul {
+    padding: 0;
+}
+
+.main-navigation ul li{
+    margin-left: 52px;
+}
+
+.main-navigation ul li:last-child{
+    margin-left: 0;
+}
+
+.main-navigation ul li.menu-item-has-children::after{
+    right: auto;
+    left: 0;
+}
+
+.main-navigation ul ul li.menu-item-has-children::after {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    transform: rotate(90deg);
+    left: 0;
+    right: auto;
+
+}
+
+.main-navigation ul li.menu-item-has-children{
+    padding-right: 0;
+    padding-left: 17px;
+}
+
+.main-navigation ul ul {
+    left: auto;
+    right: 0;
+}
+
+.main-navigation ul ul ul {
+    left: auto;
+    right: 100%;
+    margin-left: 0;
+    margin-right: 1px;
+}
+
+.nav-holder .form-section .form-holder {
+    right: auto;
+    left: 0;
+}
+
+.nav-holder .form-section .form-holder .search-form input[type="search"],
+.nav-holder .form-section .form-holder .search-form label,
+.banner .form-holder .search-form label,
+.banner .form-holder .search-form input[type="search"],
+.widget_search .search-form label,
+.widget_search .search-form input[type="search"],
+.error-holder .search-form label,
+.error-holder .search-form input[type="search"] {
+    float: right;
+}
+
+.nav-holder .form-section .form-holder .search-form input[type="submit"],
+.banner .form-holder .search-form input[type="submit"],
+.widget_search .search-form input[type="submit"],
+.error-holder .search-form input[type="submit"] {
+    float: left;
+}
+
+.banner .form-holder .search-form input[type="submit"] {
+    margin-left: -1px;
+}
+
+.banner .form-holder .search-form input[type="submit"] {
+    border-radius: 5px 0 0 5px;
+}
+
+.about .widget_text,
+.about .widget_media_image {
+    float: right;
+}
+
+.about .widget_text .btn-more::after,
+#activities-slider .img-holder .text-holder .btn-more::after,
+.featured-trip .col .text-holder .btn-holder .btn-more::after,
+.featured-trip .btn-more::after,
+.our-deals .col .text-holder .btn-holder .btn-more::after,
+.widget_raratheme_companion_cta_widget .widget-content .text-holder .btn-cta::after,
+.widget_raratheme_featured_widget .text-holder .readmore::after,
+#primary .post .entry-footer .btn-more::after {
+    left: 10px;
+    right: auto;
+    -webkit-transform: translate(0px, -10px) rotateY(180deg);
+    -moz-transform: translate(0px, -10px) rotateY(180deg);
+    transform: translate(0px, -10px) rotateY(180deg);
+}
+
+.about .widget_text .btn-more:hover::after,
+#activities-slider .img-holder .text-holder .btn-more:hover::after,
+.featured-trip .col .text-holder .btn-holder .btn-more:hover::after,
+.featured-trip .btn-more:hover::after,
+.our-deals .col .text-holder .btn-holder .btn-more:hover::after,
+.widget_raratheme_companion_cta_widget .widget-content .text-holder .btn-cta:hover::after,
+.widget_raratheme_featured_widget .text-holder .readmore:hover::after,
+#primary .post .entry-footer .btn-more:hover::after,
+.about .widget_text .btn-more:focus::after,
+#activities-slider .img-holder .text-holder .btn-more:focus::after,
+.featured-trip .col .text-holder .btn-holder .btn-more:focus::after,
+.featured-trip .btn-more:focus::after,
+.our-deals .col .text-holder .btn-holder .btn-more:focus::after,
+.widget_raratheme_companion_cta_widget .widget-content .text-holder .btn-cta:focus::after,
+.widget_raratheme_featured_widget .text-holder .readmore:focus::after,
+#primary .post .entry-footer .btn-more:focus::after {
+    -webkit-transform: translate(-50%, -10px) rotateY(180deg);
+    -moz-transform: translate(-50%, -10px) rotateY(180deg);
+    transform: translate(-50%, -10px) rotateY(180deg);
+}
+
+#activities-slider .owl-nav {
+    margin-right: 0;
+    margin-left: 20.3vw;
+    float: left;
+}
+
+.popular-destination .col {
+    float: right;
+}
+
+.popular-destination .col .img-holder .price-holder {
+    left: auto;
+    right: -5px;
+}
+
+.popular-destination .grid .col #destination-slider .price-holder{
+     right: 0;
+}
+
+.popular-destination .col .img-holder .text-holder .meta-info .fa {
+    margin-right: 0;
+    margin-left: 5px;
+}
+
+.popular-destination .col .img-holder .text-holder .meta-info span {
+    margin-right: 0;
+    margin-left: 15px;
+}
+
+
+.featured-trip .col,
+.our-deals .col {
+    float: right;
+}
+
+.featured-trip .col .text-holder .meta-info .fa,
+.our-deals .col .text-holder .meta-info .fa {
+    margin-right: 0;
+    margin-left: 5px;
+}
+
+.stats .widget_raratheme_companion_stat_counter_widgeta {
+    float: right;
+}
+
+.site-footer .widget_raratheme_popular_post ul li .post-thumbnail,
+.site-footer .widget_raratheme_recent_post ul li .post-thumbnail,
+#secondary .widget_raratheme_popular_post ul li .post-thumbnail,
+#secondary .widget_raratheme_recent_post ul li .post-thumbnail {
+    float: right;
+    margin-right: 0;
+    margin-left: 16px;
+}
+
+.site-footer .widget_raratheme_popular_post ul li .entry-header .entry-meta a,
+.site-footer .widget_raratheme_recent_post ul li .entry-header .entry-meta a,
+#secondary .widget_raratheme_popular_post ul li .entry-header .entry-meta a,
+#secondary .widget_raratheme_recent_post ul li .entry-header .entry-meta a {
+    display: inline-block;
+}
+
+.site-footer .widget_raratheme_popular_post ul li .entry-header .entry-meta .posted-on::before,
+.site-footer .widget_raratheme_recent_post ul li .entry-header .entry-meta .posted-on::before,
+#secondary .widget_raratheme_popular_post ul li .entry-header .entry-meta .posted-on::before,
+#secondary .widget_raratheme_recent_post ul li .entry-header .entry-meta .posted-on::before {
+    margin-right: 0;
+    margin-left: 5px;
+}
+
+.widget_raratheme_social_links ul li {
+    float: right;
+    margin-left: 3px;
+    margin-right: 0;
+}
+
+.site-footer .widget_tag_cloud .tagcloud a,
+#secondary .widget_tag_cloud .tagcloud a {
+    float: right;
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+.site-footer .footer-t .column {
+    float: right;
+}
+
+#crumbs a,
+#crumbs span {
+    display: inline-block;
+}
+
+#secondary .widget ul li {
+    padding-left: 0;
+    padding-right: 15px;
+}
+
+#secondary .widget ul li::before {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    left: auto;
+    right: 0;
+}
+
+.next.page-numbers {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+#primary .post .entry-header .entry-meta span {
+    margin-right: 0;
+    margin-left: 20px;
+}
+
+#primary .post .entry-header .entry-meta .fa {
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+#primary .post .entry-content blockquote,
+#primary .page .entry-content blockquote,
+.trip-content-area .trip-post .entry-content .trip-post-content blockquote {
+    background-position: calc(100% - 35px) 30px;
+}
+
+#site-navigation ul li span.fa{
+    left: 0;
+    right: auto;
+}
+
+@media only screen and (max-width:767px) {
+    .header-t .tel-link,
+    .header-t .email-link,
+    .header-t .right span {
+        display: block;
+        margin: 0 0 10px;
+    }
+
+    .error-holder .search-form label{
+        width: 81%;
+    }
+}
+
+/*added rtl css*/
+.site-header .social-networks{
+    float: right;
+}
+
+.site-header .social-networks li{
+    margin-right: 0;
+    margin-left: 20px;
+    float: right;
+}
+
+.site-header .tools{
+    float: left;
+}
+
+.site-header .tools .form-section{
+    padding-left: 0;
+    padding-right: 20px;
+}
+
+.site-header .tools .form-section{
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+    border-left: 0;
+}
+
+.site-header .tools .form-section .form-holder{
+    left: -20px;
+    right: auto;
+}
+
+.site-header .tools .form-section .form-holder::before,
+.site-header .tools .form-section .form-holder::after{
+    left: 20px;
+    right: auto;
+}
+
+.header-b .right{
+    float: left;
+    text-align: left;
+}
+
+.banner .form-holder .search-form input[type="submit"]{
+    background:#32b67a url(images/bg-search.png) no-repeat calc(100% - 30px) 15px;
+}
+
+.about .text-holder,
+.about .img-holder{
+    float: right;
+}
+
+.about .text-holder .title::after{
+    left: auto;
+    right: 0;
+}
+
+.popular-destination .grid .col #destination-slider .price-holder{
+    left: auto;
+    right: 0;
+}
+
+.popular-destination .grid .col .price-holder::after{
+    right:0;
+    left: auto;
+    bottom: -5px;
+}
+
+.popular-destination .grid .col .price-holder span::before,
+.featured-trip .grid .img-holder .price-holder span::before,
+.our-deals .grid .img-holder .price-holder span::before{
+    right: auto;
+    left: -20px;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.popular-destination .grid .col .price-holder span:after,
+.featured-trip .grid .img-holder .price-holder span::after,
+.our-deals .grid .img-holder .price-holder span::after{
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    right: auto;
+    left: -20px;
+}
+
+.popular-destination .grid .col .price-holder,
+.our-deals .grid .img-holder .price-holder{
+    border-top-left-radius: 0;
+    border-top-right-radius: 5px;
+
+}
+
+.popular-destination .grid .col .price-holder::after,
+.our-deals .grid .img-holder .price-holder::after{
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 4px;
+}
+
+.our-features .features-holder{
+    float: left;
+}
+
+.our-features .features-holder .col .icon-holder{
+    float: right;
+    margin-right: 0;
+    margin-left: 20px;
+}
+
+.featured-trip .grid .img-holder .price-holder{
+   border-top-right-radius: 5px;
+    border-top-left-radius:0;
+    left: auto;
+    right: -5px;
+}
+
+.featured-trip .grid .img-holder .price-holder::after{
+    left: auto;
+    right: 0;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius:0;
+}
+
+
+.featured-trip .col .img-holder .price-holder,
+.our-deals .col .img-holder .price-holder {
+    left: auto;
+    right: -5px;
+}
+
+.our-deals .grid .img-holder .price-holder::after{
+    left: auto;
+    right: 0;
+}
+
+.our-deals .grid .img-holder .discount-holder{
+    border-radius: 5px 0 0 0;
+     right: auto;
+    left: -5px;
+}
+
+.our-deals .grid .img-holder .discount-holder::after{
+    right: auto;
+    left: 0;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    transform: rotate(90deg);
+    bottom: -5px;
+}
+
+.our-deals .grid .img-holder .discount-holder span::before{
+    right: -15px;
+    left: auto;
+    transform: rotate(-90deg);
+    border-top: 15px solid #e54b4b;
+    border-left: 15px solid transparent;
+}
+
+.our-deals .grid .img-holder .discount-holder span::after{
+    right: -15px;
+    left: auto;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    transform: rotate(90deg);
+    border-bottom: 15px solid #e54b4b;
+    border-left: 15px solid transparent;
+}
+
+.blog-section .grid .post .img-holder .cat-links{
+    left: auto;
+    right: 20px;
+}
+
+.blog-section .grid .post .entry-footer span .fa{
+    margin-right: 0;
+    margin-left: 5px;
+}
+
+.site-footer .widget .widget-title{
+    text-align: right;
+}
+
+.site-footer .widget .widget-title::after{
+    left: auto;
+    right: 0;
+}
+
+.site-footer .site-info{
+    float: right;
+}
+
+.footer-navigation{
+    float: left;
+}
+
+.footer-navigation ul li{
+    float: right;
+    margin-left: 0;
+    padding-left: 0;
+    padding-right: 20px;
+    margin-right: 20px;
+    border-left: 0;
+    border-right: 1px solid rgba(255, 255, 255, 0.75);
+}
+
+.footer-navigation ul li:first-child{
+    border-right:0;
+    padding-right: 0;
+    margin-right: 0;
+}
+
+.widget_search .search-form label{
+    padding: 10px 20px 0 0;
+}
+
+#primary .post .entry-header .entry-meta .posted-on::before{
+    right: 0;
+    left: auto;
+}
+
+#primary .post .entry-header .entry-meta .posted-on{
+    padding-left: 0;
+    padding-right: 24px;
+}
+
+#primary .post .entry-footer .tags a{
+    float: right;
+}
+
+#primary .post .entry-footer .meta-info{
+    float: right;
+}
+
+#primary .post .entry-footer .meta-info span{
+    display: inline-block;
+}
+
+#primary .post .entry-footer .meta-info .fa, #primary .page .entry-footer .meta-info .fa{
+    margin-right: 0;
+    margin-left: 5px;
+}
+
+#primary .post .entry-footer .meta-info span, #primary .page .entry-footer .meta-info span{
+    margin-right: 0;
+    margin-left: 20px;
+}
+
+.author-section .img-holder{
+    float: right;
+    margin-right: 0;
+    margin-left: 30px;
+}
+
+
+
+.author-section .text-holder h2::after{
+    left: auto;
+    right: 0;
+}
+
+.comment-navigation .nav-next, .posts-navigation .nav-next, .post-navigation .nav-next{
+    float: left;
+    text-align: left;
+}
+
+.comment-navigation .nav-previous, .posts-navigation .nav-previous, .post-navigation .nav-previous{
+    float: right;
+}
+
+.post-navigation .nav-previous a{
+    padding-left: 0;
+    padding-right: 38px;
+}
+
+.post-navigation .nav-previous a::before{
+    left: auto;
+    right: 0;
+}
+
+.post-navigation .meta-nav{
+    display: inline-block;
+}
+
+.post-navigation .nav-previous a::after{
+    left: auto;
+    right: 12px;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.post-navigation .post-title{
+    display: block;
+}
+
+.post-navigation .nav-next a{
+    padding-right: 0;;
+    padding-left: 38px;
+}
+
+.post-navigation .nav-next a::before{
+    right: auto;
+    left: 0;
+}
+
+.post-navigation .nav-next a::after{
+    left: 12px;
+    right: auto;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.related-post .col .img-holder .cat-links{
+    left: auto;
+    right: 20px;
+}
+
+.comments-area .comment-reply-title::after{
+    left: auto;
+    right: 0;
+}
+
+.comments-area .comments-title::after{
+    left: auto;
+    right: 0;
+}
+
+.comments-area .comment-body .comment-meta{
+    float: right;
+    margin-right: 0;;
+    margin-left: 25px;
+}
+
+.comments-area .comment-body .text-holder .top .left{
+    float: right;
+}
+
+.comments-area .comment-body .text-holder .top .reply{
+    float: left;
+}
+
+.comments-area .comment-body .reply a{
+    padding-left: 0;;
+    padding-right: 21px;
+}
+
+.comments-area .children li{
+    padding-left: 0;
+    padding-right: 30px;
+}
+
+.comments-area .comment-body .reply a::before{
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    margin-left:calc(100% - 17px);
+}
+
+.comments-area .children li:first-child::before{
+    left: auto;
+    right: 0;
+}
+
+.comments-area .children{
+    margin-left: 0;
+    margin-right: 25px;
+}
+
+.comments-area .children{
+    border-left: 0;
+    border-right:1px solid #eee;
+}
+
+.pagination .next{
+    float: left;
+}
+
+.page-header .page-title::after{
+    left: auto;
+    right: 0;
+}
+
+.error-holder .search-form input[type="submit"]{
+    float: right;
+    margin-right: 5px;
+}
+
+
+#primary .post .entry-content blockquote, #primary .page .entry-content blockquote{
+    padding-left: 0;
+    padding-right: 15px;
+    border-left: 0;
+    border-right:4px solid #32b67a ;
+}
+
+#primary .post .entry-content .pull-left::before, #primary .page .entry-content .pull-left::before{
+    left: auto;
+    right: 0;
+}
+
+@media only screen and (max-width:1024px) {
+    #primary-toggle-button .fa {
+        margin-right: 10px;
+        margin-left: 0;
+    }
+
+    .main-navigation ul li{
+        float: none;
+        margin-left: 0;
+    }
+
+    .main-navigation ul li.menu-item-has-children{
+        padding-left: 0;
+    }
+
+    #primary-toggle-button{
+        float: left;
+    }
+
+    .home-link{
+        float: right;
+    }
+
+    .main-navigation ul li.menu-item-has-children .fa{
+        right: auto;
+        left: 0;
+    }
+}
+
+@media only screen and (max-width:767px){
+    .footer-navigation ul li{
+        float: none;
+    }
+}
+
+.single-trip .trip-post .entry-header .entry-title:after{
+    left: auto;
+    right: 0;
+}

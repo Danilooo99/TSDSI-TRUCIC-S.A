@@ -1,0 +1,25 @@
+/**
+Material theme
+*/
+body[class*="material"]:not(.wp-customizer):not(.vc_editor) #wpbody-content {
+	margin: 0;
+}
+@media only screen and (max-width: 1223px) and (min-width: 783px){
+	body[class*="material"]:not(.wp-customizer) #wpbody-content, 
+	body[class*="material"] #screen-meta-links {
+		width: 100%!important;
+	}
+}
+body[class*="material"] div#parallax-main-block {
+	display: none;
+}
+/*WPForms*/
+@media screen and (max-width: 782px){
+	.vgfa-page-wpforms-entries .wp-list-table tr:not(.inline-edit-row):not(.no-items) td[class*="wpforms_field"]:nth-child(-n+4) {
+		display: inline-block !important;
+
+	}
+	.vgfa-page-wpforms-entries .wp-list-table tr:not(.inline-edit-row):not(.no-items) td:not(.check-column) {
+		left: -43px;
+	}
+}

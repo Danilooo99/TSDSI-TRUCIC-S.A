@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="shortcut icon" href="../img/favicon.ico">
+  <title>Development - Soft79 Documentation</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="../css/highlight.css">
+  <link href="../css/jos.css" rel="stylesheet">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Development";
+    var mkdocs_page_input_path = "development.md";
+    var mkdocs_page_url = "/development/";
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js"></script>
+  <script src="../js/modernizr-2.8.3.min.js"></script>
+  <script type="text/javascript" src="../js/highlight.pack.js"></script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href=".." class="icon icon-home"> Soft79 Documentation</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">WooCommerce Extended Coupon Features</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="..">About</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../usage/">Usage</a>
+                </li>
+                <li class=" current">
+                    
+    <a class="current" href="./">Development</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l3"><a href="#filters-and-actions">Filters and Actions</a></li>
+    
+
+    <li class="toctree-l3"><a href="#api-functions">API Functions</a></li>
+    
+
+    <li class="toctree-l3"><a href="#create-mini-plugins-for-extended-coupon-features">Create mini-plugins for Extended Coupon Features</a></li>
+    
+
+    </ul>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../changelog/">Changelog</a>
+                </li>
+    </ul>
+	    </li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="..">Soft79 Documentation</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="..">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>WooCommerce Extended Coupon Features &raquo;</li>
+        
+      
+    
+    <li>Development</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="filters-and-actions">Filters and Actions</h1>
+<p>These filters are called by WooCommerce Extended Coupon Features:</p>
+<pre><code class="php">apply_filters( 'wjecf_bogo_product_amount_for_coupon', $qty, $coupon );
+apply_filters( 'wjecf_set_free_product_amount_in_cart', $quantity, $product );
+apply_filters( 'wjecf_free_product_amount_for_coupon', $coupon_qty, $coupon );
+apply_filters( 'wjecf_free_cart_item_price', __('Free!', 'woocommerce'), $price_html, $cart_item, $cart_item_key );
+apply_filters( 'wjecf_free_cart_item_subtotal', __('Free!', 'woocommerce'), $price_html, $cart_item, $cart_item_key );
+apply_filters( 'wjecf_coupon_can_be_applied', $can_be_applied, $coupon );
+apply_filters( 'wjecf_coupon_has_a_value', $has_a_value, $coupon );
+</code></pre>
+
+<p>These actions are called by WooCommerce Extended Coupon Features:</p>
+<pre><code class="php">do_action( 'wjecf_coupon_metabox_checkout', $thepostid, $post );
+do_action( 'wjecf_coupon_metabox_customer', $thepostid, $post );
+do_action( 'wjecf_woocommerce_coupon_options_extended_features', $thepostid, $post );
+do_action( 'wjecf_coupon_metabox_misc', $thepostid, $post );
+do_action( 'wjecf_coupon_metabox_products', $thepostid, $post );
+do_action( 'wjecf_coupon_metabox_free_products', $thepostid, $post );
+do_action( 'wjecf_init_plugins');
+do_action( 'wjecf_assert_coupon_is_valid', $coupon );
+</code></pre>
+
+<h1 id="api-functions">API Functions</h1>
+<p>The API functions are in WJECF_Pro_Api.php and can be called using <code>WJECF_API()-&gt;function_name()</code>.</p>
+<p>Documentation is not yet available, but see <em>wjecf-pro-api-example.php</em> for reference.</p>
+<h1 id="create-mini-plugins-for-extended-coupon-features">Create mini-plugins for Extended Coupon Features</h1>
+<p>You can further extend functionality of WooCommerce Extended Coupon Features by creating your own mini-plugins.</p>
+<ol>
+<li>Hook into the <code>wjecf_init_plugins</code>-action. (Using this hook guarantees that the WooCommerce and WooCommerce Extended Coupon Features plugins are loaded)</li>
+<li>Here, create a class that extends <code>Abstract_WJECF_Plugin</code>.</li>
+<li>Create a constructor <code>__construct()</code>, where you setup the plugin data by calling <code>$this-&gt;set_plugin_data</code></li>
+<li>Create a function <code>init_hook()</code>, where you setup your plugin and define frontend hooks.</li>
+<li>Create a function <code>init_admin_hook()</code>, where you setup your plugin for admin usage and define admin hooks.</li>
+<li>
+<p>(Version 2.5.1+ only) If your plugin need to handle custom meta fields, use the WooCommerce meta box functions (e.g. <code>woocommerce_wp_select</code>).</p>
+<p>To handle the sanitization of these fields, create a function <code>admin_coupon_meta_fields( $coupon )</code>
+and have it return an array <code>[ 'field_name' =&gt; 'sanitization', ... ]</code> .</p>
+<p>Upon saving a coupon, these fields will be automatically read from <code>$_POST</code> and sanitized with the given sanitization method, 
+e.g. <code>'int'</code>, <code>'int[]'</code>, <code>'yesno'</code>, <code>'decimal'</code>, <code>'clean'</code> or even a callback: <code>[ 'callback' =&gt; callback ]</code> and saved to the current coupon. </p>
+<p>For versions prior to 2.5.1, you need to handle process_shop_coupon_meta yourself.</p>
+</li>
+<li>
+<p>Load the class by calling <code>WJECF()-&gt;add_plugin( 'NameOfYourClass')</code></p>
+</li>
+</ol>
+<p><strong>Example:</strong></p>
+<pre><code class="php">&lt;?php
+/**
+Plugin Name: WJECF Example plugin - Allow a coupon on certain weekdays only
+Description: An example on how to extend WooCommerce Extended Coupon Features
+Author: Soft79
+Version: 1.0
+Author URI: http://www.soft79.nl/
+*/
+
+add_action( 'wjecf_init_plugins', 'setup_my_wjecf_example_plugin' );
+
+function setup_my_wjecf_example_plugin() {
+
+    class WJECF_Plugin_Example extends Abstract_WJECF_Plugin {
+
+        //This is the meta-key where the weekday will be saved
+        //HINT: Prepend it with _wjecf_&lt;your plugin name&gt; to avoid naming conflicts
+        const META_KEY_WEEKDAY = '_wjecf_example_plugin_weekday';
+
+        /**
+         * In the constructor you can supply general information about your WJECF-plugin.
+         */
+        public function __construct() {
+            $this-&gt;set_plugin_data( array(
+                'description' =&gt; __( 'WJECF Example plugin - Accept a coupon on certain weekdays only.', 'your-text-domain' ),
+                'dependencies' =&gt; array(),
+                'minimal_wjecf_version' =&gt; '2.5.1',
+                'can_be_disabled' =&gt; true
+            ) ); 
+        }
+
+//FRONTEND
+
+        /**
+         * This function is called when WooCommerce and all other plugins are loaded.
+         * Here you can setup frontend hooks.
+         */
+
+        public function init_hook() {
+            add_action( 'woocommerce_coupon_is_valid', array( $this, 'filter_woocommerce_coupon_is_valid' ), 10, 2 );
+        }
+
+
+        /**
+         * Invalidates the coupon if the weekday is not ok
+         * @param bool $valid 
+         * @param WC_Coupon $coupon 
+         * @return bool False if invalid
+         */
+
+        public function filter_woocommerce_coupon_is_valid( $valid, $coupon ) {            
+            if ( is_callable( array( $coupon, 'get_meta' ) ) ) {
+                //WC3.0+
+                $coupon_weekday = $coupon-&gt;get_meta( self::META_KEY_WEEKDAY );
+            } else {
+                //Older WC versions
+                $coupon_weekday = get_post_meta( $coupon-&gt;id, self::META_KEY_WEEKDAY, true );
+            }
+
+            //Not valid if the weekday differs
+            if ( is_numeric( $coupon_weekday ) &amp;&amp; date('w') != $coupon_weekday ) {
+                return false;
+            }
+
+            return $valid;
+        }        
+
+//ADMIN
+
+        /**
+         * This function is called when WooCommerce and all other plugins are loaded and we are on the admin section of WordPress.
+         * Here you can setup admin hooks.
+         */
+        public function init_admin_hook() {
+            add_action( 'woocommerce_coupon_options_usage_restriction', array( $this, 'action_woocommerce_coupon_options_usage_restriction' ), 9999 ); //9999 is at the bottom of the tab
+        }
+
+        /**
+         * Automatically called at the process_shop_coupon_meta action (WJECF 2.5.1+ only).
+         * 
+         * Returns an array [ meta_key =&gt; sanitizion_rule, ... ] with the meta fields that must be saved if the user clicks 'Update' on the coupon admin page.         * 
+         * Valid sanitizion rules are: 'html', 'clean', 'yesno', 'decimal', 'int', 'int[]' (array of ints), 'int,' (comma separated ints)
+         * 
+         * $_POST[meta_key] will be sanitized and automatically saved.
+         * 
+         * @since 2.5.1
+         * @param WC_Coupon $coupon The coupon that will be saved
+         * @return array An array with [ key =&gt; sanitizion_rule, ... ]
+         */
+        public function admin_coupon_meta_fields( $coupon ) {
+            return array( self::META_KEY_WEEKDAY =&gt; 'int' );
+        }
+
+        /**
+         * This is called when the usage restrictions tab is rendered.
+         */
+        public function action_woocommerce_coupon_options_usage_restriction() {
+            woocommerce_wp_select(
+                array(
+                    'id' =&gt; self::META_KEY_WEEKDAY, 
+                    'label' =&gt; __( 'Weekday', 'woocommerce-jos-autocoupon' ), 
+                    'options' =&gt; array(
+                        '' =&gt; '(Always valid)',
+                        0 =&gt; 'Sunday',
+                        1 =&gt; 'Monday',
+                        2 =&gt; 'Tuesday',
+                        3 =&gt; 'Wednesday',
+                        4 =&gt; 'Thursday',
+                        5 =&gt; 'Friday',
+                        6 =&gt; 'Saturday'
+                    ),
+                    'description' =&gt; __( 'Coupon is only valid on this weekday.', 'your-text-domain' ),
+                    'desc_tip' =&gt; true
+                )
+            );
+        } 
+    }
+
+    //Loads the plugin!
+    WJECF()-&gt;add_plugin( 'WJECF_Plugin_Example' );
+}
+</code></pre>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../changelog/" class="btn btn-neutral float-right" title="Changelog">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../usage/" class="btn btn-neutral" title="Usage"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../usage/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../changelog/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme.js"></script>
+      <script src="../search/require.js"></script>
+      <script src="../search/search.js"></script>
+
+</body>
+</html>

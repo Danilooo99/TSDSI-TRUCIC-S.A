@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="shortcut icon" href="../img/favicon.ico">
+  <title>Usage - Soft79 Documentation</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="../css/highlight.css">
+  <link href="../css/jos.css" rel="stylesheet">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Usage";
+    var mkdocs_page_input_path = "usage.md";
+    var mkdocs_page_url = "/usage/";
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js"></script>
+  <script src="../js/modernizr-2.8.3.min.js"></script>
+  <script type="text/javascript" src="../js/highlight.pack.js"></script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href=".." class="icon icon-home"> Soft79 Documentation</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">WooCommerce Extended Coupon Features</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="..">About</a>
+                </li>
+                <li class=" current">
+                    
+    <a class="current" href="./">Usage</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l3"><a href="#editing-coupons">Editing coupons</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l4" href="#additional-usage-restrictions">Additional usage restrictions</a></li>
+        
+            <li><a class="toctree-l4" href="#free-products">Free products</a></li>
+        
+            <li><a class="toctree-l4" href="#checkout">Checkout</a></li>
+        
+            <li><a class="toctree-l4" href="#miscellaneous">Miscellaneous</a></li>
+        
+        </ul>
+    
+
+    <li class="toctree-l3"><a href="#automatic-updates">Automatic updates</a></li>
+    
+
+    </ul>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../development/">Development</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../changelog/">Changelog</a>
+                </li>
+    </ul>
+	    </li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="..">Soft79 Documentation</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="..">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>WooCommerce Extended Coupon Features &raquo;</li>
+        
+      
+    
+    <li>Usage</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="editing-coupons">Editing coupons</h1>
+<p><strong>WooCommerce Extended Coupon Features</strong> adds several tabs and fields to the WooCommerce Coupon Management pages.</p>
+<h2 id="additional-usage-restrictions">Additional usage restrictions</h2>
+<p>Several features are added to the <em>Usage Restriction</em>-tab of the coupon edit page. Here extra rules can be configured that work in combination with the Products, Exclude products, Product categories and Exclude categories rules. </p>
+<p><img alt="Usage restriction-tab" src="../img/be_tab_usage_restriction.png" /></p>
+<h3 id="and-products-not-or">AND Products (not OR)</h3>
+<p>By default a coupon validates if only one of the selected products is in the cart. Check this box if ALL of the products entered on the <em>Usage Restriction</em>-tab must be in the cart to validate the coupon. The word 'OR' or 'AND' is displayed next to the 'Products'-field on the <em>Usage Restriction</em>-tab for clarification.</p>
+<h3 id="and-categories-not-or">AND Categories (not OR)</h3>
+<p>By default a coupon validates if a product from any of the selected categories is in the cart. Check this box if products from ALL of the categories entered on the <em>Usage Restriction</em>-tab must be in the cart to validate the coupon. The word 'OR' or 'AND' is displayed next to the <em>Products</em>-field on the <em>Usage Restriction</em>-tab for clarification.</p>
+<h3 id="minimummaximum-quantity-of-matching-products">Minimum/maximum quantity of matching products</h3>
+<p>The coupon will only validate if the number of products matching the product or category restrictions (on the <em>Usage Restriction</em>-tab in the cart is within this range. If no product or category restriction is entered, the total quantity of all of the products in the cart will be used.</p>
+<h3 id="minimummaximum-subtotal-of-matching-products">Minimum/maximum subtotal of matching products</h3>
+<p>The coupon will only validate if the total value of the products matching the product or category restrictions (on the <em>Usage Restriction</em>-tab in the cart is within this range. If no product or category restriction is entered, the total value of all of the products in the cart will be used.</p>
+<p>Please note: The difference between this option and the 'minimum/maximum spend' on the 'General'-tab is that on the general tab the subtotal of all of the items in the cart is compared.</p>
+<h3 id="discount-on-cart-with-excluded-products-pro-version-only">Discount on cart with excluded products (PRO Version Only)</h3>
+<p>This option is only visible if the discount type is Cart Discount or Cart % Discount.</p>
+<p>By default, When the coupon is setup as a 'Cart Discount' it will never validate a coupon when an excluded product is in the cart (this is how WooCommerce Coupons work). By checking this box the coupon will still validate when an excluded product is in the cart. Useful for cart discounts based on a subtotal of matching products, but having some products or categories excluded.</p>
+<h2 id="free-products">Free products</h2>
+<p>In the 'Free products'-field on the 'Free products'-tab you can enter one or more products that will automatically be added to the cart when the coupon is applied. The product will automatically be removed when the coupon is no longer valid.</p>
+<p><img alt="Free products tab" src="../img/be_tab_free_products.png" />
+<a href="https://www.youtube.com/watch?v=Sas8-sObea4" target="_blank">Watch video</a></p>
+<p>If you tick the 'select one'-checkbox, the customer must choose one (or more) of the selected products on the cart or checkout page. The customer can also choose the desired variations of a variable product. You can also edit the message that is displayed.</p>
+<p><img alt="Choose a free gift" src="../img/fe_cart_choose_free_gift.png" /></p>
+<p>If you wish to change the look-and-feel of the product selection you must create a subdirectory woocommerce-auto-added-coupons-pro in your themes directory  and copy and edit the files templates/cart/select-free-product.php and templates/checkout/select-free-product.php in here.</p>
+<h3 id="multiplication-of-free-products">Multiplication of free products</h3>
+<p>When the box 'Allow multiplication of the free products' is checked the amount of free products will be multiplied every time the minimum spend, subtotal or quantity is reached. For example if the minimum spend is $ 50 and the user has $ 160 worth of products in the cart, the free products will be added 3 times to the cart.</p>
+<h2 id="checkout">Checkout</h2>
+<p>On the checkout-tab restrictions can be entered that will normally only be active when the customer initiates checkout.</p>
+<p><img alt="Checkout-tab" src="../img/be_tab_checkout.png" /></p>
+<h4 id="shipping-methods">Shipping methods</h4>
+<p>The coupon will only validate if the customer selects one of these shipping methods.</p>
+<h4 id="payment-methods">Payment methods</h4>
+<p>The coupon will only validate if the customer selects one of these payment methods.</p>
+<h3 id="customer-restrictions">Customer restrictions</h3>
+<h4 id="allowed-customer">Allowed customer</h4>
+<p>When you enter one or more customers here, the coupon will only validate if the customer is logged in and is in this list.</p>
+<h4 id="allowed-user-roles">Allowed user roles</h4>
+<p>When you enter one or more user roles here, the coupon will only validate if the customer has one of these user roles (e.g. Wholesale buyer or Guest).</p>
+<h4 id="disallowed-user-roles">Disallowed user roles</h4>
+<p>The coupon will only validate if the customer does not have any of these user roles (e.g. Wholesale buyer or Guest).</p>
+<h2 id="miscellaneous">Miscellaneous</h2>
+<h3 id="auto-coupon">Auto coupon</h3>
+<p><img alt="Configuring an 'auto coupon'" src="../img/be_tab_misc_auto_coupon.png" /></p>
+<p>You can convert a coupon into a discount rule simply by ticking the "Auto coupon" checkbox on the 'miscellaneous'-tab. When using this option it is important to enter a description for the coupon, as this will be presented to the customer.</p>
+<p>When this option is activated, the discount will automatically be applied to the cart when it's conditions are met and the description will be presented to the customer and on the cart page. Once the conditions are no longer met, for example when the customer removes an item from the cart, the discount will be removed from the cart.</p>
+<h3 id="apply-silently">Apply silently</h3>
+<p>When this box is checked, no 'Discount applied' notice will be presented when the coupon is applied.</p>
+<h3 id="allow-applying-when-invalid">Allow applying when invalid</h3>
+<p><strong>(PRO Version Only)</strong></p>
+<p>When the box 'Allow applying when invalid' is ticked, a customer can always add the coupon to the cart, but will be presented with a message that the discount will only apply when the conditions are met.</p>
+<p>NOTE: This option is not available for 'Auto coupons'.</p>
+<h3 id="coupon-by-url">Coupon by URL</h3>
+<p>Now you can easily create a link that will automatically apply a coupon to the user's cart, optionally in combination with a product.</p>
+<p>Simply append ?apply_coupon=coupon_code to the url. If you also want to add products to the cart with the same url, you can use add-to-cart=product_id and optionally a quantity. You can find the id of a product on the WooCommerce Edit-page of the product.</p>
+<p>Example:</p>
+<p>(http://www.your-store.nl/cart/?add-to-cart=4321&amp;quantity=3&amp;apply_coupon=my_coupon)[#]</p>
+<p>If the customer opens the url when the conditions of the coupon are not yet met or the cart is empty the coupon won't be applied yet, instead the following message will be displayed: Coupon will be applied once it's conditions are met. Once the conditions of the coupon are met it will be applied automatically.</p>
+<h1 id="automatic-updates">Automatic updates</h1>
+<p><strong>(PRO Version Only)</strong></p>
+<p>To receive automatic updates, you need to enter the licence key.
+NOTE: This is only possible if you purchased the plugin at soft79.nl.</p>
+<p>Go to:  <em>wp-admin &gt; Settings &gt; WooCommerce Extended Coupon Features</em></p>
+<p><img alt="Licence settings" src="../img/be_settings_licence.png" /></p>
+<p>Enter the domain and licence key. The licence will be automatically activated.</p>
+<p>To deactivate a licence key for a domain (e.g. to move it to a different domain) just empty the fields and save the settings. The licence will automatically be deactivated for the domain and can be used on a different domain.</p>
+<p>You can also manage you licence activations from <a href="https://www.soft79.nl/my-account/">your account</a> page at soft79.nl.</p>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../development/" class="btn btn-neutral float-right" title="Development">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href=".." class="btn btn-neutral" title="About"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href=".." style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../development/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme.js"></script>
+      <script src="../search/require.js"></script>
+      <script src="../search/search.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,495 @@
+# Translation of Themes - Precious Lite in Spanish (Spain)
+# This file is distributed under the same license as the Themes - Precious Lite package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-04-20 10:38:18+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: es\n"
+"Project-Id-Version: Themes - Precious Lite\n"
+
+#. Description of the theme
+msgid "Precious lite theme is responsive corporate WordPress theme. This theme is responsive and compatible with the latest version of WordPress. This theme is comes with the latest feature and unique typography option. This theme can be useful for multiple industries like blog, magazine, corporate, cafe/restaurent, business, consultant, hospital, hotels, tours and holidays, creativity, shop store etc. This theme is comes with the traslation ready. Precious Lite theme is cross browser compatible and perform well with any browser. This theme is very easy to use for non coders also. Check demo at: http://flydemos.net/precious/"
+msgstr "El tema Precious Lite Pro es un tema empresarial adaptable para WordPress. Este tema es adaptable y compatible con la última versión de WordPress. Viene con las últimas características y una opción de tipografía única. Este tema puede ser útil para múltiples industrias como blogs, revistas, empresas, cafeterías y restaurantes, negocios, consultoría, hospitales, hoteles, tours y vacaciones, creatividad, tiendas, etc. Este tema viene preparado para traducción. Precious Lite es compatible con varios navegadores y funciona bien con cualquier navegador. Este tema también es muy fácil de usar para no programadores. Consulta la demostración en: https://flydemos.net/precious/"
+
+#. Theme Name of the theme
+msgid "Precious Lite"
+msgstr "Precious Lite"
+
+#: header.php:29
+msgid "Skip to content"
+msgstr "Saltar al contenido"
+
+#: footer.php:17
+msgid "Precious Lite 2021 | All Rights Reserved."
+msgstr "Precious Lite 2021 | Todos los derechos reservados."
+
+#: customize-pro/class-customize.php:65
+msgid "Go Pro"
+msgstr "Ir a la versión Pro"
+
+#: customize-pro/class-customize.php:64
+msgid "Precious Pro"
+msgstr "Precious Pro"
+
+#: sidebar-page.php:21 sidebar-main.php:21 sidebar.php:21
+msgid "Meta"
+msgstr "Meta"
+
+#: searchform.php:12
+msgctxt "submit button"
+msgid "Search"
+msgstr "Buscar"
+
+#: searchform.php:10
+msgctxt "placeholder"
+msgid "Search..."
+msgstr "Buscar..."
+
+#: search.php:15
+msgid "Search Results for: %s"
+msgstr "Resultados de la búsqueda de: %s"
+
+#: no-results.php:28
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Parece que no hemos podido encontrar lo que estás buscando. Quizá pueda ayudarte una búsqueda."
+
+#: no-results.php:23
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Lo siento, pero no hay nada que coincida con tus términos de búsqueda. Por favor, inténtalo de nuevo con algunas palabras clave diferentes."
+
+#: no-results.php:19
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "¿Listo para publicar tu primera entrada? <a href=\"%1$s\">Empieza aquí</a>."
+
+#: no-results.php:14
+msgid "Nothing Found"
+msgstr "No se ha encontrado nada"
+
+#: index.php:19
+msgid "Our Blog"
+msgstr "Nuestro blog"
+
+#: inc/template-tags.php:184
+msgid "<span class=\"posted-on\">Published %1$s</span><span class=\"byline\"> by %2$s</span>"
+msgstr "<span class=\"posted-on\">Publicada el %1$s</span><span class=\"byline\"> por %2$s</span>"
+
+#: inc/template-tags.php:93
+msgid "Your comment is awaiting moderation."
+msgstr "Tu comentario está pendiente de moderación."
+
+#: inc/template-tags.php:86
+msgctxt "1: date"
+msgid "%1$s"
+msgstr "%1$s"
+
+#: inc/template-tags.php:83
+msgid "<cite class=\"fn\">%s</cite> on"
+msgstr "<cite class=\"fn\">%s</cite> el"
+
+#: inc/template-tags.php:70
+msgid "Pingback:"
+msgstr "Pingback: "
+
+#: inc/template-tags.php:47
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Entradas siguientes <span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/template-tags.php:43
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Entradas más antiguas"
+
+#: inc/template-tags.php:38
+msgctxt "Next post link"
+msgid "&rarr;"
+msgstr "&rarr;"
+
+#: inc/template-tags.php:37
+msgctxt "Previous post link"
+msgid "&larr;"
+msgstr "&larr;"
+
+#: inc/template-tags.php:33
+msgid "Post navigation"
+msgstr "Navegación de entradas"
+
+#: inc/customizer.php:330
+msgid "For documentation and support check this link :"
+msgstr "Para la documentación y el soporte, consulta este enlace:"
+
+#: inc/customizer.php:328
+msgid "Documentation &amp; Support"
+msgstr "Documentación y soporte"
+
+#: inc/customizer.php:309
+msgid "<strong>Font Settings available in</strong>"
+msgstr "<strong>Ajustes de las fuentes disponibles en la</strong>"
+
+#: inc/customizer.php:307
+msgid "Fonts Settings (PRO Version)"
+msgstr "Ajustes de las fuentes (versión PRO)"
+
+#: inc/customizer.php:288
+msgid "<strong>Layout Settings available in</strong>"
+msgstr "<strong>Ajustes de diseño disponibles en la</strong>"
+
+#: inc/customizer.php:286
+msgid "Layout Settings (PRO Version)"
+msgstr "Ajustes de diseño (versión PRO)"
+
+#: inc/customizer.php:278
+msgid "To remove credit link upgrade to pro"
+msgstr "Para eliminar el enlace de los agradecimientos, actualiza a la versión pro"
+
+#: inc/customizer.php:265
+msgid "Copyright Text"
+msgstr "Texto del copyright"
+
+#: inc/customizer.php:255
+msgid "Add some text for footer like copyright etc."
+msgstr "Añade algún texto para el pie de página, como el copyright, etc."
+
+#: inc/customizer.php:254
+msgid "Footer Text"
+msgstr "Texto del pie de página"
+
+#: inc/customizer.php:248
+msgid "Slide Link 3"
+msgstr "Enlace de la diapositiva 3"
+
+#: inc/customizer.php:235
+msgid "Slide Description 3"
+msgstr "Descripción de la diapositiva 3"
+
+#: inc/customizer.php:230
+msgid "This is description for slide three"
+msgstr "Esta es la descripción de la diapositiva tres"
+
+#: inc/customizer.php:224
+msgid "Slide Title 3"
+msgstr "Título de la diapositiva 3"
+
+#: inc/customizer.php:219
+msgid "Awesome Features"
+msgstr "Características fantásticas"
+
+#: inc/customizer.php:211
+msgid "Slide Image 3 (1440x700)"
+msgstr "Imagen de la diapositiva 3 (1440×700)"
+
+#: inc/customizer.php:195
+msgid "Slide Link 2"
+msgstr "Enlace de la diapositiva 2"
+
+#: inc/customizer.php:182
+msgid "Slide Description 2"
+msgstr "Descripción de la diapositiva 2"
+
+#: inc/customizer.php:177
+msgid "This is description for slide two"
+msgstr "Esta es la descripción de la diapositiva dos"
+
+#: inc/customizer.php:171
+msgid "Slide Title 2"
+msgstr "Título de la diapositiva 2"
+
+#: inc/customizer.php:166
+msgid "Flexible Design"
+msgstr "Diseño flexible"
+
+#: inc/customizer.php:158
+msgid "Slide Image 2 (1440x700)"
+msgstr "Imagen de la diapositiva 2 (1440×700)"
+
+#: inc/customizer.php:142
+msgid "Slide Link 1"
+msgstr "Enlace de la diapositiva 1"
+
+#: inc/customizer.php:129
+msgid "Slide Description 1"
+msgstr "Descripción de la diapositiva 1"
+
+#: inc/customizer.php:124
+msgid "This is description for slider one."
+msgstr "Esta es la descripción de la diapositiva uno."
+
+#: inc/customizer.php:118
+msgid "Slide Title 1"
+msgstr "Título de la diapositiva 1"
+
+#: inc/customizer.php:113
+msgid "Responsive Design"
+msgstr "Diseño adaptable"
+
+#: inc/customizer.php:105
+msgid "Slide Image 1 (1440x700)"
+msgstr "Imagen de la diapositiva 1 (1440×700)"
+
+#: inc/customizer.php:90
+msgid "Add slider images here. <br><strong>More slider settings available in</strong>"
+msgstr "Añade aquí las imágenes del carrusel.<br><strong>Más ajustes del carrusel disponibles en la</strong>"
+
+#: inc/customizer.php:89
+msgid "Slider Settings"
+msgstr "Ajustes del carrusel"
+
+#: inc/customizer.php:83
+msgid "Add your social links here. <br><strong>More social links in</strong>"
+msgstr "Añade aquí tus enlaces sociales. <br><strong>Más enlaces sociales en</strong>"
+
+#: inc/customizer.php:82
+msgid "Social Links"
+msgstr "Enlaces sociales"
+
+#: inc/customizer.php:75
+msgid "<strong>More color options in</strong>"
+msgstr "<strong>Más opciones de color en</strong>"
+
+#: inc/customizer.php:74
+msgid "Color Scheme"
+msgstr "Esquema de colores"
+
+#: inc/customizer.php:46
+msgid "<strong>Background opacity available in</strong>"
+msgstr "<strong>Opacidad del fondo disponible en la</strong>"
+
+#: inc/customizer.php:45
+msgid "Background Opacity (PRO Version)"
+msgstr "Opacidad del fondo (versión PRO)"
+
+#: inc/customizer.php:46 inc/customizer.php:288 inc/customizer.php:309
+msgid "PRO Version"
+msgstr "Versión PRO"
+
+#: image.php:39
+msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Siguiente <span class=\"meta-nav\">&rarr;</span>"
+
+#: image.php:38
+msgid "<span class=\"meta-nav\">&larr;</span> Previous"
+msgstr "<span class=\"meta-nav\">&larr;</span> Anterior"
+
+#: image.php:23
+msgid "Published <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> at <a href=\"%3$s\">%4$s &times; %5$s</a> in <a href=\"%6$s\" rel=\"gallery\">%7$s</a>"
+msgstr "Publicada el <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> a <a href=\"%3$s\">%4$s &times; %5$s</a> en <a href=\"%6$s\" rel=\"gallery\">%7$s</a>"
+
+#: header.php:102
+msgid "Learn More"
+msgstr "Aprender más"
+
+#: header.php:99
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae est at dolor auctor faucibus. Aenean hendrerit lorem eget nisi vulputate, vitae fringilla ligula dignissim. Phasellus feugiat quam efficitur Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae est at dolor auctor faucibus. Aenean hendrerit lorem eget nisi vulputate, vitae fringilla ligula dignissim. Phasellus feugiat quam efficitur"
+msgstr "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae est at dolor auctor faucibus. Aenean hendrerit lorem eget nisi vulputate, vitae fringilla ligula dignissim. Phasellus feugiat quam efficitur Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae est at dolor auctor faucibus. Aenean hendrerit lorem eget nisi vulputate, vitae fringilla ligula dignissim. Phasellus feugiat quam efficitur"
+
+#: header.php:96
+msgid "Slide Title "
+msgstr "Título de la diapositiva "
+
+#: header.php:45
+msgid "Menu"
+msgstr "Menú"
+
+#: functions.php:267
+msgid "Precious Lite theme by"
+msgstr "Tema Precious Lite por"
+
+#: functions.php:245
+msgid "Next &raquo;"
+msgstr "Siguiente &raquo;"
+
+#: functions.php:244
+msgid "&laquo; Prev"
+msgstr "&laquo; Anterior"
+
+#. Translators: If there are any character that are * not supported by Roboto
+#. Condensed, translate this to off, do not * translate into your own language.
+#: functions.php:104
+msgctxt "Roboto Condensed font:on or off"
+msgid "on"
+msgstr "on"
+
+#. Translators: If there are any character that are * not supported by Oswald,
+#. translate this to off, do not * translate into your own language.
+#: functions.php:98
+msgctxt "Oswald font:on or off"
+msgid "on"
+msgstr "on"
+
+#. Translators: If there are any character that are * not supported by PT Sans,
+#. translate this to off, do not * translate into your own language.
+#: functions.php:92
+msgctxt "PT Sans font:on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:74
+msgid "Appears on header of the page"
+msgstr "Aparece en la cabecera de la página"
+
+#: functions.php:73
+msgid "Header Widget"
+msgstr "Widget de la cabecera"
+
+#: functions.php:64
+msgid "Appears on page sidebar"
+msgstr "Aparece en la barra lateral de página"
+
+#: functions.php:63
+msgid "Page Sidebar"
+msgstr "Barra lateral de la página"
+
+#: functions.php:54
+msgid "Appears on blog page sidebar"
+msgstr "Aparece en la barra lateral de la página del blog"
+
+#: functions.php:53
+msgid "Blog Sidebar"
+msgstr "Barra lateral del blog"
+
+#: functions.php:40
+msgid "Footer Menu"
+msgstr "Menú del pie de página"
+
+#: functions.php:39
+msgid "Primary Menu"
+msgstr "Menú principal"
+
+#: inc/customizer.php:260
+msgid "Precious Lite 2015 | All Rights Reserved."
+msgstr "Precious Lite 2015 | Todos los derechos reservados."
+
+#: content.php:67
+msgid "% Comments"
+msgstr "% comentarios"
+
+#: content.php:67
+msgid "1 Comment"
+msgstr "1 comentario"
+
+#: content.php:67
+msgid "Leave a comment"
+msgstr "Dejar un comentario"
+
+#: content.php:61
+msgid "Tagged %1$s"
+msgstr "Etiquetada como %1$s"
+
+#: content.php:51
+msgid "Posted in %1$s"
+msgstr "Publicada en %1$s"
+
+#: content.php:33
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Sigue leyendo <span class=\"meta-nav\">&rarr;</span>"
+
+#: content.php:29
+msgid "Read More &raquo;"
+msgstr "Leer más &raquo;"
+
+#. translators: used between list items, there is a space after the comma
+#: content-single.php:33 content.php:14 content.php:47 content.php:57
+msgid ", "
+msgstr ", "
+
+#: content-single.php:40 content.php:70 image.php:33 image.php:65
+#: content-page.php:23 inc/template-tags.php:70 inc/template-tags.php:89
+msgid "Edit"
+msgstr "Editar"
+
+#: content-single.php:28 content.php:36 image.php:59 content-page.php:18
+msgid "Pages:"
+msgstr "Páginas:"
+
+#: comments.php:68
+msgid "Comments are closed."
+msgstr "Los comentarios están cerrados."
+
+#: comments.php:38 comments.php:58
+msgid "Newer Comments &rarr;"
+msgstr "Comentarios siguientes &rarr;"
+
+#: comments.php:37 comments.php:57
+msgid "&larr; Older Comments"
+msgstr "&larr; Comentarios anteriores"
+
+#: comments.php:36 comments.php:56
+msgid "Comment navigation"
+msgstr "Navegación de comentarios"
+
+#: comments.php:29
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Un comentario en «%2$s»"
+msgstr[1] "%1$s comentarios en «%2$s»"
+
+#: category.php:19
+msgid "Category: "
+msgstr "Categoría: "
+
+#: archive.php:62 sidebar-page.php:15 sidebar-main.php:15 sidebar.php:15
+msgid "Archives"
+msgstr "Archivo"
+
+#: archive.php:59
+msgid "Links"
+msgstr "Enlaces"
+
+#: archive.php:56
+msgid "Quotes"
+msgstr "Citas"
+
+#: archive.php:53
+msgid "Videos"
+msgstr "Videos"
+
+#: archive.php:50
+msgid "Images"
+msgstr "Imágenes"
+
+#: archive.php:47
+msgid "Asides"
+msgstr "Minientradas"
+
+#: archive.php:44
+msgid "Year: %s"
+msgstr "Año: %s"
+
+#: archive.php:41
+msgid "Month: %s"
+msgstr "Mes: %s"
+
+#: archive.php:38
+msgid "Day: %s"
+msgstr "Día: %s"
+
+#: archive.php:30
+msgid "Author: %s"
+msgstr "Autor: %s"
+
+#: archive.php:23
+msgid "Tag: "
+msgstr "Etiqueta: "
+
+#: 404.php:17
+msgid "Looks like you have taken a wrong turn.....<br />Don't worry... it happens to the best of us."
+msgstr "Parece que has cogido un camino equivocado...<br />No te preocupes... nos pasa a los mejores."
+
+#: 404.php:14
+msgid "<strong>404</strong> Not Found"
+msgstr "<strong>404</strong> No encontrado"
+
+#. Author URI of the theme
+msgid "https://flythemes.net"
+msgstr "https://flythemes.net"
+
+#. Author of the theme
+msgid "Flythemes"
+msgstr "Flythemes"
+
+#. Theme URI of the theme
+msgid "https://flythemes.net/wordpress-themes/precious-corporate-wordpress-theme/"
+msgstr "https://flythemes.net/wordpress-themes/precious-corporate-wordpress-theme/"

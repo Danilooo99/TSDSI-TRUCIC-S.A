@@ -1,0 +1,71 @@
+.page-template-template-page-builder-php #content, 
+.page-template-template-page-builder-php .content, 
+.page-template-template-page-builder-php .site-inner,
+.fpt-template-generatepress.page-template-template-page-builder-php #page,
+.fpt-template.fpt-template-evolve > #wrapper,
+.fpt-template.fpt-template-evolve .content > .row,
+.fpt-template #page,
+.fpt-template,
+.fpt-template.fpt-template-storefront.page-template-template-page-builder #content .col-full {
+	max-width: 100% !important;
+	width: 100% !important;
+	padding: 0 !important;
+	margin: 0 !important;
+}
+
+body.fpt-template-twentysixteen.page-template-template-page-builder-no-sidebar-php #page,
+body.fpt-template-twentysixteen.page-template-template-page-builder-no-header-footer-php #page,
+body.fpt-template-twentysixteen.page-template-template-page-builder-php #page {
+	margin: 0;
+}
+
+body.page-template-template-page-builder-no-sidebar-php:not(.custom-background-image):before,
+body.page-template-template-page-builder-no-header-footer-php:not(.custom-background-image):before,
+body.page-template-template-page-builder-php:not(.custom-background-image):before,
+body.page-template-template-page-builder-no-sidebar-php:not(.custom-background-image):after,
+body.page-template-template-page-builder-no-header-footer-php:not(.custom-background-image):after,
+body.page-template-template-page-builder-php:not(.custom-background-image):after {
+	height: 0;
+}
+
+.fpt-template.fpt-template-Spacious #main {
+	padding: 0;
+}
+
+.fpt-template.fpt-template-Spacious .header-post-title-container {
+	display: none;
+}
+
+.fpt-template.fpt-template-Spacious #main .inner-wrap{
+	max-width: 100% !important;
+	width: 100% !important;
+	padding: 0 !important;
+	margin: 0 !important;
+}
+
+.fpt-template.fpt-template-Sparkling .container.main-content-area {
+	max-width: 100% !important;
+	width: 100% !important;
+	padding: 0 !important;
+	margin: 0 !important;
+}
+
+.fpt-template.fpt-template-Sparkling .container.main-content-area .row {
+	margin: 0;
+}
+
+.fpt-template.fpt-template-Sparkling .container.main-content-area .main-content-inner {
+	float: none;
+	width: 100%;
+	padding: 0;
+}
+
+.page-template-template-page-builder-no-sidebar .side-pull-left .main-content-inner {
+	width: 100%;
+	float: none;
+}
+
+/* Storefront Theme */
+.fpt-template.fpt-template-storefront.no-wc-breadcrumb .site-header {
+	margin-bottom: 0;
+}

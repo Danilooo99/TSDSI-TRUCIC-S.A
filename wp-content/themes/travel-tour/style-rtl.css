@@ -1,0 +1,291 @@
+/* 81 of 739 CSS properties converted by rtl.daskhat.ir 
+ These properties should be override originals. 
+ just load rtl css file after original css file.*/ 
+
+body {direction:rtl;}
+
+ul, ol{
+    margin: 0 3em 1.5em 0 ;
+}
+
+li > ul, li > ol{
+    margin-right: 1.5em;
+}
+
+.main-navigation{
+    float: right;
+}
+
+.main-navigation ul{
+    padding-right: 0;
+}
+
+.main-navigation li{
+    float: right;
+}
+
+.main-navigation ul ul{
+    float: right;
+    right: -999em;
+}
+
+.main-navigation ul ul ul{
+    right: -999em;
+}
+
+.main-navigation ul li:hover > ul, .main-navigation ul li.focus > ul{
+    right: auto;
+}
+
+.main-navigation ul ul li:hover > ul, .main-navigation ul ul li.focus > ul{
+    right: 100%;
+}
+
+.comment-navigation .nav-previous, .posts-navigation .nav-previous, .post-navigation .nav-previous{
+    float: right;
+}
+
+.comment-navigation .nav-next, .posts-navigation .nav-next, .post-navigation .nav-next{
+    float: left;
+    text-align: left;
+}
+
+.screen-reader-text:focus{
+    right: 5px;
+}
+
+.alignleft{
+    float: right;
+    margin-left: 1.5em;
+}
+
+.alignright{
+    float: left;
+    margin-right: 1.5em;
+}
+
+.aligncenter{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.widget{
+    float: right;
+}
+
+.wp-caption img[class*="wp-image-"]{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.info ul li{
+    padding: 0 0 0 15px ;
+}
+
+.info .author-image{
+    float: right;
+    margin-left: 10px;
+}
+
+.news-snippet .featured-image{
+    float: right;
+    padding-left: 30px;
+}
+
+.news-snippet .summary{
+    float: right;
+}
+
+.banner-news .banner-news-list{
+    float: right;
+}
+
+.banner-news .banner-news-list:nth-child(1){
+    float: right;
+}
+
+.banner-news .banner-news-caption{
+    background: linear-gradient(rgba(0, 0, 0, 0) 100% 0, 0, 0.7) 100%);
+}
+
+.banner-news-slider .banner-news-list:nth-child(1){
+    float: right;
+}
+
+.home-pages .page-home-summary{
+    right: 0;
+    left: 0;
+}
+
+.full-width-view .news-snippet .featured-image{
+    padding-left: 0;
+}
+
+.full-width-view .news-snippet .summary{
+    float: right;
+}
+
+.grid-view .news-snippet .featured-image{
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.grid-view .news-snippet .summary{
+    float: right;
+}
+
+.grid-view .col-sm-12:first-child .featured-image,.sticky .news-snippet .featured-image,.list-view .col-sm-12:first-child .featured-image,.sticky .news-snippet .featured-image{
+    padding-left: 0;
+}
+
+.search-top{
+    float: left;
+}
+
+.search-top label{
+    float: right;
+}
+
+.search-submit{
+    background: url(images/search.png) no-repeat 100%;
+}
+
+.recent-news .big-block .news-snippet .summary{
+    float: right;
+}
+
+.owl-nav{
+    left: 0;
+}
+
+.owl-carousel .owl-nav .owl-prev{
+    float: right;
+}
+
+.owl-carousel .owl-nav .owl-next{
+    float: left;
+}
+
+.popular-news-snippet .pop-news-title{
+    margin: 15px 0 10px 0 ;
+}
+
+.popular-news-snippet .summary .news-category{
+    right: 8px;
+}
+
+.pagination li#next-posts{
+    float: left;
+}
+
+.pagination li#previous-posts{
+    float: right;
+}
+
+section .social-icons li{
+    float: right;
+}
+
+footer .widget,footer .about-wrapper{
+    float: right;
+    padding-left: 30px;
+}
+
+.inside-page{
+    padding: 0 0 60px 0 ;
+}
+
+.comments-area footer{
+    text-align: right;
+}
+
+.widget ul,   .widget ol{
+    padding-right: 0;
+}
+
+.widget li{
+    float: right;
+}
+
+.widget .widgets-list-layout-links{
+    float: right;
+    padding-right: 15px;
+}
+
+.widget_archive li,.widget_categories li{
+    text-align: left;
+}
+
+.widget_archive li a,.widget_categories li a{
+    float: right;
+}
+
+.widget_search label{
+    float: right;
+}
+
+.bttk-author-bio-holder .text-holder{
+    padding: 0 20px 15px 20px ;
+}
+
+.widget_bttk_custom_categories ul li{
+    padding: 0 15px 0 0 ;
+}
+
+.widget-newsletter .travel-tourthemes-email-newsletter-wrapper .text-holder{
+    float: right;
+}
+
+.widget-newsletter .travel-tourthemes-email-newsletter-wrapper form{
+    float: left;
+}
+
+.widget-newsletter .travel-tourthemes-email-newsletter-wrapper form input[type="text"],.widget-newsletter .travel-tourthemes-email-newsletter-wrapper form input[type="email"]{
+    margin: 0 0 0 1% ;
+    float: right;
+}
+
+.widget-newsletter .travel-tourthemes-email-newsletter-wrapper form input[type="submit"]{
+    float: right;
+}
+
+.widget-instagram .popup-gallery li .instagram-meta{
+    right: 50%;
+}
+
+.widget-instagram .profile-link{
+    right: 50%;
+}
+
+.widget-instagram .popup-gallery li:after{
+    right: 0;
+}
+
+.scroll-top-wrapper{
+    left: 30px;
+}
+
+.author-post{
+    padding: 30px 30px 15px 30px ;
+}
+
+.author-post .author-image{
+    float: right;
+}
+
+@media (max-width: 767px){
+    header .navbar-nav .caret{
+        left: 0;
+        background: url(images/arrow.png) right center/20px center no-repeat #333;
+    }
+
+    .navbar .navbar-toggle{
+        left: 0;
+    }
+
+    .nav-four .navbar-nav{
+        text-align: right;
+    }
+
+}
+

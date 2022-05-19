@@ -1,0 +1,476 @@
+# Translation of Plugins - WooCommerce Extended Coupon Features FREE - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - WooCommerce Extended Coupon Features FREE - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-11-23 07:40:33+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - WooCommerce Extended Coupon Features FREE - Stable (latest release)\n"
+
+#: includes/plugins/WJECF_Admin.php:363
+msgid "%s (only available in PRO version)"
+msgstr "%s (solo disponible en la versión PRO)"
+
+#: includes/plugins/WJECF_Admin.php:356
+msgid "Global shipping methods"
+msgstr "Métodos de envío globales"
+
+#: includes/plugins/WJECF_Admin.php:355
+msgid "Zones and shipping methods"
+msgstr "Zonas y métodos de envío"
+
+#: includes/plugins/WJECF_Admin.php:348
+msgid "The coupon does not apply to the selected zones or shipping methods."
+msgstr "El cupón no se aplica a las zonas ni a los métodos de envío seleccionados."
+
+#: includes/plugins/WJECF_Admin.php:339
+msgid "Excluded shipping methods"
+msgstr "Métodos de envío excluidos"
+
+#: includes/plugins/WJECF_Admin.php:335
+msgid "The coupon only applies to the selected zones or shipping methods."
+msgstr "El cupón solo se aplica a las zonas o a los métodos de envío seleccionados."
+
+#: includes/plugins/WJECF_Admin.php:328 includes/plugins/WJECF_Admin.php:341
+msgid "Any shipping zone or method"
+msgstr "Cualquier zona o método de envío"
+
+#: includes/class-wjecf-controller.php:479
+#: includes/class-wjecf-controller.php:510
+msgid "The coupon is not valid for your region."
+msgstr "El cupón no es válido para tu región."
+
+#. Description of the plugin
+msgid "Additional functionality for WooCommerce Coupons."
+msgstr "Funcionalidad adicional para cupones de WooCommerce."
+
+#: woocommerce-jos-autocoupon.php:86
+msgid "Multiple instances of the plugin are detected. Please disable one of them."
+msgstr "Se han detectado varias instancias del plugin. Por favor, desactiva una de ellos."
+
+#. translators: 1: program 2: version 3: version of WooCommerce Extended Coupon
+#. Features
+#: woocommerce-jos-autocoupon.php:67
+msgid "This plugin requires %1$s version %2$s or higher. You are running version %3$s. Please update %1$s or install a version of WooCommerce Extended Coupon Features prior to %4$s."
+msgstr "Este plugin requiere %1$s versión %2$s o superior. Estás ejecutando la versión %3$s. Actualiza %1$s o instala una versión de WooCommerce Extended Coupon Features anterior a %4$s."
+
+#. translators: 1: program 2: version
+#: woocommerce-jos-autocoupon.php:62
+msgid "This plugin requires %1$s, please install it."
+msgstr "Este plugin requiere %1$s, por favor, instálalo."
+
+#: includes/plugins/WJECF_Autocoupon.php:234
+msgid "Use this for Auto Coupons that are restricted by payment method. Default: Disabled."
+msgstr "Úsalo para los cupones automáticos que están restringidos por método de pago. Por defecto: Desactivado."
+
+#: includes/plugins/WJECF_Autocoupon.php:229
+msgid "Update order review on payment method change"
+msgstr "Actualizar la revisión del pedido al cambiar el método de pago"
+
+#: includes/plugins/WJECF_Autocoupon.php:210
+msgid "Use this for Auto Coupons that are restricted by email address or usage limit per user. Default: Disabled."
+msgstr "Úsalo para los cupones automáticos que están restringidos por dirección de correo electrónico o límite de uso por usuario. Por defecto: Desactivado."
+
+#: includes/plugins/WJECF_Autocoupon.php:205
+msgid "Update order review on billing email change"
+msgstr "Actualizar la revisión del pedido al cambiar el correo electrónico de facturación"
+
+#: includes/plugins/WJECF_Autocoupon.php:187
+msgid "When enabled, valid 'Auto Coupons' will only be applied when a change to the customer's cart is detected. When unchecked, valid 'Auto Coupons' will be updated at every request. Default: Enabled."
+msgstr "Cuando esté activado, los 'Cupones automáticos' válidos solo se aplicarán cuando se detecte un cambio en el carrito del cliente. Cuando esté desactivado, los 'Cupones automáticos' válidos se actualizarán en cada solicitud. Por defecto: Activado."
+
+#: includes/plugins/WJECF_Autocoupon.php:130
+msgid "High performance mode"
+msgstr "Modo de alto rendimiento"
+
+#: includes/plugins/WJECF_Autocoupon.php:122
+msgid "Checkout order review"
+msgstr "Revisión del pedido de compra"
+
+#. translators: 1: url to the settings page
+#: includes/plugins/WJECF_Admin_Settings.php:34
+msgid "Coupons are disabled. Please enable them on the <a href=\"%s\">WooCommerce Settings page</a>."
+msgstr "Los cupones están desactivados. Por favor, actívalos en la <a href=\"%s\">página de ajustes de WooCommerce</a>."
+
+#: includes/plugins/WJECF_Admin.php:161
+msgid "Get the PRO version"
+msgstr "Obtener la versión PRO"
+
+#: includes/plugins/WJECF_Admin.php:159
+msgid "You will love the PRO version!"
+msgstr "¡Te encantará la versión PRO!"
+
+#. translators: 1: plugin-name 2: exception message
+#: includes/class-wjecf-controller.php:94
+msgid "Failed loading plugin %1$s: %2$s."
+msgstr "Error al cargar el plugin %1$s: %2$s."
+
+#. Plugin Name of the plugin
+msgid "WooCommerce Extended Coupon Features FREE"
+msgstr "WooCommerce Extended Coupon Features FREE"
+
+#: includes/plugins/WJECF_Admin_Settings.php:134
+#: includes/plugins/WJECF_Admin_Settings.php:135
+msgid "Settings"
+msgstr "Ajustes"
+
+#: includes/plugins/WJECF_Admin_Data_Update.php:127
+msgid "Data succesfully upgraded to the newest version."
+msgstr "Los datos se han actualizado correctamente a la versión más reciente."
+
+#: includes/plugins/WJECF_Admin_Data_Update.php:118
+msgid "Please note, you're using an older version of this plugin, while the data was upgraded to a newer version."
+msgstr "Ten en cuenta que estás usando una versión anterior de este plugin, mientras que los datos se actualizaron a una versión más reciente."
+
+#: includes/plugins/WJECF_Debug.php:59
+msgid "Coupon data as json"
+msgstr "Datos de cupones como json"
+
+#: includes/plugins/WJECF_Debug.php:55
+msgid "Debug"
+msgstr "Depurar"
+
+#: includes/plugins/WJECF_Debug.php:42
+msgid "Go to settings page"
+msgstr "Ir a la página de ajustes"
+
+#: includes/plugins/WJECF_Debug.php:39
+msgid "Debug mode is enabled. Please disable it when you're done debugging."
+msgstr "El modo de depuración está activado. Por favor, desactívalo cuando hayas terminado de depurar."
+
+#: includes/plugins/WJECF_Debug.php:18
+msgid "Debugging methods for WooCommerce Extended Coupon Features."
+msgstr "Métodos de depuración para WooCommerce Extended Coupon Features."
+
+#. Author of the plugin
+msgid "Soft79"
+msgstr "Soft79"
+
+#. Plugin URI of the plugin
+msgid "http://www.soft79.nl"
+msgstr "http://www.soft79.nl"
+
+#. translators: 1: admin url
+#: includes/plugins/WJECF_Admin_Settings.php:196
+msgid "When debug mode is enabled, extensive logging will be active and WJECF Plugins can be enabled/disabled. If there are compatibility issues with WooCommerce plugins, you can try disabling WJECF Plugins. Please don't keep debug mode enabled on a production environment when it is not necessary. Log can be found <a href=\"%s\">here</a>."
+msgstr "Cuando se activa el modo de depuración, el registro extenso estará activo y los plugins WJECF se pueden activar/desactivar. Si hay problemas de compatibilidad con los plugins de WooCommerce, puedes intentar desactivar los plugins WJECF. Por favor, no mantengas el modo de depuración activado en un entorno de producción cuando no sea necesario. El registro se puede encontrar <a href=\"%s\">aquí</a>."
+
+#: includes/plugins/WJECF_Admin_Settings.php:111
+msgid "Disabled plugins"
+msgstr "Plugins desactivados"
+
+#: includes/plugins/WJECF_Admin_Settings.php:79
+msgid "Debug mode"
+msgstr "Modo de depuración"
+
+#: includes/plugins/WJECF_Admin_Settings.php:72
+msgid "Advanced settings"
+msgstr "Ajustes avanzados"
+
+#: includes/plugins/WJECF_Admin_Settings.php:41
+#: includes/plugins/WJECF_Admin_Settings.php:42
+#: includes/plugins/WJECF_Admin_Settings.php:51
+msgid "WooCommerce Extended Coupon Features"
+msgstr "WooCommerce Extended Coupon Features"
+
+#: includes/plugins/WJECF_Admin_Settings.php:13
+msgid "Settings page of WooCommerce Extended Coupon Features."
+msgstr "Página de ajustes de WooCommerce Extended Coupon Features."
+
+#: includes/class-wjecf-admin-html.php:146
+msgid "Any customer"
+msgstr "Cualquier cliente"
+
+#: includes/class-wjecf-admin-html.php:45
+#: includes/class-wjecf-admin-html.php:97
+msgid "Search for a product…"
+msgstr "Buscar un producto…"
+
+#. translators: 1: Default value
+#: includes/class-wjecf-admin-html.php:30
+msgid "%s (Default)"
+msgstr "%s (Por defecto)"
+
+#: includes/plugins/WJECF_Admin_Data_Update.php:9
+msgid "Automatically update data when a new version of this plugin is installed."
+msgstr "Actualiza automáticamente los datos cuando se instala una nueva versión de este plugin."
+
+#: includes/plugins/WJECF_Admin.php:436
+msgid "These User Roles will be specifically excluded from using this coupon."
+msgstr "Estos perfiles de usuario se excluirán específicamente del uso de este cupón."
+
+#: includes/plugins/WJECF_Admin.php:422
+msgid "Disallowed User Roles"
+msgstr "Perfiles de usuario no permitidos"
+
+#: includes/plugins/WJECF_Admin.php:415
+msgid "Only these User Roles may use this coupon."
+msgstr "Solo estos perfiles de isuario pueden usar este cupón."
+
+#: includes/plugins/WJECF_Admin.php:401 includes/plugins/WJECF_Admin.php:423
+msgid "Any role"
+msgstr "Cualquier perfil"
+
+#: includes/plugins/WJECF_Admin.php:400
+msgid "Allowed User Roles"
+msgstr "Perfiles de usuario permitidos"
+
+#: includes/plugins/WJECF_Admin.php:392
+msgid "Only these customers may use this coupon."
+msgstr "Solo estos clientes pueden usar este cupón."
+
+#: includes/plugins/WJECF_Admin.php:388
+msgid "Allowed Customers"
+msgstr "Clientes permitidos"
+
+#: includes/plugins/WJECF_Admin.php:383
+msgid "If both a customer and a role restriction are supplied, matching either one of them will suffice."
+msgstr "Si se proporciona una restricción de perfil y de cliente, bastará con que coincida con cualquiera de ellas."
+
+#: includes/plugins/WJECF_Admin.php:382
+msgid "Customer restrictions"
+msgstr "Restricciones de clientes"
+
+#: includes/plugins/WJECF_Admin.php:288
+msgid "One of these payment methods must be selected in order for this coupon to be valid."
+msgstr "Tiene que seleccionarse uno de estos métodos de pago para que este cupón sea válido."
+
+#: includes/plugins/WJECF_Admin.php:275
+msgid "Any payment method"
+msgstr "Cualquier método de pago"
+
+#: includes/plugins/WJECF_Admin.php:274
+msgid "Payment methods"
+msgstr "Métodos de pago"
+
+#: includes/plugins/WJECF_Admin.php:326
+msgid "Shipping methods"
+msgstr "Métodos de envío"
+
+#: includes/plugins/WJECF_Admin.php:258
+msgid "Maximum price subtotal of the products that match the given product or category restrictions (see tab 'usage restriction')."
+msgstr "Subtotal máximo de precios de los productos que coinciden con las restricciones de producto o categoría dadas (consulta la pestaña 'restricción de uso')."
+
+#: includes/plugins/WJECF_Admin.php:256
+msgid "Maximum subtotal of matching products"
+msgstr "Subtotal máximo de productos coincidentes"
+
+#: includes/plugins/WJECF_Admin.php:246
+msgid "Minimum price subtotal of the products that match the given product or category restrictions (see tab 'usage restriction')."
+msgstr "Subtotal mínimo de precios de los productos que coinciden con las restricciones de producto o categoría dadas (consulta la pestaña 'restricción de uso')."
+
+#: includes/plugins/WJECF_Admin.php:244
+msgid "Minimum subtotal of matching products"
+msgstr "Subtotal mínimo de productos coincidentes"
+
+#: includes/plugins/WJECF_Admin.php:234
+msgid "Maximum quantity of the products that match the given product or category restrictions (see tab 'usage restriction'). If no product or category restrictions are specified, the total number of products is used."
+msgstr "Cantidad máxima de los productos que coinciden con las restricciones de producto o categoría dadas (consulta la pestaña 'restricción de uso'). Si no se especifica ninguna restricción de producto o categoría, se usa el número total de productos."
+
+#: includes/plugins/WJECF_Admin.php:233 includes/plugins/WJECF_Admin.php:257
+msgid "No maximum"
+msgstr "Sin máximo"
+
+#: includes/plugins/WJECF_Admin.php:232
+msgid "Maximum quantity of matching products"
+msgstr "Cantidad máxima de productos coincidentes"
+
+#: includes/plugins/WJECF_Admin.php:222
+msgid "Minimum quantity of the products that match the given product or category restrictions (see tab 'usage restriction'). If no product or category restrictions are specified, the total number of products is used."
+msgstr "Cantidad mínima de los productos que coinciden con las restricciones de producto o categoría dadas (consulta la pestaña 'restricción de uso'). Si no se especifica ninguna restricción de producto o categoría, se usa el número total de productos."
+
+#: includes/plugins/WJECF_Admin.php:221 includes/plugins/WJECF_Admin.php:245
+msgid "No minimum"
+msgstr "Sin mínimo"
+
+#: includes/plugins/WJECF_Admin.php:220
+msgid "Minimum quantity of matching products"
+msgstr "Cantidad mínima de productos coincidentes"
+
+#. translators: OLD TEXT:  'Check this box if products from ALL of the
+#. categories (see tab \'usage restriction\') must be in the cart to use this
+#. coupon (instead of only one from one of the categories).'
+#: includes/plugins/WJECF_Admin.php:211
+msgid "Use AND if products from ALL of the categories must be in the cart to use this coupon (instead of only one from one of the categories)."
+msgstr "Usa Y si los productos de TODAS las categorías deben estar en el carrito para utilizar este cupón (en lugar de solo una de una de las categorías)."
+
+#: includes/plugins/WJECF_Admin.php:203
+msgid "Categories Operator"
+msgstr "Operador de categorías"
+
+#. translators: OLD TEXT:  'Check this box if ALL of the products (see tab
+#. \'usage restriction\') must be in the cart to use this coupon (instead of
+#. only one of the products).'
+#: includes/plugins/WJECF_Admin.php:193
+msgid "Use AND if ALL of the products must be in the cart to use this coupon (instead of only one of the products)."
+msgstr "Usa Y si TODOS los productos deben estar en el carrito para usar este cupón (en lugar de solo uno de los productos)."
+
+#: includes/plugins/WJECF_Admin.php:188 includes/plugins/WJECF_Admin.php:206
+msgid "AND"
+msgstr "Y"
+
+#: includes/plugins/WJECF_Admin.php:187 includes/plugins/WJECF_Admin.php:205
+msgid "OR"
+msgstr "O"
+
+#: includes/plugins/WJECF_Admin.php:185
+msgid "Products Operator"
+msgstr "Operador de productos"
+
+#: includes/plugins/WJECF_Admin.php:179
+msgid "Matching products"
+msgstr "Productos coincidentes"
+
+#: includes/plugins/WJECF_Admin.php:166
+msgid "WooCommerce Extended Coupon Features Documentation"
+msgstr "Documentación de WooCommerce Extended Coupon Features"
+
+#: includes/plugins/WJECF_Admin.php:164
+msgid "Documentation"
+msgstr "Documentación"
+
+#: includes/plugins/WJECF_Admin.php:158
+msgid "Do you like WooCommerce Extended Coupon Features?"
+msgstr "¿Te gusta WooCommerce Extended Coupon Features?"
+
+#: includes/plugins/WJECF_Admin.php:122
+msgid "Miscellaneous"
+msgstr "Miscelánea"
+
+#: includes/plugins/WJECF_Admin.php:116 includes/plugins/WJECF_Admin.php:267
+msgid "Checkout"
+msgstr "Pago"
+
+#: includes/plugins/WJECF_Admin.php:107
+msgid "(OR)"
+msgstr "(O)"
+
+#: includes/plugins/WJECF_Admin.php:106
+msgid "(AND)"
+msgstr "(Y)"
+
+#: includes/plugins/WJECF_Admin.php:13
+msgid "Admin interface of WooCommerce Extended Coupon Features."
+msgstr "Interfaz de administración de WooCommerce Extended Coupon Features."
+
+#: includes/plugins/WJECF_WPML.php:14
+msgid "Compatiblity with WPML."
+msgstr "Compatibilidad con WPML."
+
+#. translators: 1: coupon code
+#: includes/class-wjecf-controller.php:642
+#: includes/class-wjecf-controller.php:656
+msgid "Sorry, it seems the coupon \"%s\" is not yours."
+msgstr "Lo siento, parece que el cupón «%s» no es tuyo."
+
+#: includes/class-wjecf-controller.php:620
+msgid "The coupon is not valid for the currently selected payment method."
+msgstr "El cupón no es válido para el método de pago seleccionado actualmente."
+
+#: includes/class-wjecf-controller.php:485
+#: includes/class-wjecf-controller.php:518
+#: includes/class-wjecf-controller.php:526
+msgid "The coupon is not valid for the currently selected shipping method."
+msgstr "El cupón no es válido para el método de envío seleccionado actualmente."
+
+#. translators: 1: maximum quantity
+#: includes/class-wjecf-controller.php:400
+msgid "The maximum quantity of matching products for this coupon is %s."
+msgstr "La cantidad máxima de productos coincidentes para este cupón es %s."
+
+#. translators: 1: minimum quantity
+#: includes/class-wjecf-controller.php:393
+msgid "The minimum quantity of matching products for this coupon is %s."
+msgstr "La cantidad mínima de productos coincidentes para este cupón es %s."
+
+#. translators: 1: maximum subtotal
+#: includes/class-wjecf-controller.php:441
+msgid "The maximum subtotal of the matching products for this coupon is %s."
+msgstr "El subtotal máximo de productos coincidentes para este cupón es %s."
+
+#. translators: 1: minimum subtotal
+#: includes/class-wjecf-controller.php:432
+msgid "The minimum subtotal of the matching products for this coupon is %s."
+msgstr "El subtotal mínimo de productos coincidentes para este cupón es %s."
+
+#. translators: %s: coupon code or excerpt
+#: includes/plugins/WJECF_Autocoupon.php:750
+msgid "Discount applied: %s"
+msgstr "Descuento aplicado: %s"
+
+#: includes/plugins/WJECF_Autocoupon.php:340
+msgid "Don't display a message when this coupon is automatically applied."
+msgstr "No mostrar un mensaje cuando este cupón se aplique automáticamente."
+
+#: includes/plugins/WJECF_Autocoupon.php:339
+msgid "Apply silently"
+msgstr "Aplicar en silencio"
+
+#: includes/plugins/WJECF_Autocoupon.php:327
+msgid "When 'individual use' is checked, auto coupons with a higher value will have priority over other auto coupons."
+msgstr "Cuando se marca el 'uso individual', los cupones automáticos con un valor más alto tendrán prioridad sobre otros cupones automáticos."
+
+#: includes/plugins/WJECF_Autocoupon.php:326
+msgid "No priority"
+msgstr "Sin prioridad"
+
+#: includes/plugins/WJECF_Autocoupon.php:325
+msgid "Priority"
+msgstr "Prioridad"
+
+#: includes/plugins/WJECF_Autocoupon.php:315
+msgid "Automatically add the coupon to the cart if the restrictions are met. Please enter a description when you check this box, the description will be shown in the customer's cart if the coupon is applied."
+msgstr "Añade automáticamente el cupón al carrito si se cumplen las restricciones. Por favor, introduce una descripción al marcar esta casilla, la descripción se mostrará en el carrito del cliente si se aplica el cupón."
+
+#: includes/plugins/WJECF_Autocoupon.php:259
+#: includes/plugins/WJECF_Autocoupon.php:269
+msgid "No"
+msgstr "No"
+
+#: includes/plugins/WJECF_Autocoupon.php:259
+#: includes/plugins/WJECF_Autocoupon.php:269
+msgid "Yes"
+msgstr "Sí"
+
+#: includes/plugins/WJECF_Autocoupon.php:165
+msgid "Check this box to allow the customer to remove 'Auto Coupons' from the cart."
+msgstr "Marca esta casilla para permitir que el cliente elimine 'Cupones automáticos' del carrito."
+
+#: includes/plugins/WJECF_Admin_Settings.php:245
+#: includes/plugins/WJECF_Admin_Settings.php:283
+#: includes/plugins/WJECF_Autocoupon.php:160
+#: includes/plugins/WJECF_Autocoupon.php:182
+msgid "Enabled"
+msgstr "Activado"
+
+#: includes/plugins/WJECF_Autocoupon.php:113
+msgid "Allow remove 'Auto Coupons'"
+msgstr "Permitir eliminar 'Cupones automáticos'"
+
+#: includes/plugins/WJECF_Autocoupon.php:105
+#: includes/plugins/WJECF_Autocoupon.php:280
+msgid "Auto coupons"
+msgstr "Cupones automáticos"
+
+#: includes/plugins/WJECF_Autocoupon.php:87
+msgid "Individual use"
+msgstr "Uso individual"
+
+#: includes/plugins/WJECF_Autocoupon.php:81
+#: includes/plugins/WJECF_Autocoupon.php:307
+#: includes/plugins/WJECF_Autocoupon.php:314
+msgid "Auto coupon"
+msgstr "Cupón automático"
+
+#: includes/plugins/WJECF_Autocoupon.php:12
+msgid "Allow coupons to be automatically applied to the cart when restrictions are met or by url."
+msgstr "Permite que los cupones se apliquen automáticamente al carrito cuando se cumplan las restricciones o por url."
+
+#. translators: 1: required version 2: current version
+#: includes/abstract-wjecf-plugin.php:58
+msgid "WooCommerce Extended Coupon Features version %1$s is required. You have version %2$s"
+msgstr "Se requiere la versión %1$s de WooCommerce Extended Coupon Features. Tienes la versión %2$s"

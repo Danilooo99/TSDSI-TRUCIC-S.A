@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+     <loc>https://www.soft79.nl/</loc>
+     <lastmod>2018-07-08</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://www.soft79.nl/usage/</loc>
+     <lastmod>2018-07-08</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://www.soft79.nl/development/</loc>
+     <lastmod>2018-07-08</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://www.soft79.nl/changelog/</loc>
+     <lastmod>2018-07-08</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+</urlset>

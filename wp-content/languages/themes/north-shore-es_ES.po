@@ -1,0 +1,65 @@
+# Translation of Themes - North Shore in Spanish (Spain)
+# This file is distributed under the same license as the Themes - North Shore package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-04-06 12:21:51+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-rc.3\n"
+"Language: es\n"
+"Project-Id-Version: Themes - North Shore\n"
+
+#. Description of the theme
+#, gp-priority: high
+msgid "Breathe in the ocean. North Shore is a redesigned look with an ocean feel for our multipurpose theme CityLogic. North Shore's modest but eye-catching design makes it a great choice for creating any website from travel to business to food, decor, lifestyle, sport and more. The ability to have a transparent header allows the use of bold homepage imagery by displaying either a static header image or slider - with the choice of using the built-in slider or any 3rd party slider plugin of your choice. North Shore integrates seamlessly with a number of popular FREE plugins such as WooCommerce, WPForms and Recent Posts Widget Extended. It also works great with SiteOrigin's Page Builder plugin making it quick and easy to create professional looking pages without any coding knowledge. You're always one step ahead with North Shore!"
+msgstr "North Shore es una apariencia rediseñada con un toque oceánico para nuestro tema multiuso CityLogic. El modesto pero llamativo diseño de North Shore lo hace una gran opción para crear cualquier web, desde viajes a negocios, hasta comida, decoración, estilos de vida, deportes y más. La capacidad de tener una cabecera transparente, permite el uso de imágenes intensas en la página de inicio, mostrando una imagen estática de cabecera o un carrusel, con la opción de usar el carrusel incorporado o cualquier plugin de carrusel de terceros de tu elección. North Shore se integra perfectamente con muchos plugins populares GRATUITOS, como WooCommerce, WPForms y Recent Posts Widget Extended. También funciona muy bien con el plugin Page Builder de SiteOrigin, haciendo rápido y fácil crear páginas de aspecto profesional sin ningún conocimiento de codificación. ¡Siempre estás un paso por delante con North Shore!"
+
+#. Theme Name of the theme
+#, gp-priority: high
+msgid "North Shore"
+msgstr "North Shore"
+
+#: functions.php:208
+msgid "<span class=\"meta-nav\">&larr;</span> New"
+msgstr "<span class=\"meta-nav\">&larr;</span> Siguiente"
+
+#: functions.php:204
+msgid "Old <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Anterior <span class=\"meta-nav\">&rarr;</span>"
+
+#: functions.php:200
+msgid "Posts navigation"
+msgstr "Navegación de entradas"
+
+#: functions.php:18
+msgid "<h2>On the beach, you can live in bliss</h2><p>When this world's too much it will be only the ocean and me, And all of these troubles will all be erased soon, They go out with the tide</p><p><a href=\"%1$s\" target=\"_blank\" class=\"button no-bottom-margin\">%2$s</a></p>"
+msgstr "<h2>En la playa, puedes vivir en la felicidad</h2><p>Cuando sea demasiado este mundo, será solo el océano y yo. Y todos estos problemas serán borrados pronto. Se irán con la marea</p><p><a href=\"%1$s\" target=\"_blank\" class=\"button no-bottom-margin\">%2$s</a></p>"
+
+#: functions.php:14 functions.php:18
+msgid "Read More"
+msgstr "Leer más"
+
+#: functions.php:146
+msgid "Search Button Text"
+msgstr "Texto del botón de búsqueda"
+
+#: functions.php:14
+msgid "<h1>The ocean brings joy to the soul</h1><p>There is a pleasure in the pathless woods, There is a rapture on the lonely shore, There is society where none intrudes, By the deep Sea, and music in its roar: I love not Man the less, but Nature more.</p><p><a href=\"%1$s\" target=\"_blank\" class=\"button no-bottom-margin\">%2$s</a></p>"
+msgstr "<h1>El océano trae alegría al alma</h1><p>Hay un placer en los bosques sin senderos. Hay un arrebato en la orilla solitaria. Hay una sociedad donde nadie se entromete. Por el mar profundo y la música en su rugido: No amo menos al Hombre, sino más a la Naturaleza.</p><p><a href=\"%1$s\" target=\"_blank\" class=\"button no-bottom-margin\">%2$s</a></p>"
+
+#. Theme URI of the theme
+#, gp-priority: low
+msgid "https://www.outtheboxthemes.com/wordpress-themes/north-shore/"
+msgstr "https://www.outtheboxthemes.com/wordpress-themes/north-shore/"
+
+#. Author URI of the theme
+#, gp-priority: low
+msgid "https://www.outtheboxthemes.com/"
+msgstr "https://www.outtheboxthemes.com/"
+
+#. Author of the theme
+#, gp-priority: low
+msgid "Out the Box"
+msgstr "Out the Box"

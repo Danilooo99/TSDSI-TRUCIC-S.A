@@ -1,0 +1,225 @@
+#ffw-popup-form-wrapper .modal {
+  display: block;
+  vertical-align: middle;
+  text-align: center;
+  width: 620px;
+  height: auto;
+  overflow: visible;
+}
+#ffw-popup-form-wrapper .modal-inset {
+  position: relative;
+  padding: 30px;
+  background-color: #cce9ed;
+  margin: auto;
+  visibility: hidden;
+  box-shadow: 2px 2px 8px 1px rgba(0, 0, 0, 0.2);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transform: translate3d(0, 0, 0);
+  transform-style: preserve-3d;
+}
+#ffw-popup-form-wrapper .modal-inset .ffw-modal-close {
+  display: block;
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 0;
+  line-height: 1;
+  border: none;
+  background: none;
+  box-shadow: 1px 1.5px 2.5px -1px #000;
+  height: auto;
+  min-height: auto;
+}
+#ffw-popup-form-wrapper .modal-inset .ffw-modal-close:hover {
+  opacity: 1;
+}
+#ffw-popup-form-wrapper .modal-body {
+  margin: auto;
+  opacity: 0;
+  transform: translateY(0) scale(0.8, 0.8);
+  transition-property: opacity, transform;
+  transition-duration: 0.25s;
+  transition-delay: 0.1s;
+}
+#ffw-popup-form-wrapper .modal-body h3 {
+  font-weight: 700;
+  display: block;
+  color: #000002;
+  text-align: center;
+}
+#ffw-popup-form-wrapper .modal-body .ps {
+  font-size: 12px;
+  opacity: 0.3;
+}
+#ffw-popup-form-wrapper .modal-body .modal-content {
+  display: flex;
+  flex-direction: column;
+  background: transparent;
+  border: none;
+}
+#ffw-popup-form-wrapper .modal-body .modal-content label {
+  float: none;
+  width: 100%;
+  display: block;
+  margin: 0;
+  text-align: left;
+  padding-bottom: 5px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+#ffw-popup-form-wrapper .modal-body .modal-content input[type=text] {
+  padding: 10px 20px;
+  width: 100%;
+  margin-bottom: 15px;
+}
+#ffw-popup-form-wrapper .modal-body .modal-content textarea {
+  height: 100px;
+  width: 100%;
+  padding: 10px 20px;
+  margin-top: 10px;
+}
+#ffw-popup-form-wrapper .modal-body .modal-content .modal-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#ffw-popup-form-wrapper .modal-body .modal-content .modal-buttons input {
+  width: calc(50% - 5px);
+  padding: 7px 20px;
+  align-self: flex-start;
+  margin-top: 10px;
+  cursor: pointer;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+#ffw-popup-form-wrapper .modal-body .modal-content .modal-buttons input[type=submit] {
+  background: #6c5ce7;
+}
+#ffw-popup-form-wrapper .modal-body .modal-content .modal-buttons input[type=button] {
+  background: #ff7675;
+}
+#ffw-popup-form-wrapper .ffw-modal-frame {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  margin: auto;
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  -moz-box-align: center;
+  justify-content: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  width: 100%;
+  text-align: center;
+  visibility: hidden;
+}
+#ffw-popup-form-wrapper .ffw-modal-frame.state-appear {
+  visibility: visible;
+}
+#ffw-popup-form-wrapper .ffw-modal-frame.state-appear .modal-inset {
+  -webkit-animation: modalComeIn 0.25s ease;
+  animation: modalComeIn 0.25s ease;
+  visibility: visible;
+  /* to keep @ final state */
+}
+#ffw-popup-form-wrapper .ffw-modal-frame.state-appear .modal-body {
+  opacity: 1;
+  transform: translateY(0) scale(1, 1);
+}
+#ffw-popup-form-wrapper .ffw-modal-frame.state-leave {
+  visibility: visible;
+}
+#ffw-popup-form-wrapper .ffw-modal-frame.state-leave .modal-inset {
+  -webkit-animation: modalHeadOut 0.35s ease 0.1s;
+  animation: modalHeadOut 0.35s ease 0.1s;
+  visibility: visible;
+}
+#ffw-popup-form-wrapper .ffw-modal-frame.state-leave .modal-body {
+  opacity: 0;
+  transition-delay: 0s;
+  transition-duration: 0.35s;
+  transition-timing-function: ease;
+  transform: translateY(25px);
+}
+#ffw-popup-form-wrapper .modal-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background-color: #fff;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 40;
+  -moz-transition: opacity 0.25s ease 0s, visibility 0.35s linear;
+  -o-transition: opacity 0.25s ease 0s, visibility 0.35s linear;
+  -webkit-transition: opacity 0.25s ease, visibility 0.35s linear;
+  -webkit-transition-delay: 0s, 0s;
+  transition: opacity 0.25s ease 0s, visibility 0.35s linear;
+}
+#ffw-popup-form-wrapper .modal-overlay.state-show {
+  opacity: 0.7;
+  visibility: visible;
+  transition-delay: 0s;
+  transition-duration: 0.2s, 0s;
+}
+@-webkit-keyframes modalComeIn {
+  0% {
+    visibility: hidden;
+    opacity: 0;
+    transform: scale(0.8, 0.8);
+  }
+  65.5% {
+    transform: scale(1.03, 1.03);
+  }
+  100% {
+    visibility: visible;
+    opacity: 1;
+    transform: scale(1, 1);
+  }
+}
+@keyframes modalComeIn {
+  0% {
+    visibility: hidden;
+    opacity: 0;
+    transform: scale(0.8, 0.8);
+  }
+  65.5% {
+    transform: scale(1.03, 1.03);
+  }
+  100% {
+    visibility: visible;
+    opacity: 1;
+    transform: scale(1, 1);
+  }
+}
+@-webkit-keyframes modalHeadOut {
+  0% {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0) scale(1, 1);
+  }
+  100% {
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(35px) scale(0.97, 0.97);
+  }
+}
+@keyframes modalHeadOut {
+  0% {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0) scale(1, 1);
+  }
+  100% {
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(35px) scale(0.97, 0.97);
+  }
+}

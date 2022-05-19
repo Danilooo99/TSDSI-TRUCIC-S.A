@@ -1,0 +1,68 @@
+/* 
+WJECF columns system v3.0.3
+*/
+
+ul.wjecf-cols { 
+    list-style-type: none;
+    margin:0 -15px 0 -15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+} 
+ul.wjecf-cols::after { content:'';display:block;clear:both; } /* clearfix */
+
+ul.wjecf-cols > li { 
+    float:left;
+    padding-left:15px;
+    padding-right:15px;
+    position:relative;
+    margin: 0 0 30px 0;
+    box-sizing: border-box;
+} 
+
+ul.wjecf-cols.cols-1 > li { width:100%; } 
+ul.wjecf-cols.cols-2 > li { width:50%; } 
+ul.wjecf-cols.cols-3 > li { width:33.33%; } 
+ul.wjecf-cols.cols-4 > li { width:25%; } 
+ul.wjecf-cols.cols-5 > li { width:20%; } 
+ul.wjecf-cols.cols-6 > li { width:16.66%; } 
+
+@media (max-width: 1200px) {
+    ul.wjecf-cols.cols-xl-1 > li { width:100%; } 
+    ul.wjecf-cols.cols-xl-2 > li { width:50%; } 
+    ul.wjecf-cols.cols-xl-3 > li { width:33.33%; } 
+    ul.wjecf-cols.cols-xl-4 > li { width:25%; } 
+    ul.wjecf-cols.cols-xl-5 > li { width:20%; } 
+    ul.wjecf-cols.cols-xl-6 > li { width:16.66%; } 
+}
+
+@media (max-width: 992px) {
+    ul.wjecf-cols.cols-lg-1 > li { width:100%; } 
+    ul.wjecf-cols.cols-lg-2 > li { width:50%; } 
+    ul.wjecf-cols.cols-lg-3 > li { width:33.33%; } 
+    ul.wjecf-cols.cols-lg-4 > li { width:25%; } 
+    ul.wjecf-cols.cols-lg-5 > li { width:20%; } 
+    ul.wjecf-cols.cols-lg-6 > li { width:16.66%; } 
+}
+
+@media (max-width: 768px) {
+    ul.wjecf-cols.cols-md-1 > li { width:100%; } 
+    ul.wjecf-cols.cols-md-2 > li { width:50%; } 
+    ul.wjecf-cols.cols-md-3 > li { width:33.33%; } 
+    ul.wjecf-cols.cols-md-4 > li { width:25%; } 
+    ul.wjecf-cols.cols-md-5 > li { width:20%; } 
+    ul.wjecf-cols.cols-md-6 > li { width:16.66%; } 
+}
+
+@media (max-width: 576px) {
+    ul.wjecf-cols.cols-sm-1 > li { width:100%; } 
+    ul.wjecf-cols.cols-sm-2 > li { width:50%; } 
+    ul.wjecf-cols.cols-sm-3 > li { width:33.33%; } 
+    ul.wjecf-cols.cols-sm-4 > li { width:25%; } 
+    ul.wjecf-cols.cols-sm-5 > li { width:20%; } 
+    ul.wjecf-cols.cols-sm-6 > li { width:16.66%; } 
+}
+
+.wjecf-select-free-products ul.wjecf-cols > li > img { width:auto; } 
+.wjecf-select-free-products ul.wjecf-cols > li input[type="number"] { width:100%; }
+.wjecf-select-free-products ul.wjecf-cols > li select { width:100%; }

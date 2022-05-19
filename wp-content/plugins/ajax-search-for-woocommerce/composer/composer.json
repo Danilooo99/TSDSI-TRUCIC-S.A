@@ -1,0 +1,12 @@
+{
+  "name": "dgora/ajax-search-for-woocommerce",
+  "description": "Help users easily find and discover products in the store",
+  "autoload": {
+    "psr-4": {
+      "DgoraWcas\\": "../includes/"
+    }
+  },
+  "config": {
+    "vendor-dir": "../vendor"
+  }
+}
