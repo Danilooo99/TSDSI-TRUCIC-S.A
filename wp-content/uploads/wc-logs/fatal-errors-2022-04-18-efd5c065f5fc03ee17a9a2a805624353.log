@@ -1,0 +1,2 @@
+2022-04-18T11:23:33+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 1052672 bytes) en /Applications/MAMP/htdocs/wordpress/wp-includes/SimplePie/Parser.php en la línea 175
+

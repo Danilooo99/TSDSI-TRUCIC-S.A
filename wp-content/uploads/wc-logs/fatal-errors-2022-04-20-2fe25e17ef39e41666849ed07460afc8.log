@@ -1,0 +1,16 @@
+2022-04-20T11:05:02+00:00 CRITICAL Uncaught Error: Class 'Travel_Agency_Plugin_Install_Helper' not found in /Applications/MAMP/htdocs/wordpress/wp-content/plugins/travel-agency-companion/includes/class-travel-agency-companion-plugin-recommend.php:32
+Stack trace:
+#0 /Applications/MAMP/htdocs/wordpress/wp-includes/class-wp-customize-manager.php(4509): Travel_Agency_Companion_Plugin_Recommend_Control->enqueue()
+#1 /Applications/MAMP/htdocs/wordpress/wp-includes/class-wp-hook.php(307): WP_Customize_Manager->enqueue_control_scripts('')
+#2 /Applications/MAMP/htdocs/wordpress/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#3 /Applications/MAMP/htdocs/wordpress/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#4 /Applications/MAMP/htdocs/wordpress/wp-admin/customize.php(123): do_action('customize_contr...')
+#5 {main}
+  thrown en /Applications/MAMP/htdocs/wordpress/wp-content/plugins/travel-agency-companion/includes/class-travel-agency-companion-plugin-recommend.php en la línea 32
+
+2022-04-20T12:56:55+00:00 CRITICAL syntax error, unexpected '<' en /Applications/MAMP/htdocs/wordpress/wp-content/themes/travel-agency/sections/banner.php en la línea 30
+
+2022-04-20T13:45:14+00:00 CRITICAL syntax error, unexpected 'if' (T_IF) en /Applications/MAMP/htdocs/wordpress/wp-content/themes/travel-agency/page.php en la línea 42
+
+2022-04-20T13:45:25+00:00 CRITICAL syntax error, unexpected 'if' (T_IF) en /Applications/MAMP/htdocs/wordpress/wp-content/themes/travel-agency/page.php en la línea 42
+
